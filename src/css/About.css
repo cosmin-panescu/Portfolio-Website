@@ -1,0 +1,107 @@
+.about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 3vw;
+  color: #2a2a2a;
+}
+.about:hover .window-about {
+  opacity: 1;
+}
+
+.window-about {
+  transition: all 1.5s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 85%;
+  margin: auto;
+  background-color: #fff;
+  border: 1px solid #c1c1c1;
+  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 5px 5px 0 0;
+  opacity: 0.85;
+}
+
+.about-details {
+  display: flex;
+  align-items: flex-start;
+  gap: 3.5rem;
+  padding: 15px;
+}
+.about-details .about-info {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  font-size: 1.1rem;
+}
+.about-details .about-info .scrimba-btn {
+  color: #2a2a2a;
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.about-details .about-info .scrimba-btn:hover {
+  color: #fc6058;
+}
+.about-details .about-info .skills {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.about-details .about-info .skills ul li {
+  list-style: none;
+}
+.about-details .about-info .skills ul li.bold-title {
+  font-weight: 600;
+}
+.about-details img {
+  width: 30%;
+  border-radius: 3px;
+  -webkit-box-shadow: -10px 12px 19px -1px rgba(0, 0, 0, 0.36);
+  box-shadow: -10px 12px 19px -1px rgba(0, 0, 0, 0.36);
+}
+
+span {
+  font-weight: bolder;
+}
+
+.dots-wrapper {
+  width: 100%;
+  background-color: #eaeaea;
+  display: flex;
+  transition: all 0.5s ease;
+}
+.dots-wrapper:hover {
+  background-color: #d6d6d6;
+}
+.dots-wrapper .dots {
+  display: flex;
+  border-bottom: 1px solid #c1c1c1;
+  justify-content: space-between;
+  border-radius: 5px 5px 0 0;
+  margin-right: auto;
+  height: 2rem;
+  align-items: center;
+  padding: 10px;
+}
+.dots-wrapper .dots #dot-1 {
+  background-color: #fc6058;
+}
+.dots-wrapper .dots #dot-2 {
+  background-color: #fec02f;
+}
+.dots-wrapper .dots #dot-3 {
+  background-color: #2aca3e;
+}
+.dots-wrapper .dots .browser-dot {
+  background-color: black;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin: 3px;
+  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+}/*# sourceMappingURL=About.css.map */

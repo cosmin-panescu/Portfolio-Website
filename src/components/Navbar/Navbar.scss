@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: .75px;
+    font-family: "Syncopate", sans-serif;
+    height: 5vh;
+    padding: 3vh 3vw 0 3vw;
+    align-items: center;
+    z-index: 1000;
+    background: rgb(173, 173, 173);
+    background: linear-gradient(180deg, rgba(173, 173, 173, 1) 0%, rgba(245, 240, 236, 1) 100%);
+
+    .logo {
+        font-family: 'Parisienne', cursive;
+        font-size: 3.5rem;
+        pointer-events: none;
+        user-select: none;
+        padding-top: 5vh;
+    }
+
+    ul {
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 600;
+        gap: 3rem;
+
+        li {
+            transition: all 0.3s ease-in;
+            list-style: none;
+
+            &:hover {
+                transform: translateY(5px);
+            }
+
+            h3 {
+                cursor: pointer;
+                color: #2a2a2a;
+                position: relative;
+                transition: all 0.3s ease-in;
+
+                &:hover {
+                    color: #626262;
+                    transform: scale(1.01);
+                }
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    background-color: #626262;
+                    height: 3px;
+                    width: 0;
+                    left: 0;
+                    bottom: -10px;
+                    transition: all 0.3s ease-in;
+                }
+
+                &:hover:after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}

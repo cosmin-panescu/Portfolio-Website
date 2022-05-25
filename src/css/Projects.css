@@ -1,0 +1,83 @@
+.projects {
+  min-height: 100vh;
+  background-color: #2a2a2a;
+  padding: 0 3vw;
+  margin-top: 2.5rem;
+}
+.projects .project {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4rem;
+  color: #f5f0ec;
+  margin-top: 3rem;
+}
+.projects .project .more-projects-btn {
+  align-self: center;
+  margin-bottom: 3rem;
+}
+.projects .project .project-item {
+  display: flex;
+  align-items: center;
+}
+.projects .project .project-item h1, .projects .project .project-item p {
+  color: #f5f0ec;
+}
+.projects .project .project-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.projects .project .project-item:nth-child(even) .project-details {
+  transform: translateX(-20%);
+  align-items: flex-end;
+  -webkit-box-shadow: 10px 0px 26px 5px rgba(0, 0, 0, 0.58);
+  box-shadow: 10px 0px 26px 5px rgba(0, 0, 0, 0.58);
+}
+.projects .project .project-item:nth-child(even) img {
+  -webkit-box-shadow: -10px 0px 26px 5px rgba(0, 0, 0, 0.58);
+  box-shadow: -10px 0px 26px 5px rgba(0, 0, 0, 0.58);
+}
+.projects .project .project-item img {
+  width: 55%;
+  aspect-ratio: 16/9;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 0px 26px 5px rgba(0, 0, 0, 0.58);
+  box-shadow: 10px 0px 26px 5px rgba(0, 0, 0, 0.58);
+  transition: all 1s ease;
+}
+.projects .project .project-item .project-details {
+  width: 45%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7.75px;
+  padding: 12px;
+  transform: translateX(20%);
+  background-color: #202020;
+  justify-content: space-around;
+  border-radius: 5px;
+  -webkit-box-shadow: -10px 0px 26px 5px rgba(0, 0, 0, 0.58);
+  box-shadow: -10px 0px 26px 5px rgba(0, 0, 0, 0.58);
+  transition: all 1s ease-out;
+}
+.projects .project .project-item .project-details:hover {
+  transform: scale(1.025);
+}
+.projects .project .project-item .project-details p {
+  text-align: justify;
+  font-size: 0.9rem;
+}
+.projects .project .project-item .project-details h1 {
+  letter-spacing: 2px;
+  font-size: 2.25rem;
+  transition: all 0.5s ease;
+  text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.97);
+  flex-wrap: wrap;
+}
+.projects .project .project-item .project-details .project-link {
+  display: flex;
+  align-content: center;
+  gap: 2rem;
+}/*# sourceMappingURL=Projects.css.map */

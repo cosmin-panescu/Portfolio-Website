@@ -1,0 +1,10 @@
+.cursor {
+  z-index: 99999;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background: #2a2a2a;
+  pointer-events: none;
+  overflow: hidden;
+  position: fixed;
+}/*# sourceMappingURL=CustomCursor.css.map */

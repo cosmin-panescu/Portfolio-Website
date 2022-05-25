@@ -1,0 +1,126 @@
+.about {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 3vw;
+    color: #2a2a2a;
+    // transition: all 0.025s;
+
+    &:hover .window-about {
+        opacity: 1;
+    }
+}
+
+.window-about {
+    transition: all 1.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 85%;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 5px 5px 0 0;
+    opacity: .85;
+}
+
+.about-details {
+    display: flex;
+    align-items: flex-start;
+    gap: 3.5rem;
+    padding: 15px;
+
+    .about-info {
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        font-size: 1.1rem;
+
+        .scrimba-btn {
+            color: #2a2a2a;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: none;
+            transition: all .4s ease;
+
+            &:hover {
+                color: #fc6058;
+            }
+        }
+
+        .skills {
+            display: flex;
+            justify-content: space-between;
+            gap: 3rem;
+
+            ul {
+                li {
+                    list-style: none;
+
+                    &.bold-title {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+
+    img {
+        width: 30%;
+        border-radius: 3px;
+        -webkit-box-shadow: -10px 12px 19px -1px rgba(0, 0, 0, 0.36);
+        box-shadow: -10px 12px 19px -1px rgba(0, 0, 0, 0.36);
+
+    }
+}
+
+span {
+    font-weight: bolder;
+}
+
+.dots-wrapper {
+    width: 100%;
+    background-color: #eaeaea;
+    display: flex;
+    transition: all .5s ease;
+
+    &:hover {
+        background-color: #d6d6d6;
+    }
+
+    .dots {
+        display: flex;
+        border-bottom: 1px solid #c1c1c1;
+        justify-content: space-between;
+        border-radius: 5px 5px 0 0;
+        margin-right: auto;
+        height: 2rem;
+        align-items: center;
+        padding: 10px;
+
+        #dot-1 {
+            background-color: #fc6058;
+        }
+
+        #dot-2 {
+            background-color: #fec02f;
+        }
+
+        #dot-3 {
+            background-color: #2aca3e;
+        }
+
+        .browser-dot {
+            background-color: black;
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            margin: 3px;
+            box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.section-header {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #626262;
+  font-size: 1.5rem;
+  padding: 3rem 0 0 0;
+  pointer-events: none;
+  user-select: none;
+  font-family: "Syncopate";
+  text-transform: uppercase;
+}/*# sourceMappingURL=SectionHeader.css.map */
