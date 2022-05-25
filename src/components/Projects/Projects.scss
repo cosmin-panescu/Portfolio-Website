@@ -29,6 +29,7 @@
 
                 img {
                     opacity: 1;
+                    filter: saturate(1);
                 }
 
                 .project-details {
@@ -69,6 +70,7 @@
                 box-shadow: 10px 0px 26px 5px rgba(0, 0, 0, 0.58);
                 transition: all 0.75s ease;
                 opacity: 0.5;
+                filter: saturate(0.1);
             }
 
             .project-details {
@@ -87,10 +89,6 @@
                 -webkit-box-shadow: -10px 0px 26px 5px rgba(0, 0, 0, 0.58);
                 box-shadow: -10px 0px 26px 5px rgba(0, 0, 0, 0.58);
                 transition: all 1s ease-out;
-
-                &:hover {
-                    transform: scale(1.025);
-                }
 
                 p {
                     opacity: .5;

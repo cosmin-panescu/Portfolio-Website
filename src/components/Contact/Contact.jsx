@@ -4,6 +4,8 @@ import emailjs from "@emailjs/browser"
 import SectionHeader from '../SectionHeader/SectionHeader'
 import swal from 'sweetalert';
 import { Element } from 'react-scroll'
+import people1Img from "../../assets/people1.png"
+import people2Img from "../../assets/people2.png"
 
 const Contact = () => {
 
@@ -83,6 +85,8 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
+                <img src={people1Img} className="img img1"/>
+                <img src={people2Img} className="img img2"/>
             </div >
         </Element>
     )
