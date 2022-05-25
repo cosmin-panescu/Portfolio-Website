@@ -21,15 +21,28 @@
 .projects .project .project-item {
   display: flex;
   align-items: center;
+  transition: all 0.75s ease;
 }
-.projects .project .project-item h1, .projects .project .project-item p {
+.projects .project .project-item:hover {
+  transform: scale(1.01);
+}
+.projects .project .project-item:hover img {
+  opacity: 1;
+}
+.projects .project .project-item:hover .project-details p,
+.projects .project .project-item:hover .project-details h1,
+.projects .project .project-item:hover .project-details .project-link {
+  opacity: 1;
+}
+.projects .project .project-item h1,
+.projects .project .project-item p {
   color: #f5f0ec;
 }
 .projects .project .project-item:nth-child(even) {
   flex-direction: row-reverse;
 }
 .projects .project .project-item:nth-child(even) .project-details {
-  transform: translateX(-20%);
+  transform: translateX(-10%);
   align-items: flex-end;
   -webkit-box-shadow: 10px 0px 26px 5px rgba(0, 0, 0, 0.58);
   box-shadow: 10px 0px 26px 5px rgba(0, 0, 0, 0.58);
@@ -44,9 +57,11 @@
   border-radius: 5px;
   -webkit-box-shadow: 10px 0px 26px 5px rgba(0, 0, 0, 0.58);
   box-shadow: 10px 0px 26px 5px rgba(0, 0, 0, 0.58);
-  transition: all 1s ease;
+  transition: all 0.75s ease;
+  opacity: 0.5;
 }
 .projects .project .project-item .project-details {
+  z-index: 2;
   width: 45%;
   height: 30vh;
   display: flex;
@@ -54,7 +69,7 @@
   align-items: flex-start;
   gap: 7.75px;
   padding: 12px;
-  transform: translateX(20%);
+  transform: translateX(10%);
   background-color: #202020;
   justify-content: space-around;
   border-radius: 5px;
@@ -66,13 +81,19 @@
   transform: scale(1.025);
 }
 .projects .project .project-item .project-details p {
+  opacity: 0.5;
   text-align: justify;
+  font-family: "Poppins";
+  line-height: 120%;
+  transition: all 0.75s ease;
   font-size: 0.9rem;
 }
 .projects .project .project-item .project-details h1 {
+  opacity: 0.5;
   letter-spacing: 2px;
-  font-size: 2.25rem;
-  transition: all 0.5s ease;
+  font-size: 1.8rem;
+  line-height: 35px;
+  transition: all 0.75s ease;
   text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.97);
   flex-wrap: wrap;
 }
@@ -80,4 +101,10 @@
   display: flex;
   align-content: center;
   gap: 2rem;
+  opacity: 0.5;
+  transition: all 0.75s ease;
+}
+.projects .project .project-item .project-details .project-link a {
+  padding: 5px 20px;
+  font-size: 0.95rem;
 }/*# sourceMappingURL=Projects.css.map */

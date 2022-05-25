@@ -1,10 +1,11 @@
 .header {
-  height: 95vh;
+  height: 100vh;
   font-family: "Bai Jamjuree", sans-serif;
   padding: 0 3vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 .header:hover .header-socials {
   transform: translateX(0);

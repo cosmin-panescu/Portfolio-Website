@@ -66,4 +66,12 @@ li {
   background-color: #f5f0ec;
   -webkit-box-shadow: 0px 6px 18px 5px rgba(0, 0, 0, 0.69);
   box-shadow: 0px 6px 18px 5px rgba(0, 0, 0, 0.69);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(transparent, #2a2a2a);
+  border-radius: 6px;
 }/*# sourceMappingURL=App.css.map */

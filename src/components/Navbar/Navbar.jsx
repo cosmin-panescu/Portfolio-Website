@@ -1,14 +1,28 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import "./Navbar.scss"
 import { Link } from "react-scroll"
 
 const Navbar = () => {
 
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        setShow(true);
+      } else {
+        setShow(false)
+      };
+    });
+    return () => {
+      window.removeEventListener('scroll', null)
+    }
+  }, []);
 
   return (
-    <div className='navbar' data-scroll-section>
+    <div className={`navbar ${show && "navbar-show"}`} data-scroll-section>
       <h1 className='logo'>C</h1>
-      <ul className='links'>
+      <ul className={`links ${show && "navbar-show-links"}`}>
         <li>
           <Link to='home' smooth={true} duration={1000}><h3>Home</h3></Link>
         </li>

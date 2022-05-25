@@ -27,6 +27,23 @@
 .contact .contact-form {
   width: 100%;
 }
+.contact .contact-form ul .btn-email {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact .contact-form ul .btn-email a {
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #dbd8d6;
+  transition: all 0.5s ease;
+  letter-spacing: 2px;
+  font-family: "Bai Jamjuree";
+}
+.contact .contact-form ul .btn-email a:hover {
+  color: #a6a6a6;
+}
 .contact .contact-form ul .name-email {
   display: flex;
   width: 100%;
@@ -50,17 +67,20 @@
   height: 6vh;
   margin-top: 10px;
   padding: 20px;
-  color: #2a2a2a;
   font-size: 1rem;
   background-color: #2a2a2a;
   border-radius: 3.5px;
   color: #dbd8d6;
   font-family: "BaiJamjuree", sans-serif;
   border: none;
+  position: relative;
+  transition: all 0.25s ease;
 }
 .contact .contact-form ul li input:focus,
 .contact .contact-form ul li textarea:focus {
   outline: none;
+  border-bottom: 4px solid #2aca3e;
+  background-color: #303030;
 }
 .contact .contact-form ul li textarea {
   height: 20vh;
@@ -68,4 +88,49 @@
 }
 .contact .contact-form ul li textarea::-webkit-scrollbar {
   display: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  -webkit-text-fill-color: #dbd8d6;
+  box-shadow: 0 0 0px 1000px #2a2a2a inset;
+}
+
+.swal-button {
+  background-color: #2a2a2a;
+  color: #dbd8d6;
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+}
+.swal-button:hover {
+  outline: none;
+  color: #fff;
+}
+
+.swal-text {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.swal-overlay {
+  background-color: rgba(219, 216, 214, 0.4431372549);
+}
+
+.c-error .c-validation {
+  background: #c51244 !important;
+  padding: 10px !important;
+  border-radius: 0 !important;
+  position: relative;
+  display: inline-block !important;
+  box-shadow: 1px 1px 1px #aaaaaa;
+  margin-top: 10px;
 }/*# sourceMappingURL=Contact.css.map */

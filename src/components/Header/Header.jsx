@@ -29,7 +29,7 @@ const Header = () => {
   }, []);
 
   return (
-    <Element name='header'>
+    <Element name='home'>
       <div className='header' data-scroll-section>
         <div className="header-text">
           <h1 className='header-title'>Hi, <br />I'm Cosmin, <br />web developer</h1>

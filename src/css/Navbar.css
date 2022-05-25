@@ -3,19 +3,20 @@
   justify-content: space-between;
   letter-spacing: 0.75px;
   font-family: "Syncopate", sans-serif;
-  height: 5vh;
-  padding: 3vh 3vw 0 3vw;
+  height: 8.75vh;
+  padding: 0 3vw;
   align-items: center;
   z-index: 1000;
-  background: rgb(173, 173, 173);
-  background: linear-gradient(180deg, rgb(173, 173, 173) 0%, rgb(245, 240, 236) 100%);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: all 1s ease;
 }
 .navbar .logo {
   font-family: "Parisienne", cursive;
-  font-size: 3.5rem;
+  font-size: 3rem;
   pointer-events: none;
   user-select: none;
-  padding-top: 5vh;
 }
 .navbar ul {
   text-transform: uppercase;
@@ -32,17 +33,17 @@
 .navbar ul li:hover {
   transform: translateY(5px);
 }
-.navbar ul li a {
-  text-decoration: none;
+.navbar ul li h3 {
+  cursor: pointer;
   color: #2a2a2a;
   position: relative;
   transition: all 0.3s ease-in;
 }
-.navbar ul li a:hover {
+.navbar ul li h3:hover {
   color: #626262;
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
-.navbar ul li a:after {
+.navbar ul li h3:after {
   content: "";
   position: absolute;
   background-color: #626262;
@@ -52,6 +53,12 @@
   bottom: -10px;
   transition: all 0.3s ease-in;
 }
-.navbar ul li a:hover:after {
+.navbar ul li h3:hover:after {
   width: 100%;
+}
+
+.navbar-show {
+  background: #f5f0ec;
+  -webkit-box-shadow: 0px 0px 16px 0px #000000;
+  box-shadow: 0px 0px 16px 0px #000000;
 }/*# sourceMappingURL=Navbar.css.map */
