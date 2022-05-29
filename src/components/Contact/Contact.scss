@@ -1,6 +1,6 @@
 .contact {
     padding: 0 3vw;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -162,5 +162,275 @@ textarea:-webkit-autofill:focus {
         right: 5vw;
         transition: all 3s ease;
         transform: scaleX(-1);
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .contact {
+        .container-form {
+            width: 60%;
+            gap: 1rem;
+
+            h1 {
+                font-size: 3.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        .contact-form {
+            ul {
+                .btn-email {
+                    a {
+                        font-size: 1.3rem;
+                        letter-spacing: 1px;
+                    }
+                }
+
+                .name-email {
+                    gap: 5px;
+                }
+
+                li {
+
+                    .form-btn {
+                        margin-top: 2.5px;
+                    }
+
+                    input,
+                    textarea {
+                        height: 5vh;
+                        margin-top: 5px;
+                        font-size: 0.9rem;
+                    }
+
+                    textarea {
+                        height: 18vh;
+                    }
+                }
+            }
+        }
+    }
+
+    .swal-button {
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+
+    .swal-text {
+        font-size: 1rem;
+        letter-spacing: 0.25px;
+    }
+
+    .img {
+        width: 25vh;
+
+        &1 {
+            left: 3vw;
+        }
+
+        &2 {
+            right: 3vw;
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .img {
+        width: 17vh;
+    }
+
+    .container-form {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact {
+        .container-form {
+            h1 {
+                font-size: 3.25rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+        }
+
+        .contact-form {
+            ul {
+                .btn-email {
+                    a {
+                        font-size: 1rem;
+                        letter-spacing: 0px;
+                    }
+                }
+
+                .name-email {
+                    gap: 4px;
+                }
+
+                li {
+
+                    .form-btn {
+                        margin-top: 2px;
+                    }
+
+                    input,
+                    textarea {
+                        height: 3vh;
+                        margin-top: 4px;
+                        font-size: 0.8rem;
+                    }
+
+                    textarea {
+                        height: 16vh;
+                    }
+                }
+            }
+        }
+    }
+
+    .swal-button {
+        padding: 7px 22.5px;
+        font-size: 1rem;
+    }
+
+    .swal-text {
+        font-size: 1rem;
+        letter-spacing: 0.25px;
+    }
+
+    .img {
+        width: 17vh;
+
+        &1 {
+            left: 1vw;
+        }
+
+        &2 {
+            right: 1vw;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contact {
+        padding: -10rem 1rem;
+
+        .img {
+            width: 15vh;
+        }
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .contact {
+        .container-form {
+            width: 80%;
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+        }
+
+        .contact-form {
+            ul {
+                .btn-email {
+                    flex-direction: column;
+                    gap: 10px;
+
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+
+                li {
+
+
+                    input,
+                    textarea {
+                        height: 2.75vh;
+                    }
+
+                    textarea {
+                        height: 16vh;
+                    }
+                }
+            }
+        }
+
+        .img {
+            display: none;
+        }
+    }
+
+    .swal-button {
+        font-size: .95rem;
+    }
+
+    .swal-text {
+        font-size: 0.9rem;
+    }
+
+    .swal-icon {
+        transform: scale(0.8)
+    }
+
+    .swal-modal {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .contact {
+        .container-form {
+            width: 90%;
+
+            h1 {
+                font-size: 2.75rem;
+            }
+        }
+
+        .contact-form {
+            ul {
+                .btn-email {
+                    a {
+                        font-size: 0.85rem;
+                    }
+                }
+
+                li {
+                    textarea {
+                        height: 16vh;
+                    }
+                }
+            }
+        }
+    }
+
+    .swal-button {
+        font-size: .95rem;
+    }
+
+    .swal-text {
+        font-size: 0.9rem;
+    }
+
+    .swal-icon {
+        transform: scale(0.8)
+    }
+
+    .swal-modal {
+        transform: scale(0.9);
     }
 }

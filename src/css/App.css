@@ -74,4 +74,18 @@ li {
 ::-webkit-scrollbar-thumb {
   background-image: linear-gradient(transparent, #2a2a2a);
   border-radius: 6px;
+}
+
+@media screen and (max-width: 1050px) {
+  .btn {
+    padding: 7px 20px;
+  }
+
+  .btn-dark {
+    padding: 7px 20px;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }/*# sourceMappingURL=App.css.map */

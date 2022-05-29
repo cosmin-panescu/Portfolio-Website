@@ -33,6 +33,7 @@
                 }
 
                 .project-details {
+
                     p,
                     h1,
                     .project-link {
@@ -119,6 +120,257 @@
                     a {
                         padding: 5px 20px;
                         font-size: 0.95rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .projects {
+        .project {
+            width: 90%;
+
+            .project-item {
+                .project-details {
+                    height: 30vh;
+                    transform: translateX(6%);
+
+                    p {
+                        font-size: 0.88rem;
+                    }
+
+                    h1 {
+                        font-size: 1.75rem;
+                    }
+
+                    .project-link {
+
+                        a {
+                            padding: 4.75px 13.5px;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .projects {
+        .project {
+            width: 95%;
+
+            .more-projects-btn {
+                margin-bottom: 2rem;
+            }
+
+            .project-item {
+                .project-details {
+                    height: 22vw;
+                    transform: translateX(7%);
+
+                    p {
+                        font-size: 0.88rem;
+                    }
+
+                    h1 {
+                        font-size: 1.75rem;
+                        line-height: 32.5px;
+                    }
+
+                    .project-link {
+                        gap: 1rem;
+
+                        a {
+                            padding: 4.5px 15px;
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .projects {
+        .project {
+            .more-projects-btn {
+                margin-bottom: 2rem;
+            }
+
+            .project-item {
+
+                .project-details {
+                    transform: translateX(5%);
+                    height: 25vw;
+
+                    p {
+                        font-size: 0.8rem;
+                    }
+
+                    h1 {
+                        font-size: 1.3rem;
+                        line-height: 32px;
+                    }
+
+                    .project-link {
+                        gap: 1rem;
+
+                        a {
+                            padding: 3px 11px;
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projects {
+        padding: 0 1.75vw;
+
+        .project {
+            width: 90%;
+            margin: 0 auto;
+            gap: 4rem;
+            margin-top: 3rem;
+
+            .more-projects-btn {
+                margin-bottom: 2rem;
+            }
+
+            .project-item {
+                display: flex;
+                margin: 0 auto;
+                flex-direction: column-reverse;
+
+                &:nth-child(even) {
+                    flex-direction: column-reverse;
+
+                    .project-details {
+                        transform: translateY(-2vh);
+                        align-items: center;
+                    }
+                }
+
+                img {
+                    width: 65vw;
+                }
+
+                .project-details {
+                    z-index: 2;
+                    width: 60vw;
+                    height: 30vw;
+                    flex-direction: column;
+                    align-items: center;
+                    transform: translateY(-2vh);
+                    justify-content: space-between;
+                    padding: 5px;
+
+                    p {
+                        text-align: justify;
+                        line-height: 103%;
+                        font-size: 0.85rem;
+                    }
+
+                    h1 {
+                        letter-spacing: 0px;
+                        font-size: 1.5rem;
+                        line-height: 20px;
+                    }
+
+                    .project-link {
+                        gap: 1rem;
+
+                        a {
+                            padding: 3px 11.5px;
+                            font-size: 0.85rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .projects {
+        padding: 0 1.05vw;
+
+        .project {
+            width: 100%;
+            gap: 2rem;
+            margin-top: 2.5rem;
+
+            .project-item {
+                img {
+                    width: 80vw;
+                }
+
+                .project-details {
+                    width: 75vw;
+                    height: 40vw;
+
+                    p {
+                        line-height: 105%;
+                        font-size: 0.78rem;
+                    }
+
+                    h1 {
+                        font-size: 1.3rem;
+                    }
+
+                    .project-link {
+                        gap: .75rem;
+
+                        a {
+                            padding: 2px 10px;
+                            font-size: 0.85rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .projects {
+        padding: 0 0.7vw;
+
+        .project {
+
+            .project-item {
+                img {
+                    width: 92.5vw;
+                }
+
+                .project-details {
+                    width: 88.5vw;
+                    height: 55vw;
+
+                    p {
+                        line-height: 100%;
+                        font-size: 0.76rem;
+                    }
+
+                    h1 {
+                        font-size: 1.15rem;
+                    }
+
+                    .project-link {
+                        gap: .35rem;
+
+                        a {
+                            padding: 1.5px 7px;
+                            font-size: 0.7rem;
+                        }
                     }
                 }
             }

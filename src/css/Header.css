@@ -92,4 +92,68 @@
 
 .lineParent {
   overflow: hidden;
+}
+
+@media screen and (max-width: 1050px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .header:hover .header-socials h2 {
+    opacity: 0;
+  }
+  .header .header-text h1 {
+    font-size: 6rem;
+    line-height: 6.5rem;
+  }
+  .header .header-socials {
+    transform: translateX(0);
+    opacity: 1;
+    position: absolute;
+    bottom: 2.5vw;
+    left: 1vw;
+  }
+  .header .header-socials ul {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  .header .header-socials ul li {
+    list-style: none;
+  }
+  .header .header-socials ul li a {
+    color: #626262;
+    font-size: 2.5rem;
+    transition: all 0.475s ease;
+    display: flex;
+  }
+  .header .header-socials ul li a:hover {
+    transform: translateY(-5px);
+  }
+}
+@media screen and (max-width: 840px) {
+  .header .header-text h1 {
+    font-size: 10vw;
+    line-height: 10vw;
+  }
+  .header .header-text h4 {
+    font-size: 3.5vw;
+  }
+}
+@media screen and (max-width: 660px) {
+  .header .header-socials ul li a {
+    font-size: 5.5vw;
+  }
+}
+@media screen and (max-width: 550px) {
+  .header .header-socials ul li a {
+    font-size: 6vw;
+  }
+  .header .header-text h1 {
+    font-size: 10vw;
+    line-height: 10vw;
+  }
+  .header .header-text h4 {
+    font-size: 3.5vw;
+  }
 }/*# sourceMappingURL=Header.css.map */

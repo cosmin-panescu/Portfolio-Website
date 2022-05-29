@@ -13,7 +13,7 @@ const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_g44nuo2', 'template_oyijzzw', form.current, '0wbpLpFCok9nWivAq')
+        emailjs.sendForm('service _g44nuo2', 'template_oyijzzw', form.current, '0wbpLpFCok9nWivAq')
             .then(() => {
                 swal({
                     text: 'Message successfully sent!',

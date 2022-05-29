@@ -106,4 +106,186 @@
 .projects .project .project-item .project-details .project-link a {
   padding: 5px 20px;
   font-size: 0.95rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .projects .project {
+    width: 90%;
+  }
+  .projects .project .project-item .project-details {
+    height: 30vh;
+    transform: translateX(6%);
+  }
+  .projects .project .project-item .project-details p {
+    font-size: 0.88rem;
+  }
+  .projects .project .project-item .project-details h1 {
+    font-size: 1.75rem;
+  }
+  .projects .project .project-item .project-details .project-link a {
+    padding: 4.75px 13.5px;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .projects .project {
+    width: 95%;
+  }
+  .projects .project .more-projects-btn {
+    margin-bottom: 2rem;
+  }
+  .projects .project .project-item .project-details {
+    height: 22vw;
+    transform: translateX(7%);
+  }
+  .projects .project .project-item .project-details p {
+    font-size: 0.88rem;
+  }
+  .projects .project .project-item .project-details h1 {
+    font-size: 1.75rem;
+    line-height: 32.5px;
+  }
+  .projects .project .project-item .project-details .project-link {
+    gap: 1rem;
+  }
+  .projects .project .project-item .project-details .project-link a {
+    padding: 4.5px 15px;
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .projects .project .more-projects-btn {
+    margin-bottom: 2rem;
+  }
+  .projects .project .project-item .project-details {
+    transform: translateX(5%);
+    height: 25vw;
+  }
+  .projects .project .project-item .project-details p {
+    font-size: 0.8rem;
+  }
+  .projects .project .project-item .project-details h1 {
+    font-size: 1.3rem;
+    line-height: 32px;
+  }
+  .projects .project .project-item .project-details .project-link {
+    gap: 1rem;
+  }
+  .projects .project .project-item .project-details .project-link a {
+    padding: 3px 11px;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .projects {
+    padding: 0 1.75vw;
+  }
+  .projects .project {
+    width: 90%;
+    margin: 0 auto;
+    gap: 4rem;
+    margin-top: 3rem;
+  }
+  .projects .project .more-projects-btn {
+    margin-bottom: 2rem;
+  }
+  .projects .project .project-item {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column-reverse;
+  }
+  .projects .project .project-item:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+  .projects .project .project-item:nth-child(even) .project-details {
+    transform: translateY(-2vh);
+    align-items: center;
+  }
+  .projects .project .project-item img {
+    width: 65vw;
+  }
+  .projects .project .project-item .project-details {
+    z-index: 2;
+    width: 60vw;
+    height: 30vw;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-2vh);
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .projects .project .project-item .project-details p {
+    text-align: justify;
+    line-height: 103%;
+    font-size: 0.85rem;
+  }
+  .projects .project .project-item .project-details h1 {
+    letter-spacing: 0px;
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
+  .projects .project .project-item .project-details .project-link {
+    gap: 1rem;
+  }
+  .projects .project .project-item .project-details .project-link a {
+    padding: 3px 11.5px;
+    font-size: 0.85rem;
+  }
+}
+@media screen and (max-width: 567px) {
+  .projects {
+    padding: 0 1.05vw;
+  }
+  .projects .project {
+    width: 100%;
+    gap: 2rem;
+    margin-top: 2.5rem;
+  }
+  .projects .project .project-item img {
+    width: 80vw;
+  }
+  .projects .project .project-item .project-details {
+    width: 75vw;
+    height: 40vw;
+  }
+  .projects .project .project-item .project-details p {
+    line-height: 105%;
+    font-size: 0.78rem;
+  }
+  .projects .project .project-item .project-details h1 {
+    font-size: 1.3rem;
+  }
+  .projects .project .project-item .project-details .project-link {
+    gap: 0.75rem;
+  }
+  .projects .project .project-item .project-details .project-link a {
+    padding: 2px 10px;
+    font-size: 0.85rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .projects {
+    padding: 0 0.7vw;
+  }
+  .projects .project .project-item img {
+    width: 92.5vw;
+  }
+  .projects .project .project-item .project-details {
+    width: 88.5vw;
+    height: 55vw;
+  }
+  .projects .project .project-item .project-details p {
+    line-height: 100%;
+    font-size: 0.76rem;
+  }
+  .projects .project .project-item .project-details h1 {
+    font-size: 1.15rem;
+  }
+  .projects .project .project-item .project-details .project-link {
+    gap: 0.35rem;
+  }
+  .projects .project .project-item .project-details .project-link a {
+    padding: 1.5px 7px;
+    font-size: 0.7rem;
+  }
 }/*# sourceMappingURL=Projects.css.map */

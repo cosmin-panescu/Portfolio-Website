@@ -1,10 +1,12 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Navbar.scss"
 import { Link } from "react-scroll"
+import { FaBars } from "react-icons/fa"
+
 
 const Navbar = () => {
-
   const [show, setShow] = useState(false);
+  const [showNav, setShowNav] = useState(false);
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -20,7 +22,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`navbar ${show && "navbar-show"}`} data-scroll-section>
+    <div className={`navbar ${show && "navbar-show"}  ${showNav && 'mobil-menu-nav'}`} data-scroll-section>
       <h1 className='logo'>C</h1>
       <ul className={`links ${show && "navbar-show-links"}`}>
         <li>
@@ -36,6 +38,10 @@ const Navbar = () => {
           <Link to='contact' smooth={true} duration={1000}><h3>Contact</h3></Link>
         </li>
       </ul>
+      <FaBars
+        className='mobile-menu'
+        onClick={() => setShowNav(!showNav)}
+      />
     </div>
   )
 }

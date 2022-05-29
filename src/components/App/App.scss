@@ -80,3 +80,17 @@ li {
         border-radius: 6px;
     }
 }
+
+@media screen and (max-width: 1050px) {
+    .btn {
+        padding: 7px 20px;
+    }
+
+    .btn-dark {
+        padding: 7px 20px;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}

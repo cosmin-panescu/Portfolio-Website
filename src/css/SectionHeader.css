@@ -8,4 +8,17 @@
   user-select: none;
   font-family: "Syncopate";
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 900px) {
+  .section-header {
+    padding: 1.5rem 0;
+    font-size: 1.25rem;
+  }
+}
+@media screen and (max-width: 570px) {
+  .section-header {
+    padding: 1.5rem 0.5rem;
+    font-size: 1.25rem;
+  }
 }/*# sourceMappingURL=SectionHeader.css.map */

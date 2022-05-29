@@ -1,5 +1,5 @@
 .about {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 0 3vw;
@@ -51,6 +51,7 @@
   display: flex;
   justify-content: space-between;
   gap: 3rem;
+  flex-wrap: wrap;
 }
 .about-details .about-info .skills ul li {
   list-style: none;
@@ -104,4 +105,84 @@ span {
   border-radius: 50%;
   margin: 3px;
   box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (max-width: 1050px) {
+  .window-about {
+    width: 95%;
+    opacity: 1;
+  }
+
+  .about-details {
+    gap: 2.5rem;
+  }
+  .about-details .about-info {
+    font-size: 1rem;
+  }
+  .about-details .about-info .skills {
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .about-details img {
+    width: 32.5%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .about {
+    padding: 0 1vw;
+    color: #2a2a2a;
+  }
+
+  .window-about {
+    width: 90%;
+    margin: auto;
+    opacity: 1;
+  }
+
+  .about-details {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-details .cv-btn {
+    margin-top: 10px;
+  }
+  .about-details .about-info {
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1.075rem;
+  }
+  .about-details .about-info .skills {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-details img {
+    margin: -20px 0 0 0;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .window-about {
+    width: 97%;
+  }
+
+  .about-details .about-info {
+    font-size: 1rem;
+    line-height: 102%;
+    text-align: justify;
+  }
+  .about-details img {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .window-about {
+    width: 99%;
+  }
+
+  .about-details .about-info {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=About.css.map */
