@@ -109,6 +109,7 @@
     }
 }
 
+// inputs focus styles
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
@@ -119,6 +120,7 @@ textarea:-webkit-autofill:focus {
     box-shadow: 0 0 0px 1000px #2a2a2a inset;
 }
 
+// Alert modal styles
 .swal-button {
     background-color: #2a2a2a;
     color: #dbd8d6;
@@ -165,6 +167,7 @@ textarea:-webkit-autofill:focus {
     }
 }
 
+// Media Query
 @media screen and (max-width: 1050px) {
     .contact {
         .container-form {

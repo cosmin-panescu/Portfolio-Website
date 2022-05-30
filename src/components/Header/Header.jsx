@@ -1,13 +1,12 @@
 import React, { useEffect } from 'react'
 import "./Header.scss"
-import gsap from 'gsap'
 import SplitText from "../../utils/Split3.min.js"
 import { FaLinkedin, FaGithub, FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa"
 import { Element } from 'react-scroll'
+import gsap from 'gsap'
 
-
+// Main header text animation with GSAP
 const Header = () => {
-
   useEffect(() => {
     const split = new SplitText('.header-title', {
       type: "lines",
@@ -35,6 +34,8 @@ const Header = () => {
           <h1 className='header-title'>Hi, <br />I'm Cosmin, <br />web developer</h1>
           <h4 className='header-title'>- Front End Developer -</h4>
         </div>
+
+        {/* Social links */}
         <div className="header-socials">
           <ul>
             <h2 className='h-1'>|</h2>
@@ -46,6 +47,7 @@ const Header = () => {
             <h2 className='h-2'>|</h2>
           </ul>
         </div>
+
       </div>
     </Element>
   )

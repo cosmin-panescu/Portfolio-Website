@@ -1,19 +1,18 @@
 import React, { useEffect, useRef, useState } from 'react'
 import "./Contact.scss"
-import emailjs from "@emailjs/browser"
 import SectionHeader from '../SectionHeader/SectionHeader'
-import swal from 'sweetalert';
-import { Element } from 'react-scroll'
 import people1Img from "../../assets/people1.png"
 import people2Img from "../../assets/people2.png"
+import emailjs from "@emailjs/browser"
+import swal from 'sweetalert';
+import { Element } from 'react-scroll'
 
 const Contact = () => {
-
     // Sending Emails with EmailJs
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service _g44nuo2', 'template_oyijzzw', form.current, '0wbpLpFCok9nWivAq')
+        emailjs.sendForm('service_g44nuo2', 'template_oyijzzw', form.current, '0wbpLpFCok9nWivAq')
             .then(() => {
                 swal({
                     text: 'Message successfully sent!',
@@ -85,8 +84,9 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
-                <img src={people1Img} className="img img1"/>
-                <img src={people2Img} className="img img2"/>
+                {/* Images for large screens */}
+                <img src={people1Img} className="img img1" />
+                <img src={people2Img} className="img img2" />
             </div >
         </Element>
     )

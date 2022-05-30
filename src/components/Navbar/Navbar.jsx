@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import "./Navbar.scss"
-import { Link } from "react-scroll"
 import { FaBars } from "react-icons/fa"
-
+import { Link } from "react-scroll"
 
 const Navbar = () => {
-  const [show, setShow] = useState(false);
-  const [showNav, setShowNav] = useState(false);
+  const [show, setShow] = useState(false); // show the navbar after 100px
+  const [showNav, setShowNav] = useState(false); //navbar menu
 
+  // show the navbar after 100px
   useEffect(() => {
     window.addEventListener('scroll', () => {
       if (window.scrollY > 100) {
@@ -38,6 +38,8 @@ const Navbar = () => {
           <Link to='contact' smooth={true} duration={1000}><h3>Contact</h3></Link>
         </li>
       </ul>
+
+      {/* Navbar menu for small devices */}
       <FaBars
         className='mobile-menu'
         onClick={() => setShowNav(!showNav)}

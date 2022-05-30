@@ -1,8 +1,10 @@
+// Mobile menu navbar
 .mobile-menu {
     display: none;
     cursor: pointer;
 }
 
+// Navbar
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -71,12 +73,14 @@
     }
 }
 
+// Fixed navbar after 100px
 .navbar-show {
     background: #f5f0ec;
     -webkit-box-shadow: 0px 0px 16px 0px #000000;
     box-shadow: 0px 0px 16px 0px #000000;
 }
 
+// Media Query
 @media screen and (max-width: 900px) {
     .navbar {
         height: 8vh;

@@ -7,6 +7,7 @@ import browserDashboardImg from '../../assets/browser-dashboard.png'
 import meditationAppImg from "../../assets/meditation-app.png"
 import { Element } from 'react-scroll'
 
+// prpojects info
 const projectsInfo = [
     {
         src: netflixCloneImg,
@@ -44,23 +45,24 @@ const Projects = () => {
             <div className='projects' data-scroll-section>
                 <SectionHeader title="<portfolio>" />
                 <div className="project">
-                    {
-                        projectsInfo.map((project) => {
-                            return (
-                                <div key={project.title} className="project-item">
-                                    <div className="project-details">
-                                        <h1>{project.title}</h1>
-                                        <p>{project.description}</p>
-                                        <div className="project-link">
-                                            <a className='btn-dark' target="_blank" href={project.live}>Live</a>
-                                            <a className='btn-dark' target="_blank" href={project.code}>Code</a>
-                                        </div>
+                    {/* display each project */}
+                    {projectsInfo.map((project) => {
+                        return (
+                            <div key={project.title} className="project-item">
+                                <div className="project-details">
+                                    <h1>{project.title}</h1>
+                                    <p>{project.description}</p>
+                                    <div className="project-link">
+                                        <a className='btn-dark' target="_blank" href={project.live}>Live</a>
+                                        <a className='btn-dark' target="_blank" href={project.code}>Code</a>
                                     </div>
-                                    <img src={project.src} />
                                 </div>
-                            )
-                        })
+                                <img src={project.src} />
+                            </div>
+                        )
+                    })
                     }
+                    {/* GitHub link for more projects */}
                     <a target="_blank" href="https://github.com/1panescu" className="more-projects-btn btn-dark">More Projects</a>
                 </div>
             </div>
