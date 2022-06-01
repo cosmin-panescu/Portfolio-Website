@@ -88,4 +88,13 @@ li {
   ::-webkit-scrollbar {
     display: none;
   }
+}
+@media screen and (max-width: 768px) {
+  .btn {
+    padding: 5px 15px;
+  }
+
+  .btn-dark {
+    padding: 5px 15px;
+  }
 }/*# sourceMappingURL=App.css.map */

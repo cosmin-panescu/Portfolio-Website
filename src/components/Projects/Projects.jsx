@@ -5,6 +5,7 @@ import netflixCloneImg from "../../assets/netflix-clone.png"
 import modernToDoImg from "../../assets/modern-to-do.png"
 import browserDashboardImg from '../../assets/browser-dashboard.png'
 import meditationAppImg from "../../assets/meditation-app.png"
+import cryptoTrackerImg from "../../assets/crypto-tracker.png"
 import { Element } from 'react-scroll'
 
 // prpojects info
@@ -15,6 +16,13 @@ const projectsInfo = [
         description: "A clone of Netflix, using the API. Thus, we can display movies and series by category, including the 'Most Viewed' and 'Netflix Originals' categories. At the same time, each category is updated weekly, displaying updated content",
         live: "https://1panescu.github.io/Netflix-React-Clone/",
         code: "https://github.com/1panescu/Netflix-React-Clone"
+    },
+    {
+        src: cryptoTrackerImg,
+        title: "Crypto Tracker",
+        description: 'A multi-page application that displays cryptocurrencies. The first page displays the cryptocurrencies, and the second page displays detailed information about the cryptocurrency chosen by the user. You can also search for any currency in real time.',
+        live: "https://1panescu.github.io/Crypto-Tracker/",
+        code: "https://github.com/1panescu/Crypto-Tracker"
     },
     {
         src: modernToDoImg,
