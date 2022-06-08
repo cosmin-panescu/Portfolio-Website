@@ -42,7 +42,7 @@ const Header = () => {
             <li><a className='github' href="https://github.com/1panescu" target="_blank"><FaGithub /></a></li>
             <li><a className='linkedin' target="_blank" href="https://www.linkedin.com/in/cosmin-p%C4%83nescu-29430823b/"><FaLinkedin /></a></li>
             <li><a className='instagram' target="_blank" href="https://www.instagram.com/pane_cosmin/"><FaInstagram /></a></li>
-            <li><a className='facebook' target="_blank" href="https://www.facebook.com/panescu.cosmin.1"><FaFacebook /></a></li>
+            <li><a className='facebook' target="_blank" href="https://www.facebook.com/profile.php?id=100081922758415"><FaFacebook /></a></li>
             <li><a className='twitter' target="_blank" href="https://twitter.com/PnescuCosmin1  "><FaTwitter /></a></li>
             <h2 className='h-2'>|</h2>
           </ul>

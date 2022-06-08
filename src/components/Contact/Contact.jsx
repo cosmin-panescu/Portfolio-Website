@@ -12,7 +12,7 @@ const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_g44nuo2', 'template_oyijzzw', form.current, '0wbpLpFCok9nWivAq')
+        emailjs.sendForm('service_b7kkv0n', 'template_0qvgr4i', form.current, '-9wYTINsAMAraDv4O')
             .then(() => {
                 swal({
                     text: 'Message successfully sent!',
@@ -78,7 +78,7 @@ const Contact = () => {
                                 </li>
                                 <li className='btn-email'>
                                     <button type='submit' className='btn form-btn'>SEND</button>
-                                    <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox">1pane.cosmin@gmail.com</a>
+                                    <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox">1panescu.cosmin@gmail.com</a>
                                 </li>
                             </ul>
                         </form>
