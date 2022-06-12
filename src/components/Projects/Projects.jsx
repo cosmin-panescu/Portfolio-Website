@@ -22,7 +22,7 @@ const projectsInfo = [
         title: "Crypto Tracker",
         description: 'A multi-page application that displays cryptocurrencies. The first page displays the cryptocurrencies, and the second page displays detailed information about the cryptocurrency chosen by the user. You can also search for any currency in real time.',
         live: "https://cosmin-panescu.github.io/Crypto-Tracker/",
-        code: "https://github.com/cosmin-panescu/Crypto-Tracker" 
+        code: "https://github.com/cosmin-panescu/Crypto-Tracker"
     },
     {
         src: modernToDoImg,
@@ -51,7 +51,7 @@ const Projects = () => {
     return (
         <Element name='portfolio'>
             <div className='projects' data-scroll-section>
-                <SectionHeader title="<portfolio>" />
+                <SectionHeader title="<projects>" />
                 <div className="project">
                     {/* display each project */}
                     {projectsInfo.map((project) => {
@@ -71,7 +71,7 @@ const Projects = () => {
                     })
                     }
                     {/* GitHub link for more projects */}
-                    <a target="_blank" href="https://github.com/1panescu" className="more-projects-btn btn-dark">More Projects</a>
+                    <a target="_blank" href="https://github.com/cosmin-panescu" className="more-projects-btn btn-dark">More Projects</a>
                 </div>
             </div>
         </Element>
