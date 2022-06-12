@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website/static/css/main.040e360d.css",
+    "main.js": "/Portfolio-Website/static/js/main.ad02b186.js",
+    "static/media/netflix-clone.png": "/Portfolio-Website/static/media/netflix-clone.8862f403221c13337b09.png",
+    "static/media/browser-dashboard.png": "/Portfolio-Website/static/media/browser-dashboard.f484255e1c3d27835b49.png",
+    "static/media/meditation-app.png": "/Portfolio-Website/static/media/meditation-app.7307a7634505943e784f.png",
+    "static/media/modern-to-do.png": "/Portfolio-Website/static/media/modern-to-do.f76e6b85dfb260c5b103.png",
+    "static/media/about-photo.jpg": "/Portfolio-Website/static/media/about-photo.7be0854177f00d08588e.jpg",
+    "static/media/people1.png": "/Portfolio-Website/static/media/people1.cd8a7226959abd3294be.png",
+    "static/media/people2.png": "/Portfolio-Website/static/media/people2.d1f246e95d956ba4c7aa.png",
+    "static/media/crypto-tracker.png": "/Portfolio-Website/static/media/crypto-tracker.cf7c89ce71d2981609d2.png",
+    "static/media/Panescu Vasile Cosmin's Resume.pdf": "/Portfolio-Website/static/media/Panescu Vasile Cosmin's Resume.b2e9c477c1434af87961.pdf",
+    "index.html": "/Portfolio-Website/index.html",
+    "main.040e360d.css.map": "/Portfolio-Website/static/css/main.040e360d.css.map",
+    "main.ad02b186.js.map": "/Portfolio-Website/static/js/main.ad02b186.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.040e360d.css",
+    "static/js/main.ad02b186.js"
+  ]
+}
