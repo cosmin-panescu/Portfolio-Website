@@ -1,5 +1,6 @@
 // Mobile menu navbar
 .mobile-menu {
+    font-size: 1.15rem;
     display: none;
     cursor: pointer;
 }
@@ -126,6 +127,11 @@
 @media screen and (max-width: 525px) {
     .mobile-menu {
         display: block;
+        transition: all 1s ease;
+
+        &.rotate {
+            transform: rotate(360deg);
+        }
     }
 
     .navbar {

@@ -69,7 +69,7 @@ li {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 12.5px;
 }
 ::-webkit-scrollbar-thumb {
   background-image: linear-gradient(transparent, #2a2a2a);

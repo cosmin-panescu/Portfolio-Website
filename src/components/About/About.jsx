@@ -43,10 +43,10 @@ const About = () => {
                                     <li><span>Tools and Platforms:</span></li>
                                     <li>Git</li>
                                     <li>GitHub</li>
-                                    <li>VSC</li>
-                                    <li>Webpack</li>
-                                    <li>NPM</li>
+                                    <li>Firebase</li>
                                     <li>Figma</li>
+                                    <li>Webpack</li>
+                                    <li>VSC</li>
                                     <li>Canva</li>
                                 </ul>
                             </div>

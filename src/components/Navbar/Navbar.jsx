@@ -41,7 +41,7 @@ const Navbar = () => {
 
       {/* Navbar menu for small devices */}
       <FaBars
-        className='mobile-menu'
+        className={`mobile-menu ${showNav && 'rotate'}`}
         onClick={() => setShowNav(!showNav)}
       />
     </div>
