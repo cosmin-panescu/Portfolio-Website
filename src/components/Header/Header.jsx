@@ -39,7 +39,7 @@ const Header = () => {
         <div className="header-socials">
           <ul>
             <h2 className='h-1'>|</h2>
-            <li><a className='github' href="https://github.com/1panescu" target="_blank"><FaGithub /></a></li>
+            <li><a className='github' href="https://github.com/cosmin-panescu" target="_blank"><FaGithub /></a></li>
             <li><a className='linkedin' target="_blank" href="https://www.linkedin.com/in/cosmin-p%C4%83nescu-29430823b/"><FaLinkedin /></a></li>
             <li><a className='instagram' target="_blank" href="https://www.instagram.com/pane_cosmin/"><FaInstagram /></a></li>
             <li><a className='facebook' target="_blank" href="https://www.facebook.com/profile.php?id=100081922758415"><FaFacebook /></a></li>

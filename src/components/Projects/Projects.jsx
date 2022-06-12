@@ -14,36 +14,36 @@ const projectsInfo = [
         src: netflixCloneImg,
         title: "Netflix Clone",
         description: "A clone of Netflix, using the API. Thus, we can display movies and series by category, including the 'Most Viewed' and 'Netflix Originals' categories. At the same time, each category is updated weekly, displaying updated content",
-        live: "https://1panescu.github.io/Netflix-React-Clone/",
-        code: "https://github.com/1panescu/Netflix-React-Clone"
+        live: "https://cosmin-panescu.github.io/Netflix-Clone/",
+        code: "https://github.com/cosmin-panescu/Netflix-Clone"
     },
     {
         src: cryptoTrackerImg,
         title: "Crypto Tracker",
         description: 'A multi-page application that displays cryptocurrencies. The first page displays the cryptocurrencies, and the second page displays detailed information about the cryptocurrency chosen by the user. You can also search for any currency in real time.',
-        live: "https://1panescu.github.io/Crypto-Tracker/",
-        code: "https://github.com/1panescu/Crypto-Tracker"
+        live: "https://cosmin-panescu.github.io/Crypto-Tracker/",
+        code: "https://github.com/cosmin-panescu/Crypto-Tracker" 
     },
     {
         src: modernToDoImg,
         title: "Modern To Do",
         description: "This project includes features like normal to-do-list options, dark/light theme, optional background music, background 'rain' effect, display the current date",
-        live: "https://1panescu.github.io/To-Do-List/",
-        code: "https://github.com/1panescu/To-Do-List"
+        live: "https://cosmin-panescu.github.io/Modern-To-Do-List/",
+        code: "https://github.com/cosmin-panescu/Modern-To-Do-List"
     },
     {
         src: browserDashboardImg,
         title: "API Browser Dashboard",
         description: "Chrome NewTab Dashboard, using HTML, CSS and JavaScript. Almost all of the JavaScript part is represented by the API (such as: random background, weather/location, search and display of cryptocurrencies)",
-        live: "https://1panescu.github.io/Chrome-Dashboard-Tab/",
-        code: "https://github.com/1panescu/Chrome-Dashboard-Tab"
+        live: "https://cosmin-panescu.github.io/Chrome-Dashboard/",
+        code: "https://github.com/cosmin-panescu/Chrome-Dashboard"
     },
     {
         src: meditationAppImg,
         title: "Meditation App",
         description: "The application allows the selection of the desired period for meditation, as well as the two available options: the sound of the sea and the sound of rain, changing at the same time the video in the background.",
-        live: "https://1panescu.github.io/Meditation-App/",
-        code: "https://github.com/1panescu/Meditation-App"
+        live: "https://cosmin-panescu.github.io/Meditation-App/",
+        code: "https://github.com/cosmin-panescu/Meditation-App"
     },
 ]
 
