@@ -24,6 +24,10 @@
             align-items: center;
             transition: all .75s ease;
 
+            &.more {
+                display: none;
+            }
+
             &:hover {
                 transform: scale(1.01);
 
