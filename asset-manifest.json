@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d4dec101.css",
-    "main.js": "/static/js/main.41e85a35.js",
+    "main.js": "/static/js/main.430b6929.js",
     "static/media/netflix-clone.png": "/static/media/netflix-clone.8862f403221c13337b09.png",
     "static/media/browser-dashboard.png": "/static/media/browser-dashboard.f484255e1c3d27835b49.png",
     "static/media/meditation-app.png": "/static/media/meditation-app.7307a7634505943e784f.png",
@@ -14,10 +14,10 @@
     "static/media/Panescu Vasile Cosmin's Resume.pdf": "/static/media/Panescu Vasile Cosmin's Resume.3ec4eeaab9060adeec62.pdf",
     "index.html": "/index.html",
     "main.d4dec101.css.map": "/static/css/main.d4dec101.css.map",
-    "main.41e85a35.js.map": "/static/js/main.41e85a35.js.map"
+    "main.430b6929.js.map": "/static/js/main.430b6929.js.map"
   },
   "entrypoints": [
     "static/css/main.d4dec101.css",
-    "static/js/main.41e85a35.js"
+    "static/js/main.430b6929.js"
   ]
 }
