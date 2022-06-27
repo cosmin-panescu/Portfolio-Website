@@ -23,6 +23,9 @@
   align-items: center;
   transition: all 0.75s ease;
 }
+.projects .project .project-item.more {
+  display: none;
+}
 .projects .project .project-item:hover {
   transform: scale(1.01);
 }
