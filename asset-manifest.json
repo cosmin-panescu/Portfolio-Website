@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d4dec101.css",
-    "main.js": "/static/js/main.430b6929.js",
+    "main.css": "/static/css/main.0e0fefdb.css",
+    "main.js": "/static/js/main.f18e177c.js",
     "static/media/netflix-clone.png": "/static/media/netflix-clone.8862f403221c13337b09.png",
     "static/media/browser-dashboard.png": "/static/media/browser-dashboard.f484255e1c3d27835b49.png",
     "static/media/meditation-app.png": "/static/media/meditation-app.7307a7634505943e784f.png",
@@ -11,13 +11,13 @@
     "static/media/people1.png": "/static/media/people1.cd8a7226959abd3294be.png",
     "static/media/people2.png": "/static/media/people2.d1f246e95d956ba4c7aa.png",
     "static/media/crypto-tracker.png": "/static/media/crypto-tracker.cf7c89ce71d2981609d2.png",
-    "static/media/Panescu Vasile Cosmin's Resume.pdf": "/static/media/Panescu Vasile Cosmin's Resume.3ec4eeaab9060adeec62.pdf",
+    "static/media/Panescu Vasile Cosmin's Resume.pdf": "/static/media/Panescu Vasile Cosmin's Resume.08f89fde4ad6104c19b2.pdf",
     "index.html": "/index.html",
-    "main.d4dec101.css.map": "/static/css/main.d4dec101.css.map",
-    "main.430b6929.js.map": "/static/js/main.430b6929.js.map"
+    "main.0e0fefdb.css.map": "/static/css/main.0e0fefdb.css.map",
+    "main.f18e177c.js.map": "/static/js/main.f18e177c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4dec101.css",
-    "static/js/main.430b6929.js"
+    "static/css/main.0e0fefdb.css",
+    "static/js/main.f18e177c.js"
   ]
 }
