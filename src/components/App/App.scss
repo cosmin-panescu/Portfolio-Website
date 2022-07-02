@@ -44,6 +44,7 @@ li {
     border-radius: 3px;
     border: 2px solid #2a2a2a;
     transition: all .4s ease;
+    background-color: transparent;
 
     &:hover {
         color: #f5f0ec;
@@ -64,7 +65,6 @@ li {
     border-radius: 3px;
     border: 1px solid #f5f0ec;
     transition: all .4s ease;
-
 
     &:hover {
         color: #2a2a2a;

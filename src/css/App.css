@@ -41,6 +41,7 @@ li {
   border-radius: 3px;
   border: 2px solid #2a2a2a;
   transition: all 0.4s ease;
+  background-color: transparent;
 }
 .btn:hover {
   color: #f5f0ec;
