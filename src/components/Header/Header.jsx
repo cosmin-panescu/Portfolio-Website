@@ -32,7 +32,7 @@ const Header = () => {
       <div className='header' data-scroll-section>
         <div className="header-text">
           <h1 className='header-title'>Hi, <br />I'm Cosmin, <br />web developer</h1>
-          <h4 className='header-title'>- Front End Developer -</h4>
+          <h4 className='header-title'>- Full Stack Developer -</h4>
         </div>
 
         {/* Social links */}
