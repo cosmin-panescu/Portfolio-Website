@@ -39,6 +39,11 @@
         font-weight: 500;
         font-size: 1.075rem;
 
+        h4 {
+            text-decoration: underline;
+            font-size: 1.35vw;
+        }
+
         .skills {
             display: flex;
             justify-content: space-between;
@@ -130,6 +135,12 @@ span {
         .about-info {
             font-size: 1rem;
 
+            h4 {
+                text-decoration: underline;
+                font-size: 1.75vw;
+                padding-top: 15px;
+            }
+
             .skills {
                 gap: .5rem;
                 text-align: center;
@@ -169,6 +180,12 @@ span {
             gap: .7rem;
             font-size: 1.075rem;
 
+            h4 {
+                text-decoration: underline;
+                font-size: 3.25vw;
+                padding-top: 35px;
+            }
+
             .skills {
                 gap: 1rem;
                 display: flex;
@@ -193,7 +210,12 @@ span {
         .about-info {
             font-size: 1rem;
             line-height: 102%;
-            text-align: justify
+            text-align: justify;
+
+            h4 {
+                text-decoration: underline;
+                font-size: 4vw;
+            }
         }
 
         img {
@@ -210,6 +232,11 @@ span {
     .about-details {
         .about-info {
             font-size: 1rem;
+
+            h4 {
+                text-decoration: underline;
+                font-size: 6vw;
+            }
         }
     }
 }

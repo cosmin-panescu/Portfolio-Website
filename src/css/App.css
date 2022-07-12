@@ -81,11 +81,9 @@ li {
   .btn {
     padding: 7px 20px;
   }
-
   .btn-dark {
     padding: 7px 20px;
   }
-
   ::-webkit-scrollbar {
     display: none;
   }
@@ -94,7 +92,6 @@ li {
   .btn {
     padding: 5px 15px;
   }
-
   .btn-dark {
     padding: 5px 15px;
   }

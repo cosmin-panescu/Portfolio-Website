@@ -38,6 +38,10 @@
   font-weight: 500;
   font-size: 1.075rem;
 }
+.about-details .about-info h4 {
+  text-decoration: underline;
+  font-size: 1.35vw;
+}
 .about-details .about-info .skills {
   display: flex;
   justify-content: space-between;
@@ -106,12 +110,16 @@ span {
     width: 95%;
     opacity: 1;
   }
-
   .about-details {
     gap: 2.5rem;
   }
   .about-details .about-info {
     font-size: 1rem;
+  }
+  .about-details .about-info h4 {
+    text-decoration: underline;
+    font-size: 1.75vw;
+    padding-top: 15px;
   }
   .about-details .about-info .skills {
     gap: 0.5rem;
@@ -126,13 +134,11 @@ span {
     padding: 0 1vw;
     color: #2a2a2a;
   }
-
   .window-about {
     width: 90%;
     margin: auto;
     opacity: 1;
   }
-
   .about-details {
     display: block;
     display: flex;
@@ -146,6 +152,11 @@ span {
     align-items: center;
     gap: 0.7rem;
     font-size: 1.075rem;
+  }
+  .about-details .about-info h4 {
+    text-decoration: underline;
+    font-size: 3.25vw;
+    padding-top: 35px;
   }
   .about-details .about-info .skills {
     gap: 1rem;
@@ -161,11 +172,14 @@ span {
   .window-about {
     width: 97%;
   }
-
   .about-details .about-info {
     font-size: 1rem;
     line-height: 102%;
     text-align: justify;
+  }
+  .about-details .about-info h4 {
+    text-decoration: underline;
+    font-size: 4vw;
   }
   .about-details img {
     width: 65%;
@@ -175,8 +189,11 @@ span {
   .window-about {
     width: 99%;
   }
-
   .about-details .about-info {
     font-size: 1rem;
+  }
+  .about-details .about-info h4 {
+    text-decoration: underline;
+    font-size: 6vw;
   }
 }/*# sourceMappingURL=About.css.map */

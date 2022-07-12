@@ -173,17 +173,14 @@ textarea:-webkit-autofill:focus {
   .contact .contact-form ul li textarea {
     height: 18vh;
   }
-
   .swal-button {
     padding: 10px 30px;
     font-size: 1rem;
   }
-
   .swal-text {
     font-size: 1rem;
     letter-spacing: 0.25px;
   }
-
   .img {
     width: 25vh;
   }
@@ -198,7 +195,6 @@ textarea:-webkit-autofill:focus {
   .img {
     width: 17vh;
   }
-
   .container-form {
     width: 60%;
     display: flex;
@@ -232,17 +228,14 @@ textarea:-webkit-autofill:focus {
   .contact .contact-form ul li textarea {
     height: 16vh;
   }
-
   .swal-button {
     padding: 7px 22.5px;
     font-size: 1rem;
   }
-
   .swal-text {
     font-size: 1rem;
     letter-spacing: 0.25px;
   }
-
   .img {
     width: 17vh;
   }
@@ -288,19 +281,15 @@ textarea:-webkit-autofill:focus {
   .contact .img {
     display: none;
   }
-
   .swal-button {
     font-size: 0.95rem;
   }
-
   .swal-text {
     font-size: 0.9rem;
   }
-
   .swal-icon {
     transform: scale(0.8);
   }
-
   .swal-modal {
     transform: scale(0.9);
   }
@@ -318,19 +307,15 @@ textarea:-webkit-autofill:focus {
   .contact .contact-form ul li textarea {
     height: 16vh;
   }
-
   .swal-button {
     font-size: 0.95rem;
   }
-
   .swal-text {
     font-size: 0.9rem;
   }
-
   .swal-icon {
     transform: scale(0.8);
   }
-
   .swal-modal {
     transform: scale(0.9);
   }

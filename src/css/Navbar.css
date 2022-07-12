@@ -109,7 +109,6 @@
   .mobile-menu.rotate {
     transform: rotate(360deg);
   }
-
   .navbar ul {
     transform: translateY(-400%);
     opacity: 0;
