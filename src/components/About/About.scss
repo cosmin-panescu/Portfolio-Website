@@ -40,8 +40,11 @@
         font-size: 1.075rem;
 
         h4 {
-            text-decoration: underline;
             font-size: 1.35vw;
+            color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: rgb(43, 43, 43);
+            letter-spacing: 3px;
         }
 
         .skills {
@@ -136,7 +139,6 @@ span {
             font-size: 1rem;
 
             h4 {
-                text-decoration: underline;
                 font-size: 1.75vw;
                 padding-top: 15px;
             }
@@ -181,7 +183,6 @@ span {
             font-size: 1.075rem;
 
             h4 {
-                text-decoration: underline;
                 font-size: 3.25vw;
                 padding-top: 35px;
             }
@@ -213,7 +214,6 @@ span {
             text-align: justify;
 
             h4 {
-                text-decoration: underline;
                 font-size: 4vw;
             }
         }
@@ -234,7 +234,6 @@ span {
             font-size: 1rem;
 
             h4 {
-                text-decoration: underline;
                 font-size: 6vw;
             }
         }

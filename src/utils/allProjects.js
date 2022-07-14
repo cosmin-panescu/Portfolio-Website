@@ -4,6 +4,7 @@ import browserDashboardImg from '../assets/browser-dashboard.png'
 import meditationAppImg from "../assets/meditation-app.png"
 import cryptoTrackerImg from "../assets/crypto-tracker.png"
 import webToolsImg from "../assets/web-tools.png"
+import modernWebsiteImg from "../assets/modern-website.png"
 
 export const projectsInfo = [
     {
@@ -28,15 +29,22 @@ export const projectsInfo = [
         code: "https://github.com/cosmin-panescu/Web-Tools"
     },
     {
+        src: modernWebsiteImg,
+        title: "Modern UI/UX Website",
+        description: "In this project I transformed a Figma design into a fully functionating website, improving my CSS skills and learning the CSS BEM Model, to create a modern UI/UX and responsive website",
+        live: "https://cosmin-panescu.github.io/Modern-Website/",
+        code: "https://github.com/cosmin-panescu/Modern-Website"
+    },
+]
+
+export const moreProjectsInfo = [
+    {
         src: browserDashboardImg,
         title: "API Browser Dashboard",
         description: "Chrome NewTab Dashboard, using HTML, CSS and JavaScript. Almost all of the JavaScript part is represented by the API (such as: random background, weather/location, search and display of cryptocurrencies)",
         live: "https://cosmin-panescu.github.io/Chrome-Dashboard/",
         code: "https://github.com/cosmin-panescu/Chrome-Dashboard"
     },
-]
-
-export const moreProjectsInfo = [
     {
         src: meditationAppImg,
         title: "Meditation App",

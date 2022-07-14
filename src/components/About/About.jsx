@@ -21,8 +21,7 @@ const About = () => {
                     </div>
                     <div className="about-details">
                         <div className="about-info">
-                            <p>Hello! My name is Pănescu Cosmin and I like to build things for the web and lately I've been learning about Web3 (blockchain, smart-contracts, DeFi, dApp), because it represents the next generation of the internet. I want to start by saying that I am a self-driven and self-motivated person, because I believe that these characteristics have helped me enormously to get to the point where I am, both professionally and personally. Starting with being self-taught, I realized that this study model suits me best and helps me move forward much faster, because I can focus on exactly what I need. Even so, I studied Computer Science for a year at the University of Bucharest, and now I transferred to the specialization of Cybernetics, from the Faculty of Administration and Business, at the same University.
-                            </p>
+                            <p>Hello! My name is Pănescu Cosmin and I like to build things for the web and lately I've been learning about Web3 (blockchain, smart-contracts, DeFi, dApp), because it represents the next generation of the internet. I want to start by saying that I am a self-driven and self-motivated person, because I believe that these characteristics have helped me enormously to get to the point where I am, both professionally and personally. Starting with being self-taught, I realized that this study model suits me best and helps me move forward much faster, because I can focus on exactly what I need. Even so, I studied Computer Science for a year at the University of Bucharest, and now I transferred to the specialization of Cybernetics, from the Faculty of Administration and Business, at the same University.</p>
                             <hr style={{ width: "100%" }} />
                             <h4>Main skills:</h4>
                             <div className="skills">
@@ -48,6 +47,7 @@ const About = () => {
                                     <li>Webpack</li>
                                 </ul>
                             </div>
+                            <hr style={{ width: "100%", opacity: "0.35" }} />
                             <h4>Knowledge about:</h4>
                             <div className="skills">
                                 <ul>
@@ -68,6 +68,7 @@ const About = () => {
                                     <li>Photoshop</li>
                                 </ul>
                             </div>
+                            <hr style={{ width: "100%" }} />
                             {/* CV download */}
                             <a href={resume} target="_blank" className='cv-btn btn'>Download CV</a>
                         </div>
