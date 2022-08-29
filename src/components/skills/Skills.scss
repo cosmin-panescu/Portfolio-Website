@@ -1,0 +1,93 @@
+.skills {
+    .skills-container {
+        grid-template-columns: 450px 450px;
+        column-gap: 3rem;
+        justify-content: center;
+
+        .skills-content {
+            background-color: var(--container-color);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            border-radius: 1.25rem;
+
+            .skills-title {
+                text-align: center;
+                font-size: var(--normal-font);
+                font-weight: var(--font-medium);
+                margin-bottom: var(--mb-1-5);
+            }
+
+            .skills-box {
+                display: flex;
+                justify-content: center;
+                column-gap: 5rem;
+
+                .skills-group {
+                    display: grid;
+                    align-items: flex-start;
+                    row-gap: 1.25rem;
+
+                    .skills-data {
+                        display: flex;
+                        column-gap: .5rem;
+
+                        .bx-badge-check {
+                            font-size: 1rem;
+                            color: var(--title-color);
+                        }
+
+                        .skills-name {
+                            font-size: var(--normal-font);
+                            font-weight: var(--font-medium);
+                            line-height: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Responsive 
+@media screen and (max-width: 992px) {
+    .skills {
+        .skills-container {
+            grid-template-columns: max-content;
+            row-gap: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .skills {
+        .skills-container {
+            grid-template-columns: 1fr;
+
+            .skills-content {
+                padding: 1.15rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .skills {
+        .skills-container {
+            row-gap: 1.25rem;
+
+            .skills-content {
+                .skills-box {
+                    column-gap: 1.25rem;
+
+                    .skills-group {
+                        .skills-data {
+                            .skills-name {
+                                font-size: var(--small-font);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
