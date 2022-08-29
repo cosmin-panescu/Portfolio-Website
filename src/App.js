@@ -8,10 +8,12 @@ import Home from './components/home/Home';
 import Services from './components/services/Services';
 import Skills from './components/skills/Skills';
 import ScrollTop from './components/scrollTop/ScrollTop'
+import CustomCursor from './components/customCursor/CustomCursor';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <CustomCursor />
       <Header />
 
       <main className="main">

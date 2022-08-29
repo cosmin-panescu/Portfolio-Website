@@ -15,13 +15,17 @@ const Marketing = () => {
                         <i className="bx bx-badge-check"></i>
                         <h3 className="skills-name">Graphic Design</h3>
                     </div>
-                    
+
                 </div>
 
                 <div className="skills-group">
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">Landing Pages</h3>
+                        <h3 className="skills-name">Management</h3>
+                    </div>
+                    <div className="skills-data">
+                        <i className="bx bx-badge-check"></i>
+                        <h3 className="skills-name">Sales/Research</h3>
                     </div>
                 </div>
             </div>

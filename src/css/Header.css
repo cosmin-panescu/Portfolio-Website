@@ -5,6 +5,10 @@
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
+  transition: all 0.3s ease;
+}
+.header.header-show {
+  box-shadow: var(--card-shadow);
 }
 .header .nav {
   height: calc(var(--header-height) + 1.5rem);
@@ -34,7 +38,10 @@
   font-size: var(--medium-font);
   color: var(--title-color);
   font-weight: var(--font-medium);
-  transition: 0.3s;
+  transition: all 0.3s ease;
+}
+.header .nav .nav-menu .nav-list .nav-item .nav-link:hover {
+  color: #000;
 }
 
 .active-link,
@@ -46,6 +53,7 @@
   .header {
     bottom: 0;
     top: initial;
+    box-shadow: 1px -2px 7px rgba(0, 0, 0, 0.15);
   }
   .header .nav {
     height: var(--header-height);
@@ -57,7 +65,7 @@
     width: 100%;
     background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px -3px 10px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.5s;
   }

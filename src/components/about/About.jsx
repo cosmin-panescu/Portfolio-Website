@@ -2,7 +2,6 @@ import React from 'react'
 import './About.scss'
 import CV from '../../assets/CV.pdf'
 import AboutImg from '../../assets/about-image.jpg'
-import Info from './Info'
 
 const About = () => {
     return (
@@ -14,7 +13,15 @@ const About = () => {
                 <img src={AboutImg} alt="my profile image" className="about-img" />
 
                 <div className="about-data">
-                    <p className="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis recusandae cupiditate earum, doloremque et at corrupti quisquam officia unde culpa similique laboriosam minima consequuntur molestiae.
+                    <p className="about-description">
+                        Hey! My name is <span>Pănescu Cosmin</span> and I like to build things for the web. To be more explicit, I like <span>Web Development</span> and everything related to Marketing, especially <span>Digital Marketing</span>. On the web development side, I focused mainly on <span>Front End</span> because I like to be creative, and when it comes to digital marketing, I focused mostly on <span>management</span> and <span>SEO</span>. So, I don't just develop websites for you, I also bring them to the <span>top of searches</span>.
+                        <br />
+                        <br />
+                        I combined these two digital passions of mine, building
+                        a <span>business</span> and opening my own <span>online agency</span>. If you are curious, you can visit the <a href='https://amaisse.com/' target='_blank' className='agency-link'>Amaisse Agency website</a> right now.
+                    </p>
+                    <p className="about-description">
+
                     </p>
                     <a download={""} href={CV} className="button button-flex">
                         Download CV

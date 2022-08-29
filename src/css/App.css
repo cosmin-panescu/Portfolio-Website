@@ -5,12 +5,11 @@
   --header-height: 3rem;
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --title-color: hsl(0, 0%, 20%);
+  --title-color-dark: hsl(0, 0%, 0%);
+  --text-color: hsl(0, 0%, 46%);
+  --body-color: hsl(0, 0%, 98%);
   --container-color: #fff;
-  --body-font: "Poppins", sans-serif;
   --big-font: 3.5rem;
   --h1-font: 2.25rem;
   --h2-font: 1.5rem;
@@ -33,6 +32,7 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+  --card-shadow: 0px 0px 11px -6px rgba(0, 0, 0, 0.64);
 }
 
 @media screen and (max-width: 992px) {
@@ -60,13 +60,14 @@ body,
 button,
 input,
 textarea {
-  font-family: var(--body-font);
+  font-family: "Poppins", sans-serif;
   font-size: var(--normal-font);
 }
 
 body {
   background-color: var(--body-color);
   color: var(--text-color);
+  cursor: none;
 }
 
 h1,
@@ -95,6 +96,21 @@ img {
   height: auto;
 }
 
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px var(--body-color) inset !important;
+  -webkit-text-fill-color: var(--text-color) !important;
+}
+
+::-webkit-scrollbar {
+  width: 12.5px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(transparent, var(--title-color));
+  border-radius: 6px;
+}
+
 .section {
   padding: 6rem 0 2rem;
 }
@@ -111,7 +127,7 @@ img {
 }
 
 .container {
-  max-width: 968px;
+  max-width: 1050px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -128,6 +144,7 @@ img {
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  transition: all 0.35s;
 }
 .button:hover {
   background-color: var(--title-color-dark);
@@ -144,5 +161,32 @@ img {
   .container {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
+  }
+  .button {
+    padding: 1rem 1.75rem;
+  }
+  .button-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+  .section {
+    padding: 2rem 0 4rem;
+  }
+  .section-subtitle {
+    margin-bottom: var(--mb-3);
+  }
+}
+@media screen and (max-width: 350px) {
+  :root {
+    --big-font: 2.25rem;
+  }
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
   }
 }/*# sourceMappingURL=App.css.map */

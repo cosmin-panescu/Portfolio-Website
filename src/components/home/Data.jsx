@@ -4,7 +4,7 @@ const Data = () => {
     return (
         <div className="home-data">
             <h1 className="home-title">
-                P. Cosmin
+                Cosmin
                 <svg
                     width="36"
                     height="36"
@@ -55,8 +55,9 @@ const Data = () => {
                     ></path>
                 </svg>
             </h1>
-            <h3 className="home-subtitle">Front End Developer</h3>
-            <p className="home-description">I'am a creative designer based in Romania, and I'm very passionate and dedicated to my work.
+            <h3 className="home-subtitle">Front End Developer & <br /> Digital Marketer</h3>
+            <p className="home-description">
+                I'm a Front End Developer and a Digital Marketer. So, I don't just create, I also scale.
             </p>
             <a href="#contact" className="button button-flex">
                 Say Hello

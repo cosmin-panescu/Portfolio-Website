@@ -77,7 +77,7 @@ textarea {
 body {
     background-color: var(--body-color);
     color: var(--text-color);
-    font-family: "Poppins", sans-serif;
+    cursor: none;
 }
 
 h1,
@@ -93,12 +93,15 @@ ul {
 
 a {
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 button {
     cursor: pointer;
     border: none;
     outline: none;
+    -webkit-tap-highlight-color: transparent;
+
 }
 
 img {

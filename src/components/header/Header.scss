@@ -44,7 +44,11 @@
                         font-size: var(--medium-font);
                         color: var(--title-color);
                         font-weight: var(--font-medium);
-                        transition: .3s;
+                        transition: all .3s ease;
+
+                        &:hover {
+                            color: #000;
+                        }
                     }
                 }
             }
