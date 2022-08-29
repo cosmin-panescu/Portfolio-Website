@@ -1,4 +1,6 @@
 .services {
+    min-height: 100vh;
+
     .services-container {
         grid-template-columns: 270px 270px;
         justify-content: center;
@@ -9,6 +11,7 @@
             border: 1px solid rgba(0, 0, 0, 0.1);
             background-color: var(--container-color);
             padding: 6rem 0 2rem 2.5rem;
+            box-shadow: var(--card-shadow);
 
             .services-icon {
                 display: block;
@@ -77,6 +80,11 @@
                         font-size: 1.5rem;
                         cursor: pointer;
                         color: var(--title-color);
+                        transition: all .25s ease;
+
+                        &:hover {
+                            color: #ff8886;
+                        }
                     }
 
                     .services-modal-title,

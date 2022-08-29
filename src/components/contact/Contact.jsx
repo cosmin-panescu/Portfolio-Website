@@ -64,7 +64,7 @@ const Contact = () => {
                             <i className="bx bx-mail-send contact-card-icon"></i>
                             <h3 className="contact-card-title">Email</h3>
                             <span className="contact-card-data">hello@cosminpanescu.com</span>
-                            <a href="mailto:hello@cosminpanescu.com" className="contact-button">
+                            <a href="mailto:hello@cosminpanescu.com" target="_blank" className="contact-button">
                                 Write me {" "}
                                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                             </a>
@@ -73,7 +73,7 @@ const Contact = () => {
                             <i className="bx bxl-whatsapp contact-card-icon"></i>
                             <h3 className="contact-card-title">Whatsapp</h3>
                             <span className="contact-card-data">0799526060</span>
-                            <a href="https://api.whatsapp.com/send?phone=0799526060&text=Heey!" className="contact-button">
+                            <a href="https://api.whatsapp.com/send?phone=0799526060&text=Heey!" target="_blank" className="contact-button">
                                 Write me {" "}
                                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                             </a>
@@ -82,7 +82,7 @@ const Contact = () => {
                             <i className="bx bxl-messenger contact-card-icon"></i>
                             <h3 className="contact-card-title">Messenger</h3>
                             <span className="contact-card-data">aoihfgawe</span>
-                            <a href="https://m.me/cosminpane" className="contact-button">
+                            <a href="https://m.me/cosminpane" target="_blank" className="contact-button">
                                 Write me {" "}
                                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                             </a>

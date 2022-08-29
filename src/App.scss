@@ -7,13 +7,11 @@
 
     --hue: 0;
     --sat: 0%;
-    --title-color: hsl(var(--hue), var(--sat), 20%);
-    --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-    --text-color: hsl(var(--hue), var(--sat), 46%);
-    --body-color: hsl(var(--hue), var(--sat), 98%);
+    --title-color: hsl(0, 0%, 20%);
+    --title-color-dark: hsl(0, 0%, 0%);
+    --text-color: hsl(0, 0%, 46%);
+    --body-color: hsl(0, 0%, 98%);
     --container-color: #fff;
-
-    --body-font: "Poppins", sans-serif;
 
     --big-font: 3.5rem;
     --h1-font: 2.25rem;
@@ -40,6 +38,8 @@
     --z-tooltip: 10;
     --z-fixed: 100;
     --z-modal: 1000;
+
+    --card-shadow: 0px 0px 11px -6px rgba(0, 0, 0, 0.64);
 }
 
 // RESPONSIVE #1
@@ -70,13 +70,14 @@ body,
 button,
 input,
 textarea {
-    font-family: var(--body-font);
+    font-family: "Poppins", sans-serif;
     font-size: var(--normal-font);
 }
 
 body {
     background-color: var(--body-color);
     color: var(--text-color);
+    font-family: "Poppins", sans-serif;
 }
 
 h1,
@@ -110,6 +111,16 @@ textarea:-webkit-autofill,
 select:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 1000px var(--body-color) inset !important;
     -webkit-text-fill-color: var(--text-color) !important;
+}
+
+// Scrollbar styles
+::-webkit-scrollbar {
+    width: 12.5px;
+
+    &-thumb {
+        background-image: linear-gradient(transparent, var(--title-color));
+        border-radius: 6px;
+    }
 }
 
 // REUSABLE CLASSES

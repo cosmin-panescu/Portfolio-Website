@@ -1,4 +1,6 @@
 .skills {
+    min-height: 100vh;
+
     .skills-container {
         grid-template-columns: 450px 450px;
         column-gap: 3rem;
@@ -9,6 +11,7 @@
             border: 1px solid rgba(0, 0, 0, 0.1);
             padding: 2rem;
             border-radius: 1.25rem;
+            box-shadow: var(--card-shadow);
 
             .skills-title {
                 text-align: center;
@@ -64,7 +67,8 @@
             grid-template-columns: 1fr;
 
             .skills-content {
-                padding: 1.15rem;
+                padding: 1rem .5rem;
+
             }
         }
     }
