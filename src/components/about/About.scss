@@ -9,6 +9,8 @@
             border-radius: 1.5rem;
             justify-self: center;
             // filter: grayscale(100%);
+            box-shadow: var(--card-shadow);
+            transition: all .5s ease;
         }
 
         .about-data {

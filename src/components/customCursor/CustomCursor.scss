@@ -1,10 +1,10 @@
 .app-cursor {
     z-index: 9999;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     backdrop-filter: invert(85%);
-    // border: 2px solid var(--text-color);
+    // border: 3px solid var(--text-color);
     pointer-events: none;
     overflow: hidden;
     position: fixed;

@@ -2,7 +2,7 @@
   height: 100vh;
 }
 .home .home-container {
-  row-gap: 13rem;
+  row-gap: 10rem;
 }
 .home .home-container .home-scroll {
   margin-left: 9.25rem;
@@ -153,9 +153,6 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .home .home-container .home-content {
-    padding-top: 7rem;
-  }
   .home .home-container .home-content .home-data .home-title .home__hand {
     width: 28px;
     height: 28px;
