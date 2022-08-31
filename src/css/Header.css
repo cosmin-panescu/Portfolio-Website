@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 .header {
   width: 100%;
   position: fixed;
@@ -16,6 +17,16 @@
   justify-content: space-between;
   align-items: center;
   column-gap: 1rem;
+}
+.header .nav-logo {
+  font-size: 2rem;
+  font-family: "Berkshire Swash", cursive;
+  text-shadow: 1px 1px 0px #ededed, 3px 3px 0px rgba(0, 0, 0, 0.15);
+  transition: all 0.25s ease;
+}
+.header .nav-logo:hover {
+  text-shadow: none;
+  transform: translate(1.5px, 1.5px);
 }
 .header .nav .nav-logo,
 .header .nav .nav-toggle {
@@ -57,6 +68,9 @@
   }
   .header .nav {
     height: var(--header-height);
+  }
+  .header .nav-logo {
+    font-size: 1.5rem;
   }
   .header .nav .nav-menu {
     position: fixed;
