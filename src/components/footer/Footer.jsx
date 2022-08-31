@@ -12,10 +12,10 @@ const Footer = () => {
                         <a href="#about" className="footer-link">About</a>
                     </li>
                     <li>
-                        <a href="#services" className="footer-link">Services</a>
+                        <a href="#projects" className="footer-link">Projects</a>
                     </li>
                     <li>
-                        <a href="#about" className="footer-link">Resources</a>
+                        <a href="#resources" className="footer-link">Resources</a>
                     </li>
                 </ul>
 

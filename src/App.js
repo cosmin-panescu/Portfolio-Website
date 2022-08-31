@@ -9,6 +9,7 @@ import Skills from './components/skills/Skills';
 import ScrollTop from './components/scrollTop/ScrollTop'
 import CustomCursor from './components/customCursor/CustomCursor';
 import Projects from './components/projects/Projects';
+import Resources from './components/resources/Resources';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <Resources />
         <Contact />
         <Footer />
       </main>
