@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.638a985f.css",
+    "main.css": "/static/css/main.dd066256.css",
     "main.js": "/static/js/main.1bec7cae.js",
     "static/media/Web-Development-eBook.pdf": "/static/media/Web-Development-eBook.a59b4c2d18218dde339e.pdf",
     "static/media/netflix-clone.png": "/static/media/netflix-clone.8862f403221c13337b09.png",
@@ -15,11 +15,11 @@
     "static/media/crypto-tracker.png": "/static/media/crypto-tracker.cf7c89ce71d2981609d2.png",
     "static/media/CV.pdf": "/static/media/CV.d6c4eece5e141461f0e6.pdf",
     "index.html": "/index.html",
-    "main.638a985f.css.map": "/static/css/main.638a985f.css.map",
+    "main.dd066256.css.map": "/static/css/main.dd066256.css.map",
     "main.1bec7cae.js.map": "/static/js/main.1bec7cae.js.map"
   },
   "entrypoints": [
-    "static/css/main.638a985f.css",
+    "static/css/main.dd066256.css",
     "static/js/main.1bec7cae.js"
   ]
 }
