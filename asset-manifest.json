@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd066256.css",
-    "main.js": "/static/js/main.1bec7cae.js",
+    "main.css": "/static/css/main.9bd8550a.css",
+    "main.js": "/static/js/main.07151f9a.js",
     "static/media/Web-Development-eBook.pdf": "/static/media/Web-Development-eBook.a59b4c2d18218dde339e.pdf",
-    "static/media/netflix-clone.png": "/static/media/netflix-clone.8862f403221c13337b09.png",
     "static/media/ebook1.png": "/static/media/ebook1.fdca64f104a743f0c4a0.png",
-    "static/media/browser-dashboard.png": "/static/media/browser-dashboard.f484255e1c3d27835b49.png",
-    "static/media/meditation-app.png": "/static/media/meditation-app.7307a7634505943e784f.png",
-    "static/media/modern-to-do.png": "/static/media/modern-to-do.f76e6b85dfb260c5b103.png",
-    "static/media/web-tools.png": "/static/media/web-tools.ea70189233d67f5cb38a.png",
+    "static/media/netflix-clone.png": "/static/media/netflix-clone.10cb24a3afad5f661ed4.png",
+    "static/media/browser-dashboard.png": "/static/media/browser-dashboard.091c67ea00319c99b7da.png",
+    "static/media/meditation-app.png": "/static/media/meditation-app.93043eae006a62c7f701.png",
+    "static/media/web-tools.png": "/static/media/web-tools.ffeef245bd2fc417bd3a.png",
     "static/media/about-image.jpg": "/static/media/about-image.eb4dbc56f1f2233eccf1.jpg",
     "static/media/header-image.jpeg": "/static/media/header-image.bb4094d5a44d53ea7bcd.jpeg",
-    "static/media/modern-website.png": "/static/media/modern-website.7162537cae26fa8157d3.png",
-    "static/media/crypto-tracker.png": "/static/media/crypto-tracker.cf7c89ce71d2981609d2.png",
+    "static/media/digital-marketing-agency.png": "/static/media/digital-marketing-agency.d207348c4b744906bd1b.png",
+    "static/media/modern-to-do.png": "/static/media/modern-to-do.82a05aed100d933a7973.png",
     "static/media/CV.pdf": "/static/media/CV.d6c4eece5e141461f0e6.pdf",
+    "static/media/modern-website.png": "/static/media/modern-website.af67460551ddf2faa710.png",
+    "static/media/crypto-tracker.png": "/static/media/crypto-tracker.69706ab11bee2d798a7b.png",
     "index.html": "/index.html",
-    "main.dd066256.css.map": "/static/css/main.dd066256.css.map",
-    "main.1bec7cae.js.map": "/static/js/main.1bec7cae.js.map"
+    "main.9bd8550a.css.map": "/static/css/main.9bd8550a.css.map",
+    "main.07151f9a.js.map": "/static/js/main.07151f9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd066256.css",
-    "static/js/main.1bec7cae.js"
+    "static/css/main.9bd8550a.css",
+    "static/js/main.07151f9a.js"
   ]
 }
