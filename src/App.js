@@ -10,10 +10,18 @@ import ScrollTop from './components/scrollTop/ScrollTop'
 import CustomCursor from './components/customCursor/CustomCursor';
 import Projects from './components/projects/Projects';
 import Resources from './components/resources/Resources';
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <div className="app">
+      <Helmet>
+        <title>Cosmin Panescu</title>
+        <meta
+          name='description'
+          content="I am a FrontEnd Developer based in Romania, who lately has also focused on Digital Marketing. So, I don't just develop websites for you, I also bring them to the top of searches."
+        />
+      </Helmet>
       <CustomCursor />
       <Header />
 

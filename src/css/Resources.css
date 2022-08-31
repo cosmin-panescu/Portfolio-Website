@@ -101,12 +101,12 @@
     width: 175px;
   }
   .resources .resources-container .resources-card-details-content h3 {
-    font-size: 0.85rem;
-  }
-  .resources .resources-container .resources-card-details-content p {
     font-size: 0.75rem;
   }
+  .resources .resources-container .resources-card-details-content p {
+    font-size: 0.675rem;
+  }
   .resources .resources-container .resources-card-details-content a {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }/*# sourceMappingURL=Resources.css.map */

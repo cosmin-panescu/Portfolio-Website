@@ -67,7 +67,6 @@ textarea {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
-  cursor: none;
 }
 
 h1,

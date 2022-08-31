@@ -24,15 +24,20 @@ const Projects = () => {
                                         Live
                                         <i className="uil uil-arrow-right project-button-icon"></i>
                                     </a>
-                                    <a href={project.code} target="_blank" className="project-button">
-                                        Code
-                                        <i className="uil uil-arrow-right project-button-icon"></i>
-                                    </a>
+                                    {
+                                        project.codeLink &&
+                                        <a href={project.code} target="_blank" className="project-button">
+                                            Code
+                                            <i className="uil uil-arrow-right project-button-icon"></i>
+                                        </a>
+                                    }
                                 </div>
                             </div>
                         )
                     })}
                 </div>
+
+                <h3 className='projects-more'>More projects on <a href="https://github.com/cosmin-panescu?tab=repositories" target="_blank">GitHub</a></h3>
             </div>
         </section>
     )

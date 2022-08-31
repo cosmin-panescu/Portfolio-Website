@@ -1,5 +1,25 @@
 .projects {
     .projects-container {
+
+        .projects-more {
+            width: 100%;
+            text-align: center;
+            margin-top: 1rem;
+            opacity: .35;
+            font-weight: var(--small-font);
+            transition: all .5s ease;
+            color: var(--text-color);
+
+            a {
+                color: black;
+                font-weight: var(--medium-font);
+            }
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+
         .project-content {
             justify-content: center;
             display: grid;
@@ -26,7 +46,6 @@
                         opacity: .75;
                         transition: all .5s ease;
                     }
-
                 }
 
                 &:hover {

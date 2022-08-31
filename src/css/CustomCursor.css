@@ -1,9 +1,9 @@
 .app-cursor {
   z-index: 9999;
   border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  backdrop-filter: invert(85%);
+  width: 65px;
+  height: 65px;
+  border: 2px solid var(--text-color);
   pointer-events: none;
   overflow: hidden;
   position: fixed;
