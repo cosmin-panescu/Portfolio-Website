@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website2.0/static/css/main.35dc48f5.css",
-    "main.js": "/Portfolio-Website2.0/static/js/main.b6d1e841.js",
+    "main.css": "/Portfolio-Website2.0/static/css/main.9a8c7ece.css",
+    "main.js": "/Portfolio-Website2.0/static/js/main.31577525.js",
     "static/media/netflix-clone.png": "/Portfolio-Website2.0/static/media/netflix-clone.8862f403221c13337b09.png",
+    "static/media/ebook1.png": "/Portfolio-Website2.0/static/media/ebook1.fdca64f104a743f0c4a0.png",
     "static/media/browser-dashboard.png": "/Portfolio-Website2.0/static/media/browser-dashboard.f484255e1c3d27835b49.png",
     "static/media/meditation-app.png": "/Portfolio-Website2.0/static/media/meditation-app.7307a7634505943e784f.png",
     "static/media/modern-to-do.png": "/Portfolio-Website2.0/static/media/modern-to-do.f76e6b85dfb260c5b103.png",
@@ -13,11 +14,11 @@
     "static/media/crypto-tracker.png": "/Portfolio-Website2.0/static/media/crypto-tracker.cf7c89ce71d2981609d2.png",
     "static/media/CV.pdf": "/Portfolio-Website2.0/static/media/CV.d6c4eece5e141461f0e6.pdf",
     "index.html": "/Portfolio-Website2.0/index.html",
-    "main.35dc48f5.css.map": "/Portfolio-Website2.0/static/css/main.35dc48f5.css.map",
-    "main.b6d1e841.js.map": "/Portfolio-Website2.0/static/js/main.b6d1e841.js.map"
+    "main.9a8c7ece.css.map": "/Portfolio-Website2.0/static/css/main.9a8c7ece.css.map",
+    "main.31577525.js.map": "/Portfolio-Website2.0/static/js/main.31577525.js.map"
   },
   "entrypoints": [
-    "static/css/main.35dc48f5.css",
-    "static/js/main.b6d1e841.js"
+    "static/css/main.9a8c7ece.css",
+    "static/js/main.31577525.js"
   ]
 }
