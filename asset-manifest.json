@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a7e0917.css",
-    "main.js": "/static/js/main.74a9b062.js",
+    "main.css": "/static/css/main.a0010e67.css",
+    "main.js": "/static/js/main.edde33b0.js",
     "static/media/Web-Development-eBook.pdf": "/static/media/Web-Development-eBook.f3caa292a0bff5fc0736.pdf",
     "static/media/ebook1.png": "/static/media/ebook1.fdca64f104a743f0c4a0.png",
     "static/media/netflix-clone.png": "/static/media/netflix-clone.10cb24a3afad5f661ed4.png",
@@ -16,11 +16,11 @@
     "static/media/modern-website.png": "/static/media/modern-website.af67460551ddf2faa710.png",
     "static/media/crypto-tracker.png": "/static/media/crypto-tracker.69706ab11bee2d798a7b.png",
     "index.html": "/index.html",
-    "main.4a7e0917.css.map": "/static/css/main.4a7e0917.css.map",
-    "main.74a9b062.js.map": "/static/js/main.74a9b062.js.map"
+    "main.a0010e67.css.map": "/static/css/main.a0010e67.css.map",
+    "main.edde33b0.js.map": "/static/js/main.edde33b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a7e0917.css",
-    "static/js/main.74a9b062.js"
+    "static/css/main.a0010e67.css",
+    "static/js/main.edde33b0.js"
   ]
 }
