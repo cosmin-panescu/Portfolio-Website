@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Resources.scss'
 import eBook from '../../assets/ebook1.png'
 import eBookPDF from '../../assets/Web-Development-eBook.pdf'
@@ -10,7 +10,8 @@ const Resources = () => {
             <span className="section-subtitle">- Learn with me -</span>
 
             <div className="resources-container grid">
-                <div className="resources-card">
+                <h2 className='date'>eBook Release Date: 02.09.2022</h2>
+                {/* <div className="resources-card">
                     <div className="resources-card-image">
                         <img src={eBook} alt="Web Dev eBook" />
                     </div>
@@ -22,7 +23,7 @@ const Resources = () => {
                             <a href={eBookPDF} download="Web Development eBook" className="card-download" target="_blank">Download</a>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     )
