@@ -23,7 +23,7 @@ const About = () => {
                     <p className="about-description">
 
                     </p>
-                    <a download={""} href={CV} className="button button-flex">
+                    <a download="Panescu Vasile Cosmin's Resume" href={CV} className="button button-flex">
                         Download CV
                         <svg
                             className="button-icon"
