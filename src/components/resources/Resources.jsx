@@ -10,8 +10,7 @@ const Resources = () => {
             <span className="section-subtitle">- Learn with me -</span>
 
             <div className="resources-container grid">
-                <h2 className='date'>eBook Release Date: 02.09.2022</h2>
-                {/* <div className="resources-card">
+                <div className="resources-card">
                     <div className="resources-card-image">
                         <img src={eBook} alt="Web Dev eBook" />
                     </div>
@@ -23,7 +22,7 @@ const Resources = () => {
                             <a href={eBookPDF} download="Web Development eBook" className="card-download" target="_blank">Download</a>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </div>
         </section>
     )

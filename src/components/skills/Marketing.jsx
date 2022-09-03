@@ -42,7 +42,7 @@ const Marketing = () => {
                     <i className="uil uil-times services-modal-close" onClick={() => setToggle(false)}></i>
                     <h3 className="services-modal-title">Digital Marketing</h3>
                     <p className="services-modal-description"> &nbsp; &nbsp; &nbsp; My inclination towards marketing comes from my two great passions: the digital environment and entrepreneurship. My creative side helps me to create and bring value, building the "visual" of my projects and works. However, my logical part takes care of the "back-end", such as research, analysis, strategies, data, thus allowing me to scale and develop the functional and logical part of my projects and work. <br /> &nbsp; &nbsp; &nbsp; &nbsp; As much as a creative mind is valuable, I believe in leveraging the power of data-driven insights and analytics to determine strategies that help growth and development. <br /> &nbsp; &nbsp; &nbsp; &nbsp;
-                        For more details about marketing, visit the <a href="https://amaisse.com/" target="_blank" className="agency-link">website of my agency, Amaisse Agency</a>.
+                        For more details about marketing, visit the website of my agency, <a href="https://amaisse.com/" target="_blank" className="agency-link">Amaisse Agency</a>.
                     </p>
 
                     <ul className="services-modal-services grid">
