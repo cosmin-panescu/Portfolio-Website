@@ -17,7 +17,7 @@ const Resources = () => {
 
                     <div className="resources-card-details">
                         <div className="resources-card-details-content">
-                            <h3>Ghid pentru a incepe in Web Development</h3>
+                            <h3>Ghid pentru a începe în Web Development</h3>
                             <p> &nbsp; &nbsp; &nbsp; &nbsp; Acest eBook îți oferă atât drumul exact pe care trebuie să îl urmezi pentru a deveni un Web Developer, cât și cele mai bune recomandări de resurse gratuite, de unde poți învăța absolut tot. </p>
                             <a href={eBookPDF} download="Web Development eBook" className="card-download" target="_blank">Download</a>
                         </div>
