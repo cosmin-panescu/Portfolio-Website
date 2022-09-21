@@ -1,15 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './About.scss'
 import CV from '../../assets/CV.pdf'
 import AboutImg from '../../assets/about-image.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 1500
+        })
+    }, []);
+
     return (
         <section className="about section" id='about'>
-            <h2 className="section-title">About Me</h2>
-            <span className="section-subtitle">- My introduction -</span>
+            <h2 data-aos="fade-up" className="section-title">About Me</h2>
+            <span data-aos="fade-up" className="section-subtitle">- My introduction -</span>
 
-            <div className="about-container container grid">
+            <div data-aos="fade-up" className="about-container container grid">
                 <img src={AboutImg} alt="my profile image" className="about-img" />
 
                 <div className="about-data">

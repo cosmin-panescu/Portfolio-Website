@@ -21,7 +21,7 @@ function App() {
           name='description'
           content="I am a FrontEnd Developer based in Romania, who lately has also focused on Digital Marketing. So, I don't just develop websites for you, I also bring them to the top of searches."
         />
-      </Helmet> 
+      </Helmet>
       <CustomCursor />
       <Header />
 

@@ -1,9 +1,17 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.scss'
 import Swal from 'sweetalert2'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 1500
+        })
+    }, []);
+
     const form = useRef();
 
     // succesful message sent notif
@@ -52,15 +60,15 @@ const Contact = () => {
 
     return (
         <section className="contact section" id="contact">
-            <h2 className="section-title">Get in touch</h2>
-            <span className="section-subtitle">- Contact Me -</span>
+            <h2 data-aos="fade-up" className="section-title">Get in touch</h2>
+            <span data-aos="fade-up" className="section-subtitle">- Contact Me -</span>
 
             <div className="contact-container container grid">
                 <div className="contact-content">
-                    <h3 className="contact-title">Talk to me</h3>
+                    <h3 data-aos="fade-up" className="contact-title">Talk to me</h3>
 
                     <div className="contact-info">
-                        <div className="contact-card">
+                        <div data-aos="fade-up" className="contact-card">
                             <i className="bx bx-mail-send contact-card-icon"></i>
                             <h3 className="contact-card-title">Email</h3>
                             <span className="contact-card-data">hello@cosminpanescu.com</span>
@@ -69,7 +77,7 @@ const Contact = () => {
                                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                             </a>
                         </div>
-                        <div className="contact-card">
+                        <div data-aos="fade-up" className="contact-card">
                             <i className="bx bxl-whatsapp contact-card-icon"></i>
                             <h3 className="contact-card-title">Whatsapp</h3>
                             <span className="contact-card-data">0799 526 060</span>
@@ -78,7 +86,7 @@ const Contact = () => {
                                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                             </a>
                         </div>
-                        <div className="contact-card">
+                        <div data-aos="fade-up" className="contact-card">
                             <i className="bx bxl-messenger contact-card-icon"></i>
                             <h3 className="contact-card-title">Messenger</h3>
                             <span className="contact-card-data">Cosmin Pănescu
@@ -92,10 +100,10 @@ const Contact = () => {
                 </div>
 
                 <div className="contact-content">
-                    <h3 className="contact-title">Write me your ideas</h3>
+                    <h3 data-aos="fade-up" className="contact-title">Write me your ideas</h3>
 
                     <form className="contact-form" ref={form} onSubmit={sendEmail}>
-                        <div className="contact-form-div">
+                        <div data-aos="fade-up" className="contact-form-div">
                             <label className="contact-form-tag">Name</label>
                             <input
                                 required
@@ -105,7 +113,7 @@ const Contact = () => {
                                 placeholder='Insert your name'
                             />
                         </div>
-                        <div className="contact-form-div">
+                        <div data-aos="fade-up" className="contact-form-div">
                             <label className="contact-form-tag">Email</label>
                             <input
                                 required
@@ -115,7 +123,7 @@ const Contact = () => {
                                 placeholder='Insert your email'
                             />
                         </div>
-                        <div className="contact-form-div contact-form-area">
+                        <div data-aos="fade-up" className="contact-form-div contact-form-area">
                             <label className="contact-form-tag">Ideas</label>
                             <textarea
                                 required
@@ -126,7 +134,7 @@ const Contact = () => {
                             </textarea>
                         </div>
 
-                        <button className="button button-flex">
+                        <button data-aos="fade-up" className="button button-flex">
                             Send Message
                             <svg
                                 className="button-icon"
@@ -149,7 +157,7 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
 
