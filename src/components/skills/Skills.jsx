@@ -17,7 +17,7 @@ const Skills = () => {
             <h2 data-aos="fade-up" className="section-title">Skills</h2>
             <span data-aos="fade-up" className="section-subtitle">- My technical level -</span>
 
-            <div data-aos="fade-up" className="skills-container container grid">
+            <div className="skills-container container grid">
                 <Frontend />
                 <Marketing />
             </div>

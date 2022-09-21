@@ -17,21 +17,18 @@ const About = () => {
             <h2 data-aos="fade-up" className="section-title">About Me</h2>
             <span data-aos="fade-up" className="section-subtitle">- My introduction -</span>
 
-            <div data-aos="fade-up" className="about-container container grid">
-                <img src={AboutImg} alt="my profile image" className="about-img" />
+            <div className="about-container container grid">
+                <img data-aos="fade-up" src={AboutImg} alt="my profile image" className="about-img" />
 
                 <div className="about-data">
-                    <p className="about-description">
+                    <p data-aos="fade-up" className="about-description">
                         &nbsp; &nbsp; &nbsp;  Hey! My name is <span>Pănescu Cosmin</span> and I like to build things for the web. To be more explicit, I like <span>Web Development</span> and everything related to Marketing, especially <span>Digital Marketing</span>. On the web development side, I focused mainly on <span>Front End</span> because I like to be creative, and when it comes to digital marketing, I focused mostly on <span>management</span> and <span>SEO</span>. So, I don't just develop websites for you, I also bring them to the <span>top of searches</span>.
                         <br />
                         <br />
                         &nbsp; &nbsp; &nbsp;   I combined these two digital passions of mine, building
                         a <span>business</span> and opening my own <span>online agency</span>. If you are curious, you can visit the <a href='https://amaisse.com/' target='_blank' className='agency-link'>Amaisse Agency website</a> right now.
                     </p>
-                    <p className="about-description">
-
-                    </p>
-                    <a download="Panescu Vasile Cosmin's Resume" href={CV} className="button button-flex">
+                    <a data-aos="fade-up" download="Panescu Vasile Cosmin's Resume" href={CV} className="button button-flex">
                         Download CV
                         <svg
                             className="button-icon"
