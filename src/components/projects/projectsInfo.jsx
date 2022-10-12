@@ -1,5 +1,4 @@
 import React from 'react'
-import netflixCloneImg from "../../assets/netflix-clone.png"
 import modernToDoImg from "../../assets/modern-to-do.png"
 import browserDashboardImg from '../../assets/browser-dashboard.png'
 import meditationAppImg from "../../assets/meditation-app.png"
@@ -7,6 +6,7 @@ import cryptoTrackerImg from "../../assets/crypto-tracker.png"
 import webToolsImg from "../../assets/web-tools.png"
 import modernWebsiteImg from "../../assets/modern-website.png"
 import digitalMarketingAgencyImg from '../../assets/digital-marketing-agency.png'
+import notesAppImg from '../../assets/notes-app.png'
 
 export const projectsInfo = [
     {
@@ -17,12 +17,12 @@ export const projectsInfo = [
         live: "https://amaisse.com/",
     },
     {
-        src: netflixCloneImg,
-        alt: 'Netflix Clone Project',
-        title: "Netflix Clone",
+        src: notesAppImg,
+        alt: 'Notes App',
+        title: "Notes App",
         codeLink: true,
-        live: "https://cosmin-panescu.github.io/Netflix-Clone/",
-        code: "https://github.com/cosmin-panescu/Netflix-Clone"
+        live: "https://cosmin-panescu.github.io/notes-app/",
+        code: "https://github.com/cosmin-panescu/notes-app"
     },
     {
         src: cryptoTrackerImg,
