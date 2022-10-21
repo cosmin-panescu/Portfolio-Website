@@ -38,7 +38,7 @@ const Frontend = () => {
                     </div>
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">Git</h3>
+                        <h3 className="skills-name">Git/GitHub</h3>
                     </div>
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
@@ -46,7 +46,11 @@ const Frontend = () => {
                     </div>
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">SQL</h3>
+                        <h3 className="skills-name">WordPress</h3>
+                    </div>
+                    <div className="skills-data">
+                        <i className="bx bx-badge-check"></i>
+                        <h3 className="skills-name">C</h3>
                     </div>
                 </div>
             </div>
