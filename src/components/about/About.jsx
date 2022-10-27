@@ -22,10 +22,10 @@ const About = () => {
 
                 <div className="about-data">
                     <p data-aos="fade-up" className="about-description">
-                        &nbsp; &nbsp; &nbsp;  Hey! My name is <span>Pănescu Cosmin</span> and I like to build things for the web. To be more explicit, I like <span>Web Development</span> and everything related to Marketing, especially <span>Digital Marketing</span>. On the web development side, I focused mainly on <span>Front End</span> because I like to be creative, and when it comes to digital marketing, I focused mostly on <span>management</span> and <span>SEO</span>. So, I don't just develop websites for you, I also bring them to the <span>top of searches</span>.
+                        &nbsp; &nbsp; &nbsp;  Hey! My name is <span>Pănescu Cosmin</span> and I like to build things for the web. To be more explicit, I like <span>Web Development</span>, where I focus (at the moment) mainly on <span>Front End</span>. So, I would like to be part of a dedicated team, with the same passion for the web.
                         <br />
                         <br />
-                        &nbsp; &nbsp; &nbsp;   I combined these two digital passions of mine, building
+                        &nbsp; &nbsp; &nbsp; I combined this passion for web development with another passion of mine, entrepreneurship, building
                         a <span>business</span> and opening my own <span>online agency</span>. If you are curious, you can visit the <a href='https://amaisse.com/' target='_blank' className='agency-link'>Amaisse Agency website</a> right now.
                     </p>
                     <a data-aos="fade-up" download="Panescu Vasile Cosmin's Resume" href={CV} className="button button-flex">

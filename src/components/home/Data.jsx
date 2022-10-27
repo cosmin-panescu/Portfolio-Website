@@ -55,9 +55,9 @@ const Data = () => {
                     ></path>
                 </svg>
             </h1>
-            <h3 className="home-subtitle">Front End Developer & <br /> Digital Marketer</h3>
+            <h3 className="home-subtitle">Front End Developer</h3>
             <p className="home-description">
-                I'm a Front End Developer and a Digital Marketer. So, I don't just create, I also scale.
+                I'm a Front End Developer passionate about tech, who likes to be up to date with everything related to computers.
             </p>
             <a href="#contact" className="button button-flex">
                 Say Hello

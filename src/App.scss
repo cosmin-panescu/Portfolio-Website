@@ -163,7 +163,7 @@ select:-webkit-autofill {
     padding: 1.25rem 2rem;
     border-radius: 1rem;
     font-weight: var(--font-medium);
-    transition: all .35s;
+    transition: all .35s !important;
 
     &:hover {
         background-color: var(--title-color-dark);

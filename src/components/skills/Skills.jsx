@@ -19,7 +19,7 @@ const Skills = () => {
 
             <div className="skills-container container grid">
                 <Frontend />
-                <Marketing />
+                {/* <Marketing /> */}
             </div>
         </section>
     )

@@ -38,7 +38,7 @@ const Frontend = () => {
                     </div>
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">Git/GitHub</h3>
+                        <h3 className="skills-name">Git</h3>
                     </div>
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
