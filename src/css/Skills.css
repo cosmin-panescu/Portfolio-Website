@@ -2,7 +2,7 @@
   min-height: 100vh;
 }
 .skills .skills-container {
-  grid-template-columns: 450px 450px;
+  grid-template-columns: 450px;
   column-gap: 3rem;
   justify-content: center;
 }
