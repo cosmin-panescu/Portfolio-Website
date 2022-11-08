@@ -5,7 +5,7 @@ const Marketing = () => {
 
     return (
         <div className="skills-content">
-            <h3 className="skills-title">Digital Marketing</h3>
+            <h3 className="skills-title">Other technologies</h3>
 
             <div className="skills-box">
                 <div className="skills-group">
@@ -15,7 +15,7 @@ const Marketing = () => {
                     </div>
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">Graphic Design</h3>
+                        <h3 className="skills-name">Canva</h3>
                     </div>
 
                 </div>
@@ -23,11 +23,11 @@ const Marketing = () => {
                 <div className="skills-group">
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">Branding</h3>
+                        <h3 className="skills-name">C</h3>
                     </div>
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">Management</h3>
+                        <h3 className="skills-name">WordPress</h3>
                     </div>
                 </div>
             </div>
@@ -41,33 +41,27 @@ const Marketing = () => {
                 <div className="services-modal-content">
                     <i className="uil uil-times services-modal-close" onClick={() => setToggle(false)}></i>
                     <h3 className="services-modal-title">Digital Marketing</h3>
-                    <p className="services-modal-description"> &nbsp; &nbsp; &nbsp; My inclination towards marketing comes from my two great passions: the digital environment and entrepreneurship. My creative side helps me to create and bring value, building the "visual" of my projects and works. However, my logical part takes care of the "back-end", such as research, analysis, strategies, data, thus allowing me to scale and develop the functional and logical part of my projects and work. <br /> &nbsp; &nbsp; &nbsp; &nbsp; As much as a creative mind is valuable, I believe in leveraging the power of data-driven insights and analytics to determine strategies that help growth and development. <br /> &nbsp; &nbsp; &nbsp; &nbsp;
-                        For more details about marketing, visit the website of my agency, <a href="https://amaisse.com/" target="_blank" className="agency-link">Amaisse Agency</a>.
+                    <p className="services-modal-description">&nbsp; &nbsp; &nbsp; In addition to the main field of Web Development, which I focused on the most, I gained knowledge and skills in several technologies related to programming. I acquired these skills either through the subjects at the university, or from my own study due to a need.
                     </p>
 
                     <ul className="services-modal-services grid">
                         <li className="services-modal-service">
                             <i className="uil uil-check-circle services-modal-icon"></i>
-                            <p className="services-modal-info">Increase visibility and organic traffic</p>
+                            <p className="services-modal-info">Faster website creation using WordPress</p>
                         </li>
                         <li className="services-modal-service">
                             <i className="uil uil-check-circle services-modal-icon"></i>
-                            <p className="services-modal-info">Digital business optimization</p>
+                            <p className="services-modal-info">Solid knowledge of SEO</p>
                         </li>
                         <li className="services-modal-service">
                             <i className="uil uil-check-circle services-modal-icon"></i>
-                            <p className="services-modal-info">Online presence rebranding</p>
+                            <p className="services-modal-info">Ability to create various graphic designs</p>
                         </li>
                         <li className="services-modal-service">
                             <i className="uil uil-check-circle services-modal-icon"></i>
-                            <p className="services-modal-info">Design and provide a unique brand experience</p>
-                        </li>
-                        <li className="services-modal-service">
-                            <i className="uil uil-check-circle services-modal-icon"></i>
-                            <p className="services-modal-info">Management strategies to increase online presence</p>
+                            <p className="services-modal-info">knowledge of different programming languages from different IT fields</p>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </div>)

@@ -2,8 +2,8 @@
         min-height: 100vh;
 
         .skills-container {
-            grid-template-columns: 450px;
-            // grid-template-columns: 450px 450px;
+            // grid-template-columns: 450px; for single card
+            grid-template-columns: 450px 450px; // for at least 2 cards
             column-gap: 3rem;
             justify-content: center;
 

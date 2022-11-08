@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Frontend from './Frontend'
-import Marketing from './Marketing'
+import OtherSkills from './OtherSkills'
 import './Skills.scss'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -19,7 +19,7 @@ const Skills = () => {
 
             <div className="skills-container container grid">
                 <Frontend />
-                {/* <Marketing /> */}
+                <OtherSkills />
             </div>
         </section>
     )
