@@ -59,7 +59,7 @@ const Marketing = () => {
                         </li>
                         <li className="services-modal-service">
                             <i className="uil uil-check-circle services-modal-icon"></i>
-                            <p className="services-modal-info">knowledge of different programming languages from different IT fields</p>
+                            <p className="services-modal-info">Knowledge of different programming languages from different IT fields</p>
                         </li>
                     </ul>
                 </div>
