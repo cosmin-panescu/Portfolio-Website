@@ -5,7 +5,7 @@ const Marketing = () => {
 
     return (
         <div className="skills-content">
-            <h3 className="skills-title">Other technologies</h3>
+            <h3 className="skills-title">Other Technologies</h3>
 
             <div className="skills-box">
                 <div className="skills-group">
@@ -15,16 +15,11 @@ const Marketing = () => {
                     </div>
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">Canva</h3>
+                        <h3 className="skills-name">C</h3>
                     </div>
-
                 </div>
 
                 <div className="skills-group">
-                    <div className="skills-data">
-                        <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">C</h3>
-                    </div>
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
                         <h3 className="skills-name">WordPress</h3>
@@ -40,8 +35,8 @@ const Marketing = () => {
             <div className={toggle ? "services-modal active-modal" : "services-modal"}>
                 <div className="services-modal-content">
                     <i className="uil uil-times services-modal-close" onClick={() => setToggle(false)}></i>
-                    <h3 className="services-modal-title">Digital Marketing</h3>
-                    <p className="services-modal-description">&nbsp; &nbsp; &nbsp; In addition to the main field of Web Development, which I focused on the most, I gained knowledge and skills in several technologies related to programming. I acquired these skills either through the subjects at the university, or from my own study due to a need.
+                    <h3 className="services-modal-title">Other Technologies</h3>
+                    <p className="services-modal-description">&nbsp; &nbsp; &nbsp; In addition to the main field of Web Development, which I focused on the most, I gained knowledge and skills in several technologies related to programming. I acquired these skills either through the subjects at the University, or from my own study due to a need.
                     </p>
 
                     <ul className="services-modal-services grid">
