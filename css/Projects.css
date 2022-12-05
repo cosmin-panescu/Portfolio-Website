@@ -1,0 +1,102 @@
+.projects .projects-container .projects-more {
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+  opacity: 0.35;
+  font-weight: var(--small-font);
+  transition: all 0.5s ease;
+  color: var(--text-color);
+}
+.projects .projects-container .projects-more a {
+  color: black;
+  font-weight: var(--medium-font);
+}
+.projects .projects-container .projects-more:hover {
+  opacity: 1;
+}
+.projects .projects-container .project-content {
+  justify-content: center;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 325px 325px 325px;
+}
+.projects .projects-container .project-content .project-box {
+  background-color: var(--container-color);
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  box-shadow: var(--card-shadow);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.5s ease;
+}
+.projects .projects-container .project-content .project-box .project-image img {
+  border-radius: 0.75rem 0.75rem 0.25rem 0.25rem;
+  aspect-ratio: 16/9;
+  width: 100%;
+  opacity: 0.75;
+  transition: all 0.5s ease;
+}
+.projects .projects-container .project-content .project-box:hover {
+  transform: scale(1.035);
+}
+.projects .projects-container .project-content .project-box:hover img {
+  opacity: 1;
+}
+.projects .projects-container .project-content .project-box h3 {
+  font-size: 1.1rem;
+  font-weight: var(--font-medium);
+}
+.projects .projects-container .project-content .project-box .project-buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.projects .projects-container .project-content .project-box .project-buttons .project-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.75rem;
+  color: var(--title-color);
+  font-size: var(--medium-font);
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  column-gap: 0.25rem;
+}
+.projects .projects-container .project-content .project-box .project-buttons .project-button-icon {
+  font-size: 1.25rem;
+  transition: 0.3s;
+}
+.projects .projects-container .project-content .project-box .project-buttons .project-button:hover .project-button-icon {
+  transform: translateX(0.4rem);
+}
+
+@media screen and (max-width: 1075px) {
+  .projects .projects-container .project-content {
+    gap: 3rem;
+    grid-template-columns: 325px 325px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .projects .projects-container .project-content {
+    gap: 2rem;
+    grid-template-columns: 350px;
+  }
+  .projects .projects-container .project-content .project-box:hover {
+    transform: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  .projects .projects-container .project-content {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 375px) {
+  .projects .projects-container .project-content .project-box {
+    gap: 1.25rem;
+  }
+}/*# sourceMappingURL=Projects.css.map */

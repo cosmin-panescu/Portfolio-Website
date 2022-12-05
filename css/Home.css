@@ -1,0 +1,160 @@
+.home {
+  height: 100vh;
+}
+.home .home-container {
+  row-gap: 10rem;
+}
+.home .home-container .home-scroll {
+  margin-left: 9.25rem;
+}
+.home .home-container .home-scroll .home-scroll-button .wheel {
+  animation: scroll 2s ease infinite;
+}
+.home .home-container .home-scroll .home-scroll-button:hover .home-scroll-arrow {
+  transform: translateY(0.25rem);
+}
+.home .home-container .home-scroll .home-scroll-button .home-scroll-name {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  margin-right: var(--mb-0-25);
+  margin-left: 2px;
+}
+.home .home-container .home-scroll .home-scroll-button .home-scroll-arrow {
+  font-size: 1.35rem;
+  color: var(--title-color);
+  transition: 0.4s;
+}
+.home .home-container .home-content {
+  grid-template-columns: 116px 1fr 1fr;
+  padding-top: 5.5rem;
+  column-gap: 2rem;
+  align-items: center;
+}
+.home .home-container .home-content .home-img {
+  background: url(../../assets/header-image.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 9px rgba(225, 225, 225, 0.3);
+  justify-self: center;
+  width: 300px;
+  height: 300px;
+  order: 1;
+  animation: profile-animate 8s ease-in-out infinite 1s;
+}
+.home .home-container .home-content .home-social {
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: 1rem;
+}
+.home .home-container .home-content .home-social-icon {
+  font-size: 1.4rem;
+  color: var(--title-color);
+  transition: 0.45s;
+}
+.home .home-container .home-content .home-social-icon:hover {
+  color: var(--title-color-dark);
+  transform: scale(1.15);
+}
+.home .home-container .home-content .home-social-icon:nth-child(1):hover {
+  color: #333;
+}
+.home .home-container .home-content .home-social-icon:nth-child(2):hover {
+  color: #0077b5;
+}
+.home .home-container .home-content .home-social-icon:nth-child(3):hover {
+  color: #e1306c;
+}
+.home .home-container .home-content .home-social-icon:nth-child(4):hover {
+  color: #1877f2;
+}
+.home .home-container .home-content .home-social-icon:nth-child(5):hover {
+  color: #1da1f2;
+}
+.home .home-container .home-content .home-data {
+  justify-self: center;
+}
+.home .home-container .home-content .home-data .home-title {
+  font-size: var(--big-font);
+  margin-bottom: var(--mb-0-25);
+}
+.home .home-container .home-content .home-data .home-title .home__hand {
+  width: 38px;
+  height: 38px;
+  margin-left: 0.4rem;
+}
+.home .home-container .home-content .home-data .home-subtitle {
+  position: relative;
+  font-size: var(--h3-font);
+  padding-right: 5.4rem;
+  font-weight: var(--font-normal);
+  margin-bottom: var(--mb-1);
+}
+.home .home-container .home-content .home-data .home-description {
+  max-width: 400px;
+  margin-bottom: var(--mb-3);
+}
+
+@keyframes profile-animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(3.75rem);
+  }
+}
+@media screen and (max-width: 992px) {
+  .home .home-container .home-scroll {
+    margin-left: 7.5rem;
+  }
+  .home .home-container .home-content {
+    grid-template-columns: 100px 1fr 1fr;
+    column-gap: 1.25rem;
+  }
+  .home .home-container .home-content .home-img {
+    box-shadow: inset 0 0 0 8px rgba(225, 225, 225, 0.3);
+    width: 250px;
+    height: 250px;
+  }
+  .home .home-container .home-content .home-data .home-description {
+    max-width: initial;
+    margin-bottom: var(--mb-2-5);
+  }
+}
+@media screen and (max-width: 768px) {
+  .home .home-container .home-scroll {
+    display: none;
+  }
+  .home .home-container .home-content {
+    grid-template-columns: 0.5fr 3fr;
+    padding-top: 4rem;
+    row-gap: 4rem;
+  }
+  .home .home-container .home-content .home-img {
+    box-shadow: inset 0 0 0 6px rgba(225, 225, 225, 0.3);
+    width: 220px;
+    height: 220px;
+    justify-self: center;
+    order: initial;
+  }
+  .home .home-container .home-content .home-data {
+    grid-column: 1/3;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home .home-container .home-content .home-data .home-title .home__hand {
+    width: 28px;
+    height: 28px;
+  }
+}/*# sourceMappingURL=Home.css.map */

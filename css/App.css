@@ -1,0 +1,194 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/* CSS VARIABLES */
+:root {
+  --header-height: 3rem;
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(0, 0%, 20%);
+  --title-color-dark: hsl(0, 0%, 0%);
+  --text-color: hsl(0, 0%, 46%);
+  --body-color: hsl(0, 0%, 98%);
+  --container-color: #fff;
+  --big-font: 3.5rem;
+  --h1-font: 2.25rem;
+  --h2-font: 1.5rem;
+  --h3-font: 1.25rem;
+  --normal-font: 1rem;
+  --small-font: .875rem;
+  --smaller-font: 0.815rem;
+  --tiny-font: 0.625rem;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+  --card-shadow: 0px 0px 16px -5px rgba(0, 0, 0, 0.64);
+}
+
+@media screen and (max-width: 992px) {
+  :root {
+    --big-font: 2.75rem;
+    --h1-font: 1.5rem;
+    --h2-font: 1.25rem;
+    --h3-font: 1rem;
+    --normal-font: .94rem;
+    --small-font: .815rem;
+    --smaller-font: .75rem;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+  font-size: var(--normal-font);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px var(--body-color) inset !important;
+  box-shadow: 0 0 0 1000px var(--body-color) inset !important;
+  -webkit-text-fill-color: var(--text-color) !important;
+}
+
+::-webkit-scrollbar {
+  width: 12.5px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(transparent, var(--title-color));
+  border-radius: 6px;
+}
+
+.section {
+  padding: 6rem 0 2rem;
+}
+.section-title {
+  font-size: var(--h1-font);
+  color: var(--title-color);
+  text-align: center;
+}
+.section-subtitle {
+  display: block;
+  font-size: var(--small-font);
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+  transition: all 0.35s !important;
+}
+.button:hover {
+  background-color: var(--title-color-dark);
+}
+.button-icon {
+  margin-left: var(--mb-0-5);
+}
+.button-flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+  .button {
+    padding: 1rem 1.75rem;
+  }
+  .button-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+  .section {
+    padding: 2rem 0 4rem;
+  }
+  .section-subtitle {
+    margin-bottom: var(--mb-3);
+  }
+}
+@media screen and (max-width: 350px) {
+  :root {
+    --big-font: 2.25rem;
+  }
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+}/*# sourceMappingURL=App.css.map */
