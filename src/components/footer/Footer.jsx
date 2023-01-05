@@ -32,10 +32,15 @@ const Footer = () => {
                 </div>
 
                 <span className="footer-copy">
+                    <h3>Legal:</h3>
+                    <p>Legal name: PĂNESCU VASILE-COSMIN P.F.A.</p>
+                    <p>CUI: 46694970</p>
+                    <p>Address: Str. Calea Tismanei Nr. 11, Însurăței, GJ, RO</p>
+                    <br />
                     &#169; Pănescu Cosmin. All rights reserved
                 </span>
             </div>
-        </footer>
+        </footer >
     )
 }
 
