@@ -35,8 +35,9 @@ export const projectsInfo = [
         src: digitalMarketingAgencyImg,
         alt: "Digital Marketing Agency Site Project",
         title: "Digital Marketing Agency",
-        codeLink: false,
+        codeLink: true,
         live: "https://amaisse.com/",
+        code: "https://github.com/cosmin-panescu/Marketing-Agency-Website"
     },
     {
         src: webToolsImg,
