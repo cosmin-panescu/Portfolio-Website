@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a9b070bb.css",
-    "main.js": "/static/js/main.5566f56c.js",
+    "main.js": "/static/js/main.20bd2bf2.js",
     "static/media/Web-Development-eBook.pdf": "/static/media/Web-Development-eBook.dbf097dc243ddbb41d87.pdf",
     "static/media/ebook1.png": "/static/media/ebook1.fdca64f104a743f0c4a0.png",
     "static/media/chrome-extension.png": "/static/media/chrome-extension.61a93ddec296a20451a3.png",
@@ -15,10 +15,10 @@
     "static/media/crypto-tracker.png": "/static/media/crypto-tracker.69706ab11bee2d798a7b.png",
     "index.html": "/index.html",
     "main.a9b070bb.css.map": "/static/css/main.a9b070bb.css.map",
-    "main.5566f56c.js.map": "/static/js/main.5566f56c.js.map"
+    "main.20bd2bf2.js.map": "/static/js/main.20bd2bf2.js.map"
   },
   "entrypoints": [
     "static/css/main.a9b070bb.css",
-    "static/js/main.5566f56c.js"
+    "static/js/main.20bd2bf2.js"
   ]
 }
