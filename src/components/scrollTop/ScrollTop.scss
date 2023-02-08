@@ -6,7 +6,7 @@
     opacity: .8;
     padding: .3rem .5rem;
     border-radius: .4rem;
-    z-index: var(--z-tooltip);
+    z-index: 10;
     transition: .4s;
 
     // Show scroll-to-top button
@@ -16,7 +16,7 @@
 
     .scroll-top-icon {
         font-size: 1.5rem;
-        color: var(--container-color);
+        color: #fff;
     }
 
     &:hover {

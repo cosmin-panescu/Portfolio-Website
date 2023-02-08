@@ -19,7 +19,7 @@
                 .home-scroll-name {
                     color: var(--title-color);
                     font-weight: var(--font-medium);
-                    margin-right: var(--mb-0-25);
+                    margin-right: .25rem;
                     margin-left: 2px;
                 }
 
@@ -92,7 +92,7 @@
 
                 .home-title {
                     font-size: var(--big-font);
-                    margin-bottom: var(--mb-0-25);
+                    margin-right: .25rem;
 
                     .home__hand {
                         width: 38px;
@@ -105,13 +105,13 @@
                     position: relative;
                     font-size: var(--h3-font);
                     padding-right: 5.4rem;
-                    font-weight: var(--font-normal);
-                    margin-bottom: var(--mb-1);
+                    font-weight: 400;
+                    margin-bottom: 1rem;
                 }
 
                 .home-description {
                     max-width: 400px;
-                    margin-bottom: var(--mb-3);
+                    margin-bottom: 3rem;
                 }
             }
         }
@@ -164,7 +164,7 @@
                 .home-data {
                     .home-description {
                         max-width: initial;
-                        margin-bottom: var(--mb-2-5);
+                        margin-bottom: 2.5rem;
                     }
                 }
             }

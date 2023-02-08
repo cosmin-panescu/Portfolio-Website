@@ -10,7 +10,7 @@
   grid-template-columns: 300px;
 }
 .contact .contact-container .contact-content .contact-info .contact-card {
-  background-color: var(--container-color);
+  background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem;
   border-radius: 0.75rem;
@@ -20,7 +20,7 @@
 .contact .contact-container .contact-content .contact-info .contact-card-icon {
   font-size: 2rem;
   color: var(--title-color);
-  margin-bottom: var(--mb-0-25);
+  margin-bottom: 0.25rem;
 }
 .contact .contact-container .contact-content .contact-info .contact-card .contact-card-title,
 .contact .contact-container .contact-content .contact-info .contact-card .contact-card-data {
@@ -31,7 +31,7 @@
 }
 .contact .contact-container .contact-content .contact-info .contact-card .contact-card-data {
   display: block;
-  margin-bottom: var(--mb-0-75);
+  margin-bottom: 0.75rem;
 }
 .contact .contact-container .contact-content .contact-info .contact-card .contact-button {
   color: var(--text-color);
@@ -52,7 +52,7 @@
   text-align: center;
   font-size: var(--h3-font);
   font-weight: var(--font-medium);
-  margin-bottom: var(--mb-1-5);
+  margin-bottom: 1.5rem;
 }
 .contact .contact-container .contact-content .contact-form {
   width: 360px;
@@ -60,7 +60,7 @@
 .contact .contact-container .contact-content .contact-form-div {
   position: relative;
   height: 4rem;
-  margin-bottom: var(--mb-2);
+  margin-bottom: 2rem;
 }
 .contact .contact-container .contact-content .contact-form-div .contact-form-input {
   position: absolute;

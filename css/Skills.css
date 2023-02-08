@@ -7,7 +7,7 @@
   justify-content: center;
 }
 .skills .skills-container .skills-content {
-  background-color: var(--container-color);
+  background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 2.5rem;
   border-radius: 1.25rem;
@@ -23,7 +23,7 @@
   text-align: center;
   font-size: var(--normal-font);
   font-weight: var(--font-medium);
-  margin-bottom: var(--mb-1-5);
+  margin-bottom: 1.5rem;
 }
 .skills .skills-container .skills-content .skills-box {
   width: 100%;
@@ -76,7 +76,7 @@
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: var(--z-modal);
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,7 +92,7 @@
 .skills .skills-container .skills-content .services-modal-content {
   width: 600px;
   position: relative;
-  background-color: var(--container-color);
+  background-color: #fff;
   padding: 4rem 3rem 2.5rem;
   border-radius: 1.5rem;
 }
@@ -112,11 +112,11 @@
   text-align: center;
   font-size: var(--h3-font);
   font-weight: var(--font-medium);
-  margin-bottom: var(--mb-1);
+  margin-bottom: 1rem;
 }
 .skills .skills-container .skills-content .services-modal-content .services-modal-description {
   font-size: var(--small-font);
-  margin-bottom: var(--mb-2);
+  margin-bottom: 2rem;
   text-align: justify;
 }
 .skills .skills-container .skills-content .services-modal-content .services-modal-description .agency-link {

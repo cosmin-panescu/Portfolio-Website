@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--container-color);
+  background-color: #fff;
   border-top: 3px solid rgba(0, 0, 0, 0.075);
 }
 .footer .footer-container {
@@ -8,13 +8,13 @@
 .footer .footer-container .footer-title {
   color: var(--title-color);
   text-align: center;
-  margin-bottom: var(--mb-2);
+  margin-bottom: 2rem;
 }
 .footer .footer-container .footer-list {
   display: flex;
   justify-content: center;
   column-gap: 2rem;
-  margin-bottom: var(--mb-2);
+  margin-bottom: 2rem;
 }
 .footer .footer-container .footer-list .footer-link {
   color: var(--title-color);
@@ -29,7 +29,7 @@
   column-gap: 1.25rem;
 }
 .footer .footer-container .footer-social-link {
-  color: var(--container-color);
+  color: #fff;
   background-color: var(--title-color);
   font-size: 1.25rem;
   padding: 0.5rem;

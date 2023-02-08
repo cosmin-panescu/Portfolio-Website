@@ -21,7 +21,7 @@
   grid-template-columns: 325px 325px 325px;
 }
 .projects .projects-container .project-content .project-box {
-  background-color: var(--container-color);
+  background-color: #fff;
   padding: 0.75rem;
   border-radius: 0.75rem;
   box-shadow: var(--card-shadow);

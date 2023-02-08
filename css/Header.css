@@ -4,7 +4,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: var(--z-fixed);
+  z-index: 100;
   background-color: var(--body-color);
   transition: all 0.3s ease;
 }
