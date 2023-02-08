@@ -110,8 +110,8 @@
     cursor: pointer;
   }
   .header .nav .nav-icon,
-.header .nav .nav-close,
-.header .nav .nav-toggle {
+  .header .nav .nav-close,
+  .header .nav .nav-toggle {
     display: block;
   }
 }
@@ -122,4 +122,4 @@
   .nav-menu .nav-list {
     column-gap: 0;
   }
-}/*# sourceMappingURL=Header.css.map */
+}
