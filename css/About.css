@@ -15,12 +15,9 @@
   margin-bottom: 2.5rem;
   text-align: justify;
 }
-.about .about-container .about-data .about-description .agency-link {
-  color: #3d3d3d;
-  font-weight: bolder;
-}
-.about .about-container .about-data .about-description span {
-  color: #3d3d3d;
+.about .about-container .about-data .about-description > a {
+  color: var(--title-color);
+  font-weight: 500;
 }
 
 @media screen and (max-width: 992px) {
