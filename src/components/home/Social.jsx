@@ -9,14 +9,14 @@ const Social = () => {
             <a href="https://www.linkedin.com/in/cosmin-panescu/" className='home-social-icon' target="_blank">
                 <i className="uil uil-linkedin-alt"></i>
             </a>
+            <a href="https://www.youtube.com/@webcosmin" className='home-social-icon' target="_blank">
+                <i className="uil uil-youtube"></i>
+            </a>
             <a href="https://www.instagram.com/pane_cosmin/" className='home-social-icon' target="_blank">
                 <i className="uil uil-instagram"></i>
             </a>
             <a href="https://www.facebook.com/cosminpane/" className='home-social-icon' target="_blank">
                 <i className="uil uil-facebook-f"></i>
-            </a>
-            <a href="https://twitter.com/PnescuCosmin1" className='home-social-icon' target="_blank">
-                <i className="uil uil-twitter-alt"></i>
             </a>
         </div>
     )

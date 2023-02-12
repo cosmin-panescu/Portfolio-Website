@@ -15,7 +15,7 @@ const Frontend = () => {
                     </div>
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">SASS/CSS</h3>
+                        <h3 className="skills-name">CSS</h3>
                     </div>
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
@@ -30,6 +30,10 @@ const Frontend = () => {
                 <div className="skills-group">
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
+                        <h3 className="skills-name">SASS</h3>
+                    </div>
+                    <div className="skills-data">
+                        <i className="bx bx-badge-check"></i>
                         <h3 className="skills-name">Next.js</h3>
                     </div>
                     <div className="skills-data">
@@ -39,10 +43,6 @@ const Frontend = () => {
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
                         <h3 className="skills-name">Tailwind CSS</h3>
-                    </div>
-                    <div className="skills-data">
-                        <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">Figma</h3>
                     </div>
                 </div>
             </div>
