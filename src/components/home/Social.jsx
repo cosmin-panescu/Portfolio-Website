@@ -9,9 +9,9 @@ const Social = () => {
             <a href="https://www.linkedin.com/in/cosmin-panescu/" className='home-social-icon' target="_blank">
                 <i className="uil uil-linkedin-alt"></i>
             </a>
-            <a href="https://www.youtube.com/@webcosmin" className='home-social-icon' target="_blank">
+            {/* <a href="https://www.youtube.com/@webcosmin" className='home-social-icon' target="_blank">
                 <i className="uil uil-youtube"></i>
-            </a>
+            </a> */}
             <a href="https://www.instagram.com/pane_cosmin/" className='home-social-icon' target="_blank">
                 <i className="uil uil-instagram"></i>
             </a>
