@@ -26,7 +26,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/cosmin-panescu/" className='footer-social-link' target="_blank">
                         <i className="uil uil-linkedin-alt"></i>
                     </a>
-                    <a href="https://www.instagram.com/pane_cosmin/" className='footer-social-link' target="_blank">
+                    <a href="https://www.instagram.com/cosmin.panescu/" className='footer-social-link' target="_blank">
                         <i className="uil uil-instagram"></i>
                     </a>
                 </div>
