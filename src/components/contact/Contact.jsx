@@ -71,8 +71,8 @@ const Contact = () => {
                         <div data-aos="fade-up" className="contact-card">
                             <i className="bx bx-mail-send contact-card-icon"></i>
                             <h3 className="contact-card-title">Email</h3>
-                            <span className="contact-card-data">hello@cosminpanescu.com</span>
-                            <a href="mailto: hello@cosminpanescu.com" target="_blank" className="contact-button">
+                            <span className="contact-card-data">1panescu.cosmin@gmail.com</span>
+                            <a href="mailto: 1panescu.cosmin@gmail.com" target="_blank" className="contact-button">
                                 Write me {" "}
                                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                             </a>
