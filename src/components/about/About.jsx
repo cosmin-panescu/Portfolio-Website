@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './About.scss'
-import CV from '../../assets/CV.pdf'
+import CV from '../../assets/Resume.pdf'
 import AboutImg from '../../assets/about-image.jpg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -28,7 +28,7 @@ const About = () => {
                         &nbsp; And while I am not coding, I enjoy reading and creating amazing content about programming. Check out my <a href="https://www.instagram.com/webcosmin/" target="_blank">Instagram page</a>.
                     </p>
                     <a data-aos="fade-up" download="Panescu Vasile Cosmin's Resume" href={CV} className="button button-flex">
-                        Download CV
+                        Download Resume
                         <svg
                             className="button-icon"
                             xmlns="http://www.w3.org/2000/svg"
