@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.000f6068.css",
-    "main.js": "/static/js/main.92fa1fc1.js",
+    "main.js": "/static/js/main.94148759.js",
     "static/media/Web-Development-eBook.pdf": "/static/media/Web-Development-eBook.dbf097dc243ddbb41d87.pdf",
     "static/media/ebook1.png": "/static/media/ebook1.fdca64f104a743f0c4a0.png",
     "static/media/chrome-extension.png": "/static/media/chrome-extension.61a93ddec296a20451a3.png",
@@ -10,15 +10,15 @@
     "static/media/header-image.jpeg": "/static/media/header-image.bb4094d5a44d53ea7bcd.jpeg",
     "static/media/digital-marketing-agency.png": "/static/media/digital-marketing-agency.d207348c4b744906bd1b.png",
     "static/media/modern-to-do.png": "/static/media/modern-to-do.82a05aed100d933a7973.png",
-    "static/media/Resume.pdf": "/static/media/Resume.5c2b9ec81d5e9a1dfaaa.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.0c7f955768bb005385d7.pdf",
     "static/media/notes-app.png": "/static/media/notes-app.8da3afea638a30f0d0bc.png",
     "static/media/crypto-tracker.png": "/static/media/crypto-tracker.69706ab11bee2d798a7b.png",
     "index.html": "/index.html",
     "main.000f6068.css.map": "/static/css/main.000f6068.css.map",
-    "main.92fa1fc1.js.map": "/static/js/main.92fa1fc1.js.map"
+    "main.94148759.js.map": "/static/js/main.94148759.js.map"
   },
   "entrypoints": [
     "static/css/main.000f6068.css",
-    "static/js/main.92fa1fc1.js"
+    "static/js/main.94148759.js"
   ]
 }
