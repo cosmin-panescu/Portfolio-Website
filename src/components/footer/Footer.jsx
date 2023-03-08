@@ -9,24 +9,24 @@ const Footer = () => {
 
                 <ul className="footer-list">
                     <li>
-                        <a href="#about" className="footer-link">About</a>
+                        <a aria-label="About Section" href="#about" className="footer-link">About</a>
                     </li>
                     <li>
-                        <a href="#projects" className="footer-link">Projects</a>
+                        <a aria-label="Projects Section" href="#projects" className="footer-link">Projects</a>
                     </li>
                     <li>
-                        <a href="#resources" className="footer-link">Resources</a>
+                        <a aria-label="Resources Section" href="#resources" className="footer-link">Resources</a>
                     </li>
                 </ul>
 
                 <div className="footer-social">
-                    <a href="https://github.com/cosmin-panescu" className='footer-social-link' target="_blank">
+                    <a aria-label="GitHub" href="https://github.com/cosmin-panescu" className='footer-social-link' target="_blank">
                         <i className="uil uil-github-alt"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/cosmin-panescu/" className='footer-social-link' target="_blank">
+                    <a aria-label="LinkedIn" href="https://www.linkedin.com/in/cosmin-panescu/" className='footer-social-link' target="_blank">
                         <i className="uil uil-linkedin-alt"></i>
                     </a>
-                    <a href="https://www.instagram.com/cosmin.panescu/" className='footer-social-link' target="_blank">
+                    <a aria-label="Instagram" href="https://www.instagram.com/cosmin.panescu/" className='footer-social-link' target="_blank">
                         <i className="uil uil-instagram"></i>
                     </a>
                 </div>
