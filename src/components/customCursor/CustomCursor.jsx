@@ -1,8 +1,19 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './CustomCursor.scss'
 
 const CustomCursor = () => {
     const cursorRef = useRef(null);
+    const [pageLoad, setPageLoad] = useState(false);
+
+    // page load transition
+    useEffect(() => {
+        setTimeout(() => {
+            setPageLoad(true);
+        }, 1000)
+    }, []);
+
+
+    // change mouse position when moving the cursor
     React.useEffect(() => {
         document.addEventListener("mousemove", (event) => {
             const { clientX, clientY } = event;
@@ -13,7 +24,7 @@ const CustomCursor = () => {
     }, []);
 
     return (
-        <div className="app-cursor" ref={cursorRef} />
+        <div className={`app-cursor ${pageLoad && 'transition'}`} ref={cursorRef} />
     )
 }
 

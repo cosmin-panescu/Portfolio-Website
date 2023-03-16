@@ -166,12 +166,10 @@ select:-webkit-autofill {
 // blur transition when page loads
 .main {
     opacity: 0;
-    // filter: blur(10px);
-    transition: opacity 1.25s ease-in-out, filter 1.25s ease-in-out;
+    transition: opacity 1.25s ease-in-out;
 
     &.transition {
         opacity: 1;
-        // filter: blur(0px);
     }
 }
 

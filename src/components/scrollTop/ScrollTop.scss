@@ -3,11 +3,15 @@
     right: 2rem;
     bottom: -20%;
     background-color: var(--title-color);
-    opacity: .8;
     padding: .3rem .5rem;
     border-radius: .4rem;
     z-index: 10;
-    transition: .4s;
+    opacity: 0;
+    transition: opacity 1.25s ease-in-out, background-color .4s ease-in-out, bottom .4s ease-in-out, transform .4s ease-in-out;
+
+    &.transition {
+        opacity: 1;
+    }
 
     // Show scroll-to-top button
     &.show-scroll {
