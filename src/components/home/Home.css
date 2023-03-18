@@ -5,7 +5,9 @@
   row-gap: 10rem;
 }
 .home .home-container .home-scroll {
-  margin-left: 9.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .home .home-container .home-scroll .home-scroll-button .wheel {
   animation: scroll 2s ease infinite;
@@ -68,9 +70,6 @@
 .home .home-container .home-content .home-social-icon:nth-child(4):hover {
   color: #1877f2;
 }
-.home .home-container .home-content .home-social-icon:nth-child(5):hover {
-  color: #1da1f2;
-}
 .home .home-container .home-content .home-data {
   justify-self: center;
 }
@@ -89,10 +88,6 @@
   padding-right: 5.4rem;
   font-weight: 400;
   margin-bottom: 1rem;
-}
-.home .home-container .home-content .home-data .home-description {
-  max-width: 400px;
-  margin-bottom: 3rem;
 }
 
 @keyframes profile-animate {
@@ -115,9 +110,6 @@
   }
 }
 @media screen and (max-width: 992px) {
-  .home .home-container .home-scroll {
-    margin-left: 7.5rem;
-  }
   .home .home-container .home-content {
     grid-template-columns: 100px 1fr 1fr;
     column-gap: 1.25rem;

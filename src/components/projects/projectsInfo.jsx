@@ -5,6 +5,7 @@ import webToolsImg from "../../assets/web-tools.png"
 import digitalMarketingAgencyImg from '../../assets/digital-marketing-agency.png'
 import notesAppImg from '../../assets/notes-app.png'
 import chromeExtensionImg from '../../assets/chrome-extension.png'
+import romanianFestivalsImg from '../../assets/romanian-festivals.png'
 
 export const projectsInfo = [
     {
@@ -22,6 +23,14 @@ export const projectsInfo = [
         alt: "Chrome New Tab Extension",
         live: "https://cosmin-panescu.github.io/Chrome-Extension-NewTab/",
         code: "https://github.com/cosmin-panescu/Chrome-Extension-NewTab"
+    },
+    {
+        src: romanianFestivalsImg,
+        alt: "Romanian Festivals Website",
+        title: "Romanian Festivals",
+        codeLink: true,
+        live: "https://romania-events-website.vercel.app/",
+        code: "https://github.com/cosmin-panescu/Romania-Events-Website"
     },
     {
         src: notesAppImg,
@@ -47,6 +56,9 @@ export const projectsInfo = [
         live: "https://cosmin-panescu.github.io/Web-Tools/",
         code: "https://github.com/cosmin-panescu/Web-Tools"
     },
+]
+
+export const moreProjectsInfo = [
     {
         src: modernToDoImg,
         alt: "Modern To Do App Project",

@@ -1,10 +1,16 @@
 .projects {
     .projects-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .button-more {
+            margin-top: 1rem;
+        }
 
         .projects-more {
             width: 100%;
             text-align: center;
-            margin-top: 1rem;
             opacity: .35;
             font-weight: var(--small-font);
             transition: all .5s ease;
