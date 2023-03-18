@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.000f6068.css",
-    "main.js": "/static/js/main.94148759.js",
+    "main.css": "/static/css/main.cd17c5b9.css",
+    "main.js": "/static/js/main.a9215284.js",
     "static/media/Web-Development-eBook.pdf": "/static/media/Web-Development-eBook.dbf097dc243ddbb41d87.pdf",
     "static/media/ebook1.png": "/static/media/ebook1.fdca64f104a743f0c4a0.png",
     "static/media/chrome-extension.png": "/static/media/chrome-extension.61a93ddec296a20451a3.png",
@@ -14,11 +14,11 @@
     "static/media/notes-app.png": "/static/media/notes-app.8da3afea638a30f0d0bc.png",
     "static/media/crypto-tracker.png": "/static/media/crypto-tracker.69706ab11bee2d798a7b.png",
     "index.html": "/index.html",
-    "main.000f6068.css.map": "/static/css/main.000f6068.css.map",
-    "main.94148759.js.map": "/static/js/main.94148759.js.map"
+    "main.cd17c5b9.css.map": "/static/css/main.cd17c5b9.css.map",
+    "main.a9215284.js.map": "/static/js/main.a9215284.js.map"
   },
   "entrypoints": [
-    "static/css/main.000f6068.css",
-    "static/js/main.94148759.js"
+    "static/css/main.cd17c5b9.css",
+    "static/js/main.a9215284.js"
   ]
 }
