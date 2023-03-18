@@ -22,7 +22,7 @@ const About = () => {
 
                 <div className="about-data">
                     <p data-aos="fade-up" className="about-description">
-                        &nbsp; &nbsp;  Hey! My name is Pănescu Cosmin and I like to build things for the web. To be more explicit, I like Web Development, where I focus (at the moment) mainly on Front End. So, I would like to be part of a dedicated team, with the same passion for tech.
+                        &nbsp; &nbsp;  Hey! My name is Cosmin Pănescu and I like to build things for the web and I build projects to learn how code works. To be more explicit, I like Web Development, where I focus (at the moment) mainly on Front-End. So, I would like to be part of a dedicated team, with the same passion for tech.
                         <br />
                         <br />
                         &nbsp; And while I am not coding, I enjoy reading and creating amazing content about programming. Check out my <a href="https://www.instagram.com/webcosmin/" target="_blank">Instagram page</a>.

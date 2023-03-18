@@ -56,9 +56,6 @@ const Data = () => {
                 </svg>
             </h1>
             <h3 className="home-subtitle">Front End Developer</h3>
-            <p className="home-description">
-                I build projects to learn how code works.
-            </p>
             <a href="#contact" className="button button-flex">
                 Say Hello
                 <svg
