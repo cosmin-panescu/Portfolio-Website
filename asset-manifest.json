@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.9eb52c18.css",
-    "main.js": "/static/js/main.01005506.js",
+    "main.js": "/static/js/main.2665c106.js",
     "static/media/Web-Development-eBook.pdf": "/static/media/Web-Development-eBook.dbf097dc243ddbb41d87.pdf",
     "static/media/ebook1.png": "/static/media/ebook1.fdca64f104a743f0c4a0.png",
+    "static/media/netflix-ui-clone.png": "/static/media/netflix-ui-clone.10cb24a3afad5f661ed4.png",
     "static/media/romanian-festivals.png": "/static/media/romanian-festivals.1b58b6a5c3e6d688b647.png",
     "static/media/chrome-extension.png": "/static/media/chrome-extension.61a93ddec296a20451a3.png",
     "static/media/web-tools.png": "/static/media/web-tools.ffeef245bd2fc417bd3a.png",
@@ -12,14 +13,15 @@
     "static/media/digital-marketing-agency.png": "/static/media/digital-marketing-agency.d207348c4b744906bd1b.png",
     "static/media/modern-to-do.png": "/static/media/modern-to-do.82a05aed100d933a7973.png",
     "static/media/Resume.pdf": "/static/media/Resume.0c7f955768bb005385d7.pdf",
+    "static/media/encryption-app.png": "/static/media/encryption-app.1270ede9d30478ef612c.png",
     "static/media/notes-app.png": "/static/media/notes-app.8da3afea638a30f0d0bc.png",
     "static/media/crypto-tracker.png": "/static/media/crypto-tracker.69706ab11bee2d798a7b.png",
     "index.html": "/index.html",
     "main.9eb52c18.css.map": "/static/css/main.9eb52c18.css.map",
-    "main.01005506.js.map": "/static/js/main.01005506.js.map"
+    "main.2665c106.js.map": "/static/js/main.2665c106.js.map"
   },
   "entrypoints": [
     "static/css/main.9eb52c18.css",
-    "static/js/main.01005506.js"
+    "static/js/main.2665c106.js"
   ]
 }
