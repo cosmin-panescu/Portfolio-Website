@@ -6,6 +6,8 @@ import digitalMarketingAgencyImg from '../../assets/digital-marketing-agency.png
 import notesAppImg from '../../assets/notes-app.png'
 import chromeExtensionImg from '../../assets/chrome-extension.png'
 import romanianFestivalsImg from '../../assets/romanian-festivals.png'
+import netflixCloneImg from '../../assets/netflix-ui-clone.png'
+import encryptionAppImg from '../../assets/encryption-app.png'
 
 export const projectsInfo = [
     {
@@ -18,9 +20,9 @@ export const projectsInfo = [
     },
     {
         src: chromeExtensionImg,
+        alt: "Chrome New Tab Extension",
         title: "Chrome Extension",
         codeLink: true,
-        alt: "Chrome New Tab Extension",
         live: "https://cosmin-panescu.github.io/Chrome-Extension-NewTab/",
         code: "https://github.com/cosmin-panescu/Chrome-Extension-NewTab"
     },
@@ -33,20 +35,20 @@ export const projectsInfo = [
         code: "https://github.com/cosmin-panescu/Romania-Events-Website"
     },
     {
-        src: notesAppImg,
-        alt: 'Notes App',
-        title: "Notes App",
-        codeLink: true,
-        live: "https://cosmin-panescu.github.io/notes-app/",
-        code: "https://github.com/cosmin-panescu/notes-app"
-    },
-    {
         src: digitalMarketingAgencyImg,
         alt: "Digital Marketing Agency Site Project",
         title: "Digital Marketing Agency",
         codeLink: true,
         live: "https://amaisse.com/",
         code: "https://github.com/cosmin-panescu/Marketing-Agency-Website"
+    },
+    {
+        src: notesAppImg,
+        alt: 'Notes App',
+        title: "Notes App",
+        codeLink: true,
+        live: "https://cosmin-panescu.github.io/Notes-App/",
+        code: "https://github.com/cosmin-panescu/notes-app"
     },
     {
         src: webToolsImg,
@@ -59,6 +61,22 @@ export const projectsInfo = [
 ]
 
 export const moreProjectsInfo = [
+    {
+        src: encryptionAppImg,
+        alt: "Encryption-Decryption App",
+        title: "Encryption & Decryption",
+        codeLink: true,
+        live: "https://cosmin-panescu.github.io/Encryption-Decryption/",
+        code: "https://github.com/cosmin-panescu/Encryption-Decryption"
+    },
+    {
+        src: netflixCloneImg,
+        alt: "Netflix UI Clone",
+        title: "Netflix UI Clone",
+        codeLink: true,
+        live: "https://cosmin-panescu.github.io/Netflix-Clone/",
+        code: "https://github.com/cosmin-panescu/Netflix-Clone"
+    },
     {
         src: modernToDoImg,
         alt: "Modern To Do App Project",
