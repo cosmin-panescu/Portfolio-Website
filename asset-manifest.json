@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2714b58.css",
-    "main.js": "/static/js/main.6749dc93.js",
+    "main.css": "/static/css/main.478866ec.css",
+    "main.js": "/static/js/main.1c28441b.js",
     "static/media/Web-Development-eBook.pdf": "/static/media/Web-Development-eBook.dbf097dc243ddbb41d87.pdf",
     "static/media/ebook1.png": "/static/media/ebook1.fdca64f104a743f0c4a0.png",
     "static/media/netflix-ui-clone.png": "/static/media/netflix-ui-clone.10cb24a3afad5f661ed4.png",
@@ -17,11 +17,11 @@
     "static/media/notes-app.png": "/static/media/notes-app.8da3afea638a30f0d0bc.png",
     "static/media/crypto-tracker.png": "/static/media/crypto-tracker.69706ab11bee2d798a7b.png",
     "index.html": "/index.html",
-    "main.e2714b58.css.map": "/static/css/main.e2714b58.css.map",
-    "main.6749dc93.js.map": "/static/js/main.6749dc93.js.map"
+    "main.478866ec.css.map": "/static/css/main.478866ec.css.map",
+    "main.1c28441b.js.map": "/static/js/main.1c28441b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2714b58.css",
-    "static/js/main.6749dc93.js"
+    "static/css/main.478866ec.css",
+    "static/js/main.1c28441b.js"
   ]
 }
