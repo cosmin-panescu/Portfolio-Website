@@ -1,6 +1,4 @@
-// react
-import React, { useContext } from 'react';
-// components
+import React from 'react';
 import './App.scss';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
@@ -9,21 +7,14 @@ import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Skills from './components/skills/Skills';
 import ScrollTop from './components/scrollTop/ScrollTop'
+import CustomCursor from './components/customCursor/CustomCursor';
 import Projects from './components/projects/Projects';
 import Resources from './components/resources/Resources';
-// SEO
 import { Helmet } from "react-helmet";
-// custom cursor
-import { motion } from 'framer-motion';
-import { CursorContext } from './utils/CursorContext';
 
 function App() {
-  // get cursor context data
-  const { cursorVariants, cursorBackground } = useContext(CursorContext);
-
   return (
     <div className="app">
-      {/* SEO */}
       <Helmet>
         <title>Cosmin Panescu</title>
         <meta
@@ -31,7 +22,7 @@ function App() {
           content="I am a FrontEnd Developer based in Romania, who lately has also focused on Digital Marketing. So, I don't just develop websites for you, I also bring them to the top of searches."
         />
       </Helmet>
-
+      <CustomCursor />
       <Header />
 
       <main className="main">
@@ -45,13 +36,6 @@ function App() {
       </main>
 
       <ScrollTop />
-
-      {/* Custom cursor */}
-      <motion.div
-        variants={cursorVariants}
-        animate={cursorBackground}
-        className="cursor"
-      />
     </div>
   );
 }
