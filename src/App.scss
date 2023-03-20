@@ -147,6 +147,7 @@ select:-webkit-autofill {
     border-radius: 1rem;
     font-weight: var(--font-medium);
     transition: all .35s !important;
+    cursor: pointer;
 
     &:hover {
         background-color: var(--title-color-dark);
