@@ -18,7 +18,7 @@ const ScrollTop = () => {
   }, []);
 
   return (
-    <a href="#" className={`scroll-top ${show && 'show-scroll'}`}>
+    <a aria-label='top' href="#" className={`scroll-top ${show && 'show-scroll'}`}>
       <i className="uil uil-arrow-up scroll-top-icon"></i>
     </a>
   )

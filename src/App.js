@@ -19,7 +19,7 @@ function App() {
         <title>Cosmin Panescu</title>
         <meta
           name='description'
-          content="I am a FrontEnd Developer based in Romania, who lately has also focused on Digital Marketing. So, I don't just develop websites for you, I also bring them to the top of searches."
+          content="I am a FrontEnd Developer based in Romania. I like to build things for the web and I build projects to learn how code works."
         />
       </Helmet>
       <CustomCursor />
