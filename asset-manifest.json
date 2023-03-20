@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e79c223.css",
+    "main.css": "/static/css/main.e2714b58.css",
     "main.js": "/static/js/main.622d0a43.js",
     "static/media/Web-Development-eBook.pdf": "/static/media/Web-Development-eBook.dbf097dc243ddbb41d87.pdf",
     "static/media/ebook1.png": "/static/media/ebook1.fdca64f104a743f0c4a0.png",
@@ -17,11 +17,11 @@
     "static/media/notes-app.png": "/static/media/notes-app.8da3afea638a30f0d0bc.png",
     "static/media/crypto-tracker.png": "/static/media/crypto-tracker.69706ab11bee2d798a7b.png",
     "index.html": "/index.html",
-    "main.2e79c223.css.map": "/static/css/main.2e79c223.css.map",
+    "main.e2714b58.css.map": "/static/css/main.e2714b58.css.map",
     "main.622d0a43.js.map": "/static/js/main.622d0a43.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e79c223.css",
+    "static/css/main.e2714b58.css",
     "static/js/main.622d0a43.js"
   ]
 }
