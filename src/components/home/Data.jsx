@@ -1,8 +1,17 @@
-import React from 'react'
+// react
+import React, { useContext } from 'react'
+// cursor
+import { CursorContext } from '../../utils/CursorContext'
 
 const Data = () => {
+    const { cursorEnter, cursorLeave } = useContext(CursorContext);
+
     return (
-        <div className="home-data">
+        <div
+            onMouseEnter={cursorEnter}
+            onMouseLeave={cursorLeave}
+            className="home-data"
+        >
             <h1 className="home-title">
                 Cosmin
                 <svg

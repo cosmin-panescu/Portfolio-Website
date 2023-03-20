@@ -42,6 +42,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: none;
 }
 
 html {
@@ -161,7 +162,20 @@ select:-webkit-autofill {
     }
 }
 
-// RESPONSIVE #2
+// Cursor
+.cursor {
+    background-color: var(--title-color);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    pointer-events: none;
+}
+
+// RESPONSIVE
 @media screen and (max-width: 992px) {
     .container {
         margin-left: 1.5rem;
