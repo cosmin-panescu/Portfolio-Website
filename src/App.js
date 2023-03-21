@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setPageLoad(true);
-    }, 750)
+    }, 1000)
   }, []);
 
   return (

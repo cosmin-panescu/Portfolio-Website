@@ -7,14 +7,13 @@
     left: 0;
     z-index: 100;
     background-color: var(--body-color);
-    // transition:;
     opacity: 0;
-    filter: blur(10px);
+    // filter: blur(10px);
     transition: opacity 1.25s ease-in-out, filter 1.25s ease-in-out, box-shadow .3s ease;
 
     &.transition {
         opacity: 1;
-        filter: blur(0px);
+        // filter: blur(0px);
     }
 
     // show the navbar after 100px

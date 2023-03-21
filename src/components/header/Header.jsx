@@ -10,7 +10,7 @@ const Header = () => {
     useEffect(() => {
         setTimeout(() => {
             setPageLoad(true);
-        }, 750)
+        }, 1000)
     }, []);
 
     // close mobile-menu after clicking a link
