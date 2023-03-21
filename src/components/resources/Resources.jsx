@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Resources.scss'
-import eBook from '../../assets/ebook1.png'
+import eBook from '../../assets/ebook1.webp'
 import eBookPDF from '../../assets/Web-Development-eBook.pdf'
 import AOS from 'aos';
 import 'aos/dist/aos.css';

@@ -1,13 +1,13 @@
 // import React from 'react'
-import modernToDoImg from "../../assets/modern-to-do.png"
-import cryptoTrackerImg from "../../assets/crypto-tracker.png"
-import webToolsImg from "../../assets/web-tools.png"
-import digitalMarketingAgencyImg from '../../assets/digital-marketing-agency.png'
-import notesAppImg from '../../assets/notes-app.png'
-import chromeExtensionImg from '../../assets/chrome-extension.png'
-import romanianFestivalsImg from '../../assets/romanian-festivals.png'
-import netflixCloneImg from '../../assets/netflix-ui-clone.png'
-import encryptionAppImg from '../../assets/encryption-app.png'
+import modernToDoImg from "../../assets/modern-to-do.webp"
+import cryptoTrackerImg from "../../assets/crypto-tracker.webp"
+import webToolsImg from "../../assets/web-tools.webp"
+import digitalMarketingAgencyImg from '../../assets/digital-marketing-agency.webp'
+import notesAppImg from '../../assets/notes-app.webp'
+import chromeExtensionImg from '../../assets/chrome-extension.webp'
+import romanianFestivalsImg from '../../assets/romanian-festivals.webp'
+import netflixCloneImg from '../../assets/netflix-ui-clone.webp'
+import encryptionAppImg from '../../assets/encryption-app.webp'
 
 export const projectsInfo = [
     {
