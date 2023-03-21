@@ -26,7 +26,7 @@ const Projects = () => {
                         return (
                             <div data-aos="fade-up" className="project-box" key={index}>
                                 <div className="project-image">
-                                    <img src={project.src} alt={project.alt} />
+                                    <img src={project.src} alt={project.alt} loading="lazy" />
                                 </div>
                                 <h3>{project.title}</h3>
                                 <div className="project-buttons">
@@ -47,7 +47,7 @@ const Projects = () => {
                     })}
                 </div>
 
-{/* Load more projects */}
+                {/* Load more projects */}
                 {more && (
                     <div className="project-content">
                         {/* display each project */}
@@ -55,7 +55,7 @@ const Projects = () => {
                             return (
                                 <div data-aos="fade-up" className="project-box" key={index}>
                                     <div className="project-image">
-                                        <img src={project.src} alt={project.alt} />
+                                        <img src={project.src} alt={project.alt} loading="lazy" />
                                     </div>
                                     <h3>{project.title}</h3>
                                     <div className="project-buttons">

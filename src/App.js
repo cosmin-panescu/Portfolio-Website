@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.scss';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
@@ -13,8 +13,18 @@ import Resources from './components/resources/Resources';
 import { Helmet } from "react-helmet";
 
 function App() {
+  const [pageLoad, setPageLoad] = useState(false);
+
+  // page load transition
+  useEffect(() => {
+    setTimeout(() => {
+      setPageLoad(true);
+    }, 750)
+  }, []);
+
   return (
     <div className="app">
+      {/* SEO */}
       <Helmet>
         <title>Cosmin Panescu</title>
         <meta
@@ -22,10 +32,13 @@ function App() {
           content="I am a FrontEnd Developer based in Romania. I like to build things for the web and I build projects to learn how code works."
         />
       </Helmet>
-      <CustomCursor />
-      <Header />
 
-      <main className="main">
+      {/* Custom Cursor */}
+      <CustomCursor />
+      {/* NavBar */}
+      <Header />
+      {/* Website Content */}
+      <main className={pageLoad ? 'main transition' : 'main'}>
         <Home />
         <About />
         <Skills />
@@ -35,6 +48,7 @@ function App() {
         <Footer />
       </main>
 
+      {/* Scroll to top button */}
       <ScrollTop />
     </div>
   );

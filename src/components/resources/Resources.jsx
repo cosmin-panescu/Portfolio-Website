@@ -20,7 +20,7 @@ const Resources = () => {
             <div className="resources-container grid">
                 <div data-aos="fade-up" className="resources-card">
                     <div className="resources-card-image">
-                        <img src={eBook} alt="Web Dev eBook" />
+                        <img src={eBook} alt="Web Dev eBook" loading="lazy" />
                     </div>
 
                     <div className="resources-card-details">

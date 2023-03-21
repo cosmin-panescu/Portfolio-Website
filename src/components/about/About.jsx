@@ -18,7 +18,7 @@ const About = () => {
             <span data-aos="fade-up" className="section-subtitle">- My introduction -</span>
 
             <div className="about-container container grid">
-                <img data-aos="fade-up" src={AboutImg} alt="my profile image" className="about-img" />
+                <img loading="lazy" data-aos="fade-up" src={AboutImg} alt="my profile image" className="about-img" />
 
                 <div className="about-data">
                     <p data-aos="fade-up" className="about-description">

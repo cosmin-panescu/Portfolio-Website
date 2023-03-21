@@ -4,6 +4,14 @@ import "./Header.scss";
 const Header = () => {
     const [toggle, setToggle] = useState(false); // toggle menu
     const [show, setShow] = useState(false); // show the navbar after 100px
+    const [pageLoad, setPageLoad] = useState(false); // track page load
+
+    // page load transition
+    useEffect(() => {
+        setTimeout(() => {
+            setPageLoad(true);
+        }, 750)
+    }, []);
 
     // close mobile-menu after clicking a link
     const closeMenu = () => {
@@ -25,7 +33,7 @@ const Header = () => {
     }, []);
 
     return (
-        <header className={`header ${show && "header-show"}`}  >
+        <header className={`header ${show && "header-show"} ${pageLoad && "transition"}`}  >
             <nav className="nav container">
                 <a href="#home" className="nav-logo">Cosmin</a>
 
