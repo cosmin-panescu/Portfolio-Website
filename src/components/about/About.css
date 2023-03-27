@@ -12,12 +12,16 @@
 }
 .about .about-container .about-data .about-description {
   padding: 0 4rem 0 0;
-  margin-bottom: 2.5rem;
   text-align: justify;
+  text-indent: 25px;
+}
+.about .about-container .about-data .about-description.mb {
+  margin-bottom: 2.5rem;
 }
 .about .about-container .about-data .about-description > a {
   color: var(--title-color);
   font-weight: 500;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 992px) {

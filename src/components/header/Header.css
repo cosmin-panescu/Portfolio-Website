@@ -6,7 +6,11 @@
   left: 0;
   z-index: 100;
   background-color: var(--body-color);
-  transition: all 0.3s ease;
+  opacity: 0;
+  transition: opacity 1.25s ease-in-out, filter 1.25s ease-in-out, box-shadow 0.3s ease;
+}
+.header.transition {
+  opacity: 1;
 }
 .header.header-show {
   box-shadow: var(--card-shadow);

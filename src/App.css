@@ -30,11 +30,11 @@
     --smaller-font: .75rem;
   }
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: none;
 }
 
 html {
@@ -132,6 +132,7 @@ select:-webkit-autofill {
   border-radius: 1rem;
   font-weight: var(--font-medium);
   transition: all 0.35s !important;
+  cursor: pointer;
 }
 .button:hover {
   background-color: var(--title-color-dark);
@@ -142,6 +143,14 @@ select:-webkit-autofill {
 .button-flex {
   display: inline-flex;
   align-items: center;
+}
+
+.main {
+  opacity: 0;
+  transition: opacity 1.25s ease-in-out;
+}
+.main.transition {
+  opacity: 1;
 }
 
 @media screen and (max-width: 992px) {

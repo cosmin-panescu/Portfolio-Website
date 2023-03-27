@@ -36,7 +36,7 @@ const Marketing = () => {
                 <div className="services-modal-content">
                     <i className="uil uil-times services-modal-close" onClick={() => setToggle(false)}></i>
                     <h3 className="services-modal-title">Other Technologies</h3>
-                    <p className="services-modal-description">&nbsp; &nbsp; &nbsp; In addition to the main field of Web Development, which I focused on the most, I gained knowledge and skills in several technologies related to programming. I acquired these skills either through the subjects at the University, or from my own study due to a need.
+                    <p className="services-modal-description mb">In addition to the main field of Web Development, which I focused on the most, I gained knowledge and skills in several technologies related to programming. I acquired these skills either through the subjects at the University, or from my own study due to a need.
                     </p>
 
                     <ul className="services-modal-services grid">

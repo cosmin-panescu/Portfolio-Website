@@ -3,11 +3,14 @@
   right: 2rem;
   bottom: -20%;
   background-color: var(--title-color);
-  opacity: 0.8;
   padding: 0.3rem 0.5rem;
   border-radius: 0.4rem;
   z-index: 10;
-  transition: 0.4s;
+  opacity: 0;
+  transition: opacity 1.25s ease-in-out, background-color 0.4s ease-in-out, bottom 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+.scroll-top.transition {
+  opacity: 1;
 }
 .scroll-top.show-scroll {
   bottom: 2rem;

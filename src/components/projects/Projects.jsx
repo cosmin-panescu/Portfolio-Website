@@ -82,7 +82,7 @@ const Projects = () => {
                     className="button button-more"
                 >
                     {more ? "See Less" : "Load More"}
-                    <i className="uil uil-arrow-right project-button-icon"></i>
+                    <i className={`uil uil-arrow-right project-button-icon ${more && "up"}`}></i>
                 </button>
 
                 <h3 className='projects-more'>More projects on <a href="https://github.com/cosmin-panescu?tab=repositories" target="_blank">GitHub</a></h3>

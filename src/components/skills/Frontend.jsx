@@ -56,7 +56,8 @@ const Frontend = () => {
                 <div className="services-modal-content">
                     <i className="uil uil-times services-modal-close" onClick={() => setToggle(false)}></i>
                     <h3 className="services-modal-title">Front End Developer</h3>
-                    <p className="services-modal-description"> &nbsp; &nbsp; &nbsp; &nbsp; I've always been someone who has both a creative and a logical side. When I discovered front-end development in college, I realized it would be the perfect fit. I could use my creative side to design and my logical side to code. <br /> &nbsp; &nbsp; &nbsp; Although I can't call myself a web designer, I like to let my creative side come out, often creating designs for my personal projects. So, I have a lot of knowledge and a certain brilliance when it comes to front-end development. As a bonus, these aspects allows me to make sure no detail is lost in translation.
+                    <p className="services-modal-description">I've always been someone who has both a creative and a logical side. When I discovered front-end development in college, I realized it would be the perfect fit. I could use my creative side to design and my logical side to code. </p>
+                    <p className="services-modal-description mb">Although I can't call myself a web designer, I like to let my creative side come out, often creating designs for my personal projects. So, I have a lot of knowledge and a certain brilliance when it comes to front-end development. As a bonus, these aspects allows me to make sure no detail is lost in translation.
                     </p>
 
                     <ul className="services-modal-services grid">
@@ -80,7 +81,7 @@ const Frontend = () => {
 
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

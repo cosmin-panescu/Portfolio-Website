@@ -6,6 +6,17 @@
 
         .button-more {
             margin-top: 1rem;
+            display: flex;
+            gap: 5px;
+
+            i {
+                transform: rotate(90deg);
+                transition: all .5s ease-in-out;
+
+                &.up {
+                    transform: rotate(270deg);
+                }
+            }
         }
 
         .projects-more {

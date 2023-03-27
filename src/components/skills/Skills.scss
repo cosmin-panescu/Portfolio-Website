@@ -20,7 +20,7 @@
                 gap: 2rem;
                 transition: all .5s ease;
 
-                .skills-title { 
+                .skills-title {
                     text-align: center;
                     font-size: var(--normal-font);
                     font-weight: var(--font-medium);
@@ -132,8 +132,12 @@
 
                         .services-modal-description {
                             font-size: var(--small-font);
-                            margin-bottom: 2rem;
                             text-align: justify;
+                            text-indent: 20px;
+
+                            &.mb {
+                                margin-bottom: 2rem;
+                            }
 
                             .agency-link {
                                 color: #3d3d3d;

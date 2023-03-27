@@ -5,6 +5,15 @@
 }
 .projects .projects-container .button-more {
   margin-top: 1rem;
+  display: flex;
+  gap: 5px;
+}
+.projects .projects-container .button-more i {
+  transform: rotate(90deg);
+  transition: all 0.5s ease-in-out;
+}
+.projects .projects-container .button-more i.up {
+  transform: rotate(270deg);
 }
 .projects .projects-container .projects-more {
   width: 100%;
@@ -13,6 +22,7 @@
   font-weight: var(--small-font);
   transition: all 0.5s ease;
   color: var(--text-color);
+  cursor: pointer;
 }
 .projects .projects-container .projects-more a {
   color: black;

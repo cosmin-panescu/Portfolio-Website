@@ -18,14 +18,14 @@ const About = () => {
             <span data-aos="fade-up" className="section-subtitle">- My introduction -</span>
 
             <div className="about-container container grid">
-                <img loading="lazy" data-aos="fade-up" src={AboutImg} alt="my profile image" className="about-img" />
+                <img loading="lazy" data-aos="fade-up" src={AboutImg} alt="my profile" className="about-img" />
 
                 <div className="about-data">
                     <p data-aos="fade-up" className="about-description">
-                        &nbsp; &nbsp;  Hey! My name is Cosmin Pănescu and I like to build things for the web and I build projects to learn how code works. To be more explicit, I like Web Development, where I focus (at the moment) mainly on Front-End. So, I would like to be part of a dedicated team, with the same passion for tech.
-                        <br />
-                        <br />
-                        &nbsp; And while I am not coding, I enjoy reading and creating amazing content about programming. Check out my <a href="https://www.instagram.com/webcosmin/" target="_blank">Instagram page</a>.
+                        Hey! My name is Cosmin Pănescu and I like to build things for the web and I build projects to learn how code works. To be more explicit, I like Web Development, where I focus (at the moment) mainly on Front-End. So, I would like to be part of a dedicated team, with the same passion for tech.
+                    </p>
+                    <p data-aos="fade-up" className="about-description mb">
+                        And while I am not coding, I enjoy reading and creating amazing content about programming. Check out my <a href="https://www.instagram.com/webcosmin/" target="_blank">Instagram page</a>.
                     </p>
                     <a data-aos="fade-up" download="Panescu Vasile Cosmin's Resume" href={CV} className="button button-flex">
                         Download Resume
