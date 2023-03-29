@@ -3,14 +3,12 @@
     "liveSassCompile.settings.generateMap": false,
     "liveSassCompile.settings.includeItems": [
 
-    
     ],
     "liveSassCompile.settings.formats": [
-
         {
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": null,
+            "savePath": "/src/css", 
             "savePathReplacementPairs": null
         }
     ],
@@ -19,17 +17,16 @@
     "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
     "liveServer.settings.ChromeDebuggingAttachment": false,
     "liveServer.settings.ignoreFiles": [
-
         ".vscode/**",
         "**/*.scss",
         "**/*.sass",
         "**/*.ts"
     ],
     "liveServer.settings.port": 0,
-    "json.schemas": [
-    
-    ],
-    "liveSassCompile.settings.autoprefix": [
-    
+    "json.schemas": [],
+    "liveSassCompile.settings.autoprefix": [],
+    "liveSassCompile.settings.useNewCompiler": false,
+    "liveServer.settings.mount": [
+
     ]
 }

@@ -30,13 +30,13 @@ const Projects = () => {
                                 </div>
                                 <h3>{project.title}</h3>
                                 <div className="project-buttons">
-                                    <a href={project.live} target="_blank" className="project-button">
+                                    <a href={project.live} target="_blank" rel="noreferrer" className="project-button">
                                         Live
                                         <i className="uil uil-arrow-right project-button-icon"></i>
                                     </a>
                                     {
                                         project.codeLink &&
-                                        <a href={project.code} target="_blank" className="project-button">
+                                        <a href={project.code} target="_blank" rel="noreferrer" className="project-button">
                                             Code
                                             <i className="uil uil-arrow-right project-button-icon"></i>
                                         </a>
@@ -59,13 +59,13 @@ const Projects = () => {
                                     </div>
                                     <h3>{project.title}</h3>
                                     <div className="project-buttons">
-                                        <a href={project.live} target="_blank" className="project-button">
+                                        <a href={project.live} target="_blank" rel="noreferrer" className="project-button">
                                             Live
                                             <i className="uil uil-arrow-right project-button-icon"></i>
                                         </a>
                                         {
                                             project.codeLink &&
-                                            <a href={project.code} target="_blank" className="project-button">
+                                            <a href={project.code} target="_blank" rel="noreferrer" className="project-button">
                                                 Code
                                                 <i className="uil uil-arrow-right project-button-icon"></i>
                                             </a>
@@ -85,7 +85,7 @@ const Projects = () => {
                     <i className={`uil uil-arrow-right project-button-icon ${more && "up"}`}></i>
                 </button>
 
-                <h3 className='projects-more'>More projects on <a href="https://github.com/cosmin-panescu?tab=repositories" target="_blank">GitHub</a></h3>
+                <h3 className='projects-more'>More projects on <a href="https://github.com/cosmin-panescu?tab=repositories" target="_blank" rel="noreferrer">GitHub</a></h3>
             </div>
         </section>
     )

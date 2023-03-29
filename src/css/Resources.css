@@ -64,6 +64,7 @@
   text-align: justify;
   font-size: 0.9rem;
   line-height: 125%;
+  text-indent: 25px;
 }
 .resources .resources-container .resources-card-details-content a {
   color: var(--title-color);
