@@ -6,10 +6,18 @@ import digitalMarketingAgencyImg from '../../assets/digital-marketing-agency.web
 import notesAppImg from '../../assets/notes-app.webp'
 import chromeExtensionImg from '../../assets/chrome-extension.webp'
 import romanianFestivalsImg from '../../assets/romanian-festivals.webp'
-import netflixCloneImg from '../../assets/netflix-ui-clone.webp'
 import encryptionAppImg from '../../assets/encryption-app.webp'
+import resumeGeneratorImg from '../../assets/resume-generator.webp'
 
 export const projectsInfo = [
+    {
+        src: resumeGeneratorImg,
+        alt: "Resume Generator for Programmers",
+        title: "Resume Generator",
+        codeLink: true,
+        live: "https://cosmin-panescu.github.io/Resume-Generator/",
+        code: "https://github.com/cosmin-panescu/Resume-Generator"
+    },
     {
         src: cryptoTrackerImg,
         alt: "Crypto Tracker Project",
@@ -25,14 +33,6 @@ export const projectsInfo = [
         codeLink: true,
         live: "https://cosmin-panescu.github.io/Chrome-Extension-NewTab/",
         code: "https://github.com/cosmin-panescu/Chrome-Extension-NewTab"
-    },
-    {
-        src: romanianFestivalsImg,
-        alt: "Romanian Festivals Website",
-        title: "Romanian Festivals",
-        codeLink: true,
-        live: "https://romania-events-website.vercel.app/",
-        code: "https://github.com/cosmin-panescu/Romania-Events-Website"
     },
     {
         src: digitalMarketingAgencyImg,
@@ -62,20 +62,20 @@ export const projectsInfo = [
 
 export const moreProjectsInfo = [
     {
+        src: romanianFestivalsImg,
+        alt: "Romanian Festivals Website",
+        title: "Romanian Festivals",
+        codeLink: true,
+        live: "https://romania-events-website.vercel.app/",
+        code: "https://github.com/cosmin-panescu/Romania-Events-Website"
+    },
+    {
         src: encryptionAppImg,
         alt: "Encryption-Decryption App",
         title: "Encryption & Decryption",
         codeLink: true,
         live: "https://cosmin-panescu.github.io/Encryption-Decryption/",
         code: "https://github.com/cosmin-panescu/Encryption-Decryption"
-    },
-    {
-        src: netflixCloneImg,
-        alt: "Netflix UI Clone",
-        title: "Netflix UI Clone",
-        codeLink: true,
-        live: "https://cosmin-panescu.github.io/Netflix-Clone/",
-        code: "https://github.com/cosmin-panescu/Netflix-Clone"
     },
     {
         src: modernToDoImg,
