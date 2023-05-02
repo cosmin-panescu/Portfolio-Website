@@ -8,6 +8,7 @@ import chromeExtensionImg from '../../assets/chrome-extension.webp'
 import romanianFestivalsImg from '../../assets/romanian-festivals.webp'
 import encryptionAppImg from '../../assets/encryption-app.webp'
 import resumeGeneratorImg from '../../assets/resume-generator.webp'
+import tattooStudio from '../../assets/tattoo-studio.webp'
 
 export const projectsInfo = [
     {
@@ -17,6 +18,14 @@ export const projectsInfo = [
         codeLink: true,
         live: "https://cosmin-panescu.github.io/Resume-Generator/",
         code: "https://github.com/cosmin-panescu/Resume-Generator"
+    },
+    {
+        src: tattooStudio,
+        alt: "Tattoo Studio Landing Page",
+        title: "Tattoo Studio",
+        codeLink: true,
+        live: "https://cosmin-panescu.github.io/Tattoo-Studio-LandingPage/",
+        code: "https://github.com/cosmin-panescu/Tattoo-Studio-LandingPage"
     },
     {
         src: cryptoTrackerImg,
@@ -33,14 +42,6 @@ export const projectsInfo = [
         codeLink: true,
         live: "https://cosmin-panescu.github.io/Chrome-Extension-NewTab/",
         code: "https://github.com/cosmin-panescu/Chrome-Extension-NewTab"
-    },
-    {
-        src: digitalMarketingAgencyImg,
-        alt: "Digital Marketing Agency Site Project",
-        title: "Digital Marketing Agency",
-        codeLink: true,
-        live: "https://amaisse.com/",
-        code: "https://github.com/cosmin-panescu/Marketing-Agency-Website"
     },
     {
         src: notesAppImg,
@@ -61,6 +62,14 @@ export const projectsInfo = [
 ]
 
 export const moreProjectsInfo = [
+    {
+        src: digitalMarketingAgencyImg,
+        alt: "Digital Marketing Agency Site Project",
+        title: "Digital Marketing Agency",
+        codeLink: true,
+        live: "https://amaisse.com/",
+        code: "https://github.com/cosmin-panescu/Marketing-Agency-Website"
+    },
     {
         src: romanianFestivalsImg,
         alt: "Romanian Festivals Website",
