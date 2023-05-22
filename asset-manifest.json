@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.61d20715.css",
-    "main.js": "/static/js/main.a384103d.js",
+    "main.js": "/static/js/main.d14d9bc2.js",
     "static/media/Web-Development-eBook.pdf": "/static/media/Web-Development-eBook.069350351176ce4e3366.pdf",
     "static/media/romanian-festivals.webp": "/static/media/romanian-festivals.47325449f1c4e2bc1132.webp",
     "static/media/about-image.webp": "/static/media/about-image.0a888ef128d2e81b6576.webp",
     "static/media/tattoo-studio.webp": "/static/media/tattoo-studio.a6a622d5c0aba5d2b4ab.webp",
     "static/media/header-image.webp": "/static/media/header-image.31c3ce9807685db1b682.webp",
-    "static/media/Resume.pdf": "/static/media/Resume.3f65e90e93e1856be9f2.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.70ab0b37dffed0c72593.pdf",
     "static/media/digital-marketing-agency.webp": "/static/media/digital-marketing-agency.44969425ad3fc0677c46.webp",
     "static/media/resume-generator.webp": "/static/media/resume-generator.2e7d157b5370126f2947.webp",
     "static/media/ebook1.webp": "/static/media/ebook1.64d10824392c4f103d55.webp",
@@ -19,10 +19,10 @@
     "static/media/notes-app.webp": "/static/media/notes-app.8e46fc9bce8c3026ebd7.webp",
     "index.html": "/index.html",
     "main.61d20715.css.map": "/static/css/main.61d20715.css.map",
-    "main.a384103d.js.map": "/static/js/main.a384103d.js.map"
+    "main.d14d9bc2.js.map": "/static/js/main.d14d9bc2.js.map"
   },
   "entrypoints": [
     "static/css/main.61d20715.css",
-    "static/js/main.a384103d.js"
+    "static/js/main.d14d9bc2.js"
   ]
 }
