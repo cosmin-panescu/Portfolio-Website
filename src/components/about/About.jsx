@@ -29,9 +29,24 @@ const About = () => {
             </motion.span>
 
             <div className="about-container container grid">
-                <img loading="lazy" src={AboutImg} alt="my profile" className="about-img" />
+                <motion.img 
+                    className="about-img"
+                    loading="lazy" 
+                    src={AboutImg} 
+                    alt="my profile" 
+                    variants={fadeIn('right')}
+                    initial='hidden'
+                    whileInView={'show'}
+                    viewport={{ once: false, amount: 0.5 }}
+                />
 
-                <div className="about-data">
+                <motion.div 
+                    className="about-data"
+                    variants={fadeIn('left')}
+                    initial='hidden'
+                    whileInView={'show'}
+                    viewport={{ once: false, amount: 0.5 }}
+                >
                     <p className="about-description">
                         Hey! My name is Cosmin Pănescu and I like to build things for the web and I build projects to learn how code works. To be more explicit, I like Web Development, where I focus (at the moment) mainly on Front-End. So, I would like to be part of a dedicated team, with the same passion for tech.
                     </p>
@@ -66,7 +81,7 @@ const About = () => {
                             ></path>
                         </svg>
                     </a>
-                </div>
+                </motion.div>
             </div>
         </section>
     )

@@ -1,26 +1,43 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Frontend from './Frontend'
 import OtherSkills from './OtherSkills'
 import './Skills.scss'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// framer motion
+import { motion } from 'framer-motion';
+import { fadeIn } from '../../utils/variants';
 
 const Skills = () => {
-    useEffect(() => {
-        AOS.init({
-            duration: 1500
-        })
-    }, []);
-
     return (
         <section className="section skills" id="skills">
-            <h2 data-aos="fade-up" className="section-title">Skills</h2>
-            <span data-aos="fade-up" className="section-subtitle">- My technical level -</span>
+            <motion.h2 
+                className="section-title"
+                variants={fadeIn('left')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.5 }}
+            >
+                Skills
+            </motion.h2>
+            <motion.span 
+                className="section-subtitle"
+                variants={fadeIn('right')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.5 }}
+            >
+                - My technical level -
+            </motion.span>
 
-            <div className="skills-container container grid">
+            <motion.div 
+                className="skills-container container grid"
+                variants={fadeIn('up')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.4 }}
+            >
                 <Frontend />
                 <OtherSkills />
-            </div>
+            </motion.div>
         </section>
     )
 }

@@ -3,6 +3,9 @@ import './Projects.scss';
 import { moreProjectsInfo, projectsInfo } from './projectsInfo';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+// framer motion
+import { motion } from 'framer-motion';
+import { fadeIn } from '../../utils/variants';
 
 const Projects = () => {
     // load more projects state
@@ -10,14 +13,30 @@ const Projects = () => {
 
     useEffect(() => {
         AOS.init({
-            duration: 1500
+            duration: 2250
         })
     }, []);
 
     return (
         <section className="projects section" id='projects'>
-            <h2 data-aos="fade-up" className="section-title">Portfolio</h2>
-            <span data-aos="fade-up" className="section-subtitle">- Most recent work -</span>
+            <motion.h2 
+                className="section-title"
+                variants={fadeIn('right')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.5 }}
+            >
+                Portfolio
+            </motion.h2>
+            <motion.span 
+                className="section-subtitle"
+                variants={fadeIn('left')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.5 }}
+            >
+                - Most recent work -
+            </motion.span>
 
             <div className="projects-container container grid">
                 <div className="project-content">

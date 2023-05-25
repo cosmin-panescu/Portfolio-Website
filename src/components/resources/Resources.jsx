@@ -1,24 +1,41 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './Resources.scss'
 import eBook from '../../assets/ebook1.webp'
 import eBookPDF from '../../assets/Web-Development-eBook.pdf'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// framer motion
+import { motion } from 'framer-motion';
+import { fadeIn } from '../../utils/variants';
 
 const Resources = () => {
-    useEffect(() => {
-        AOS.init({
-            duration: 1500,
-        })
-    }, []);
-
     return (
         <section className="resources section" id="resources">
-            <h2 data-aos="fade-up" className="section-title">Resources</h2>
-            <span data-aos="fade-up" className="section-subtitle">- Learn with me -</span>
+            <motion.h2 
+                className="section-title"
+                variants={fadeIn('left')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.5 }}
+            >
+                Resources
+            </motion.h2>
+            <motion.span 
+                className="section-subtitle"
+                variants={fadeIn('right')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.5 }}
+            >
+                - Learn with me -
+            </motion.span>
 
-            <div className="resources-container grid">
-                <div data-aos="fade-up" className="resources-card">
+            <motion.div 
+                className="resources-container grid"
+                variants={fadeIn('up')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.5 }}
+            >
+                <div className="resources-card">
                     <div className="resources-card-image">
                         <img src={eBook} alt="Web Dev eBook" loading="lazy" />
                     </div>
@@ -31,7 +48,7 @@ const Resources = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </section>
     )
 }

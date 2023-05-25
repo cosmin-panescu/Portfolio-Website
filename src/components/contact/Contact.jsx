@@ -1,17 +1,12 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.scss'
 import Swal from 'sweetalert2'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// framer motion
+import { motion } from 'framer-motion';
+import { fadeIn } from '../../utils/variants';
 
 const Contact = () => {
-    useEffect(() => {
-        AOS.init({
-            duration: 1500
-        })
-    }, []);
-
     const form = useRef();
 
     // succesful message sent notif
@@ -60,15 +55,45 @@ const Contact = () => {
 
     return (
         <section className="contact section" id="contact">
-            <h2 data-aos="fade-up" className="section-title">Get in touch</h2>
-            <span data-aos="fade-up" className="section-subtitle">- Contact Me -</span>
+            <motion.h2 
+                className="section-title"
+                variants={fadeIn('right')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.5 }}
+            >
+                Get in touch
+            </motion.h2>
+            <motion.span 
+                className="section-subtitle"
+                variants={fadeIn('left')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.5 }}
+            >
+                - Contact Me -
+            </motion.span>
 
             <div className="contact-container container grid">
                 <div className="contact-content">
-                    <h3 data-aos="fade-up" className="contact-title">Talk to me</h3>
+                    <motion.h3 
+                        className="contact-title"
+                        variants={fadeIn('right')}
+                        initial='hidden'
+                        whileInView={'show'}
+                        viewport={{ once: false, amount: 0.5 }}
+                    >
+                        Talk to me
+                    </motion.h3>
 
                     <div className="contact-info">
-                        <div data-aos="fade-up" className="contact-card">
+                        <motion.div 
+                            className="contact-card"
+                            variants={fadeIn('right')}
+                            initial='hidden'
+                            whileInView={'show'}
+                            viewport={{ once: false, amount: 0.5 }}
+                        >
                             <i className="bx bx-mail-send contact-card-icon"></i>
                             <h3 className="contact-card-title">Email</h3>
                             <span className="contact-card-data">1panescu.cosmin@gmail.com</span>
@@ -76,8 +101,14 @@ const Contact = () => {
                                 Write me {" "}
                                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                             </a>
-                        </div>
-                        <div data-aos="fade-up" className="contact-card">
+                        </motion.div>
+                        <motion.div 
+                            className="contact-card"
+                            variants={fadeIn('right')}
+                            initial='hidden'
+                            whileInView={'show'}
+                            viewport={{ once: false, amount: 0.5 }}
+                        >
                             <i className="bx bxl-whatsapp contact-card-icon"></i>
                             <h3 className="contact-card-title">Whatsapp</h3>
                             <span className="contact-card-data">0799 526 060</span>
@@ -85,8 +116,14 @@ const Contact = () => {
                                 Write me {" "}
                                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                             </a>
-                        </div>
-                        <div data-aos="fade-up" className="contact-card">
+                        </motion.div>
+                        <motion.div 
+                            className="contact-card"
+                            variants={fadeIn('right')}
+                            initial='hidden'
+                            whileInView={'show'}
+                            viewport={{ once: false, amount: 0.5 }}
+                        >
                             <i className="bx bxl-messenger contact-card-icon"></i>
                             <h3 className="contact-card-title">Messenger</h3>
                             <span className="contact-card-data">Cosmin Pănescu
@@ -95,15 +132,29 @@ const Contact = () => {
                                 Write me {" "}
                                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                             </a>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
 
                 <div className="contact-content">
-                    <h3 data-aos="fade-up" className="contact-title">Write me your ideas</h3>
+                    <motion.h3 
+                        className="contact-title"
+                        variants={fadeIn('left')}
+                        initial='hidden'
+                        whileInView={'show'}
+                        viewport={{ once: false, amount: 0.5 }}
+                    >
+                        Write me your ideas
+                    </motion.h3>
 
                     <form className="contact-form" ref={form} onSubmit={sendEmail}>
-                        <div data-aos="fade-up" className="contact-form-div">
+                        <motion.div 
+                            className="contact-form-div"
+                            variants={fadeIn('left')}
+                            initial='hidden'
+                            whileInView={'show'}
+                            viewport={{ once: false, amount: 0.5 }}
+                        >
                             <label className="contact-form-tag">Name</label>
                             <input
                                 required
@@ -112,8 +163,14 @@ const Contact = () => {
                                 name='name'
                                 placeholder='Insert your name'
                             />
-                        </div>
-                        <div data-aos="fade-up" className="contact-form-div">
+                        </motion.div>
+                        <motion.div 
+                            className="contact-form-div"
+                            variants={fadeIn('left')}
+                            initial='hidden'
+                            whileInView={'show'}
+                            viewport={{ once: false, amount: 0.5 }}
+                        >
                             <label className="contact-form-tag">Email</label>
                             <input
                                 required
@@ -122,8 +179,14 @@ const Contact = () => {
                                 name='email'
                                 placeholder='Insert your email'
                             />
-                        </div>
-                        <div data-aos="fade-up" className="contact-form-div contact-form-area">
+                        </motion.div>
+                        <motion.div 
+                            className="contact-form-div contact-form-area" 
+                            variants={fadeIn('left')}
+                            initial='hidden'
+                            whileInView={'show'}
+                            viewport={{ once: false, amount: 0.5 }}
+                        >
                             <label className="contact-form-tag">Ideas</label>
                             <textarea
                                 required
@@ -132,9 +195,15 @@ const Contact = () => {
                                 className='contact-form-input'
                                 placeholder='Write here your ideas'>
                             </textarea>
-                        </div>
+                        </motion.div>
 
-                        <button data-aos="fade-up" className="button button-flex">
+                        <motion.button 
+                            className="button button-flex"
+                            variants={fadeIn('left')}
+                            initial='hidden'
+                            whileInView={'show'}
+                            viewport={{ once: false, amount: 0.5 }}
+                        >
                             Send Message
                             <svg
                                 className="button-icon"
@@ -153,7 +222,7 @@ const Contact = () => {
                                     fill="#fff"
                                 ></path>
                             </svg>
-                        </button>
+                        </motion.button>
                     </form>
                 </div>
             </div>
