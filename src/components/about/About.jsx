@@ -1,33 +1,44 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './About.scss'
 import CV from '../../assets/Resume.pdf'
 import AboutImg from '../../assets/about-image.webp'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// framer motion
+import { motion } from 'framer-motion';
+import { fadeIn } from '../../utils/variants';
 
 const About = () => {
-    useEffect(() => {
-        AOS.init({
-            duration: 1500
-        })
-    }, []);
-
     return (
         <section className="about section" id='about'>
-            <h2 data-aos="fade-up" className="section-title">About Me</h2>
-            <span data-aos="fade-up" className="section-subtitle">- My introduction -</span>
+            <motion.h2 
+                className="section-title"
+                variants={fadeIn('right')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.5 }}
+            >
+                About Me
+            </motion.h2>
+            <motion.span 
+                className="section-subtitle"
+                variants={fadeIn('left')}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.5 }}
+            >
+                - My introduction -
+            </motion.span>
 
             <div className="about-container container grid">
-                <img loading="lazy" data-aos="fade-up" src={AboutImg} alt="my profile" className="about-img" />
+                <img loading="lazy" src={AboutImg} alt="my profile" className="about-img" />
 
                 <div className="about-data">
-                    <p data-aos="fade-up" className="about-description">
+                    <p className="about-description">
                         Hey! My name is Cosmin Pănescu and I like to build things for the web and I build projects to learn how code works. To be more explicit, I like Web Development, where I focus (at the moment) mainly on Front-End. So, I would like to be part of a dedicated team, with the same passion for tech.
                     </p>
-                    <p data-aos="fade-up" className="about-description mb">
+                    <p className="about-description mb">
                         And while I am not coding, I enjoy reading and creating amazing content about programming. Check out my <a href="https://www.instagram.com/webcosmin/" target="_blank" rel="noreferrer">Instagram page</a>.
                     </p>
-                    <a data-aos="fade-up" download="Panescu Vasile Cosmin's Resume" href={CV} className="button button-flex">
+                    <a download="Panescu Vasile Cosmin's Resume" href={CV} className="button button-flex">
                         Download Resume
                         <svg
                             className="button-icon"

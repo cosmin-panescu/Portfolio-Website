@@ -47,6 +47,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body,
@@ -60,6 +61,8 @@ textarea {
 body {
     background-color: var(--body-color);
     color: var(--text-color);
+    position: relative;
+    overflow-x: hidden;
 }
 
 h1,
