@@ -20,13 +20,13 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer-social">
-                    <a aria-label="GitHub" href="https://github.com/cosmin-panescu" className='footer-social-link' target="_blank">
+                    <a aria-label="GitHub" href="https://github.com/cosmin-panescu" className='footer-social-link' target="_blank" rel="noreferrer">
                         <i className="uil uil-github-alt"></i>
                     </a>
-                    <a aria-label="LinkedIn" href="https://www.linkedin.com/in/cosmin-panescu/" className='footer-social-link' target="_blank">
+                    <a aria-label="LinkedIn" href="https://www.linkedin.com/in/cosmin-panescu/" className='footer-social-link' target="_blank" rel="noreferrer">
                         <i className="uil uil-linkedin-alt"></i>
                     </a>
-                    <a aria-label="Instagram" href="https://www.instagram.com/cosmin.panescu/" className='footer-social-link' target="_blank">
+                    <a aria-label="Instagram" href="https://www.instagram.com/cosmin.panescu/" className='footer-social-link' target="_blank" rel="noreferrer">
                         <i className="uil uil-instagram"></i>
                     </a>
                 </div>
