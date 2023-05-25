@@ -43,7 +43,7 @@ const Contact = () => {
     // Contact - send emails
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_0hz4qjk', 'template_vxfs4jc', form.current, '-9wYTINsAMAraDv4O')
+        emailjs.sendForm('service_tc21d2l', 'template_vxfs4jc', form.current, '-9wYTINsAMAraDv4O')
             .then((result) => {
                 Succes.fire({ // succesful message sent notif
                     icon: 'success',
@@ -72,7 +72,7 @@ const Contact = () => {
                             <i className="bx bx-mail-send contact-card-icon"></i>
                             <h3 className="contact-card-title">Email</h3>
                             <span className="contact-card-data">1panescu.cosmin@gmail.com</span>
-                            <a href="mailto: 1panescu.cosmin@gmail.com" target="_blank" className="contact-button">
+                            <a href="mailto: 1panescu.cosmin@gmail.com" target="_blank"  rel="noreferrer" className="contact-button">
                                 Write me {" "}
                                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                             </a>
@@ -81,7 +81,7 @@ const Contact = () => {
                             <i className="bx bxl-whatsapp contact-card-icon"></i>
                             <h3 className="contact-card-title">Whatsapp</h3>
                             <span className="contact-card-data">0799 526 060</span>
-                            <a href="https://wa.me/40799526060" target="_blank" className="contact-button">
+                            <a href="https://wa.me/40799526060" target="_blank"  rel="noreferrer" className="contact-button">
                                 Write me {" "}
                                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                             </a>
@@ -91,7 +91,7 @@ const Contact = () => {
                             <h3 className="contact-card-title">Messenger</h3>
                             <span className="contact-card-data">Cosmin Pănescu
                             </span>
-                            <a href="https://m.me/cosminpane" target="_blank" className="contact-button">
+                            <a href="https://m.me/cosminpane"  rel="noreferrer" target="_blank" className="contact-button">
                                 Write me {" "}
                                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                             </a>

@@ -5,7 +5,7 @@ const Frontend = () => {
 
     return (
         <div className="skills-content">
-            <h3 className="skills-title">Web Development</h3>
+            <h3 className="skills-title">Front-End <br/> (Intermediate)</h3>
 
             <div className="skills-box">
                 <div className="skills-group">
@@ -24,6 +24,10 @@ const Frontend = () => {
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
                         <h3 className="skills-name">React</h3>
+                    </div>
+                    <div className="skills-data">
+                        <i className="bx bx-badge-check"></i>
+                        <h3 className="skills-name">WordPress</h3>
                     </div>
                 </div>
 
@@ -44,6 +48,10 @@ const Frontend = () => {
                         <i className="bx bx-badge-check"></i>
                         <h3 className="skills-name">Tailwind CSS</h3>
                     </div>
+                    <div className="skills-data">
+                        <i className="bx bx-badge-check"></i>
+                        <h3 className="skills-name">SEO</h3>
+                    </div>
                 </div>
             </div>
 
@@ -55,7 +63,7 @@ const Frontend = () => {
             <div className={toggle ? "services-modal active-modal" : "services-modal"}>
                 <div className="services-modal-content">
                     <i className="uil uil-times services-modal-close" onClick={() => setToggle(false)}></i>
-                    <h3 className="services-modal-title">Front End Developer</h3>
+                    <h3 className="services-modal-title">Front-End</h3>
                     <p className="services-modal-description">I've always been someone who has both a creative and a logical side. When I discovered front-end development in college, I realized it would be the perfect fit. I could use my creative side to design and my logical side to code. </p>
                     <p className="services-modal-description mb">Although I can't call myself a web designer, I like to let my creative side come out, often creating designs for my personal projects. So, I have a lot of knowledge and a certain brilliance when it comes to front-end development. As a bonus, these aspects allows me to make sure no detail is lost in translation.
                     </p>
