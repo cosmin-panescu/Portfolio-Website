@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ebf185f.css",
-    "main.js": "/static/js/main.2e335a81.js",
+    "main.css": "/static/css/main.f343ddc6.css",
+    "main.js": "/static/js/main.5c0f19b7.js",
     "static/media/Web-Development-eBook.pdf": "/static/media/Web-Development-eBook.069350351176ce4e3366.pdf",
     "static/media/about-image.webp": "/static/media/about-image.58bc6f6893063a077151.webp",
     "static/media/romanian-festivals.webp": "/static/media/romanian-festivals.47325449f1c4e2bc1132.webp",
@@ -18,11 +18,11 @@
     "static/media/encryption-app.webp": "/static/media/encryption-app.54bea5f5074b73c2587f.webp",
     "static/media/notes-app.webp": "/static/media/notes-app.8e46fc9bce8c3026ebd7.webp",
     "index.html": "/index.html",
-    "main.5ebf185f.css.map": "/static/css/main.5ebf185f.css.map",
-    "main.2e335a81.js.map": "/static/js/main.2e335a81.js.map"
+    "main.f343ddc6.css.map": "/static/css/main.f343ddc6.css.map",
+    "main.5c0f19b7.js.map": "/static/js/main.5c0f19b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ebf185f.css",
-    "static/js/main.2e335a81.js"
+    "static/css/main.f343ddc6.css",
+    "static/js/main.5c0f19b7.js"
   ]
 }
