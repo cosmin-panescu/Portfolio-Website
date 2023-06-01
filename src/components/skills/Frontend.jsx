@@ -25,10 +25,6 @@ const Frontend = () => {
                         <i className="bx bx-badge-check"></i>
                         <h3 className="skills-name">React</h3>
                     </div>
-                    <div className="skills-data">
-                        <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">WordPress</h3>
-                    </div>
                 </div>
 
                 <div className="skills-group">
@@ -47,10 +43,6 @@ const Frontend = () => {
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
                         <h3 className="skills-name">Tailwind CSS</h3>
-                    </div>
-                    <div className="skills-data">
-                        <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">SEO</h3>
                     </div>
                 </div>
             </div>

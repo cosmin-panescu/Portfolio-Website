@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.scss'
-import CV from '../../assets/Resume.pdf'
+import MarketingCV from '../../assets/Marketing-Resume.pdf'
+import CodingCV from '../../assets/Coding-Resume.pdf'
 import AboutImg from '../../assets/about-image.webp'
 // framer motion
 import { motion } from 'framer-motion';
@@ -48,12 +49,15 @@ const About = () => {
                     viewport={{ once: false, amount: 0.5 }}
                 >
                     <p className="about-description">
-                        Hey! My name is Cosmin Pănescu and I like to build things for the web and I build projects to learn how code works. To be more explicit, I like Web Development, where I focus (at the moment) mainly on Front-End. So, I would like to be part of a dedicated team, with the same passion for tech.
+                        {/* Hey! My name is Cosmin Pănescu and I like to build things for the web and I build projects to learn how code works. To be more explicit, I like Web Development, where I focus (at the moment) mainly on Front-End. So, I would like to be part of a dedicated team, with the same passion for tech. */}
+                        Hey! My name is Cosmin Pănescu and I am a student with a passion for learning and development. Eager to leverage education and training in the digital marketing space to support the growth and success of a high-performing organization. I am excited to learn from experienced professionals, collaborate with team members and expand my knowledge.
+
                     </p>
                     <p className="about-description mb">
-                        And while I am not coding, I enjoy reading and creating amazing content about programming. Check out my <a href="https://www.instagram.com/webcosmin/" target="_blank" rel="noreferrer">Instagram page</a>.
+                        {/* And while I am not coding, I enjoy reading and creating amazing content about programming. Check out my <a href="https://www.instagram.com/webcosmin/" target="_blank" rel="noreferrer">Instagram page</a>. */}
+                        And when I'm not studying marketing and programming, I enjoy reading and creating amazing content about digital marketing and coding. Check out my <a href="https://www.instagram.com/webcosmin/" target="_blank" rel="noreferrer">Instagram page</a>.
                     </p>
-                    <a download="Panescu Vasile Cosmin's Resume" href={CV} className="button button-flex">
+                    <a download="Panescu Vasile Cosmin's Resume" href={MarketingCV} className="button button-flex">
                         Download Resume
                         <svg
                             className="button-icon"

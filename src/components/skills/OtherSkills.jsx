@@ -5,24 +5,40 @@ const Marketing = () => {
 
     return (
         <div className="skills-content">
-            <h3 className="skills-title">Back-End <br/> (Fundamentals)</h3>
+            <h3 className="skills-title">Digital Marketing<br/></h3>
 
             <div className="skills-box">
                 <div className="skills-group">
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">Python</h3>
+                        <h3 className="skills-name">SEO</h3>
                     </div>
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">C</h3>
+                        <h3 className="skills-name">SMM</h3>
+                    </div>
+                    <div className="skills-data">
+                        <i className="bx bx-badge-check"></i>
+                        <h3 className="skills-name">Figma</h3>
                     </div>
                 </div>
 
                 <div className="skills-group">
                     <div className="skills-data">
                         <i className="bx bx-badge-check"></i>
-                        <h3 className="skills-name">SQL</h3>
+                        <h3 className="skills-name">Google Analytics</h3>
+                    </div>
+                    <div className="skills-data">
+                        <i className="bx bx-badge-check"></i>
+                        <h3 className="skills-name">Microsoft Office</h3>
+                    </div>
+                    <div className="skills-data">
+                        <i className="bx bx-badge-check"></i>
+                        <h3 className="skills-name">WordPress</h3>
+                    </div>
+                    <div className="skills-data">
+                        <i className="bx bx-badge-check"></i>
+                        <h3 className="skills-name">Canva</h3>
                     </div>
                 </div>
             </div>
@@ -36,17 +52,13 @@ const Marketing = () => {
                 <div className="services-modal-content">
                     <i className="uil uil-times services-modal-close" onClick={() => setToggle(false)}></i>
                     <h3 className="services-modal-title">Back-End</h3>
-                    <p className="services-modal-description mb">I obtained fundamental knowledge in these Back-End technologies either through the faculty. Although at the moment I only know the basics of these technologies, I want to develop my knowledge in this Back-End field in the future, eventually being able to call myself a Full Stack Developer.
+                    <p className="services-modal-description mb">I obtained knowledge in the field of marketing either through the faculty or through individual study, where I focused on digital marketing. When it comes to learning on my own, Udemy, Frontend Masters and Google Digital Garage helped me the most with the premium courses I took individually.
                     </p>
 
-                    {/* <ul className="services-modal-services grid">
+                    <ul className="services-modal-services grid">
                         <li className="services-modal-service">
                             <i className="uil uil-check-circle services-modal-icon"></i>
-                            <p className="services-modal-info">Faster website creation using WordPress</p>
-                        </li>
-                        <li className="services-modal-service">
-                            <i className="uil uil-check-circle services-modal-icon"></i>
-                            <p className="services-modal-info">Solid knowledge of SEO</p>
+                            <p className="services-modal-info">SEO optimization to increase visibility and relevance</p>
                         </li>
                         <li className="services-modal-service">
                             <i className="uil uil-check-circle services-modal-icon"></i>
@@ -54,9 +66,13 @@ const Marketing = () => {
                         </li>
                         <li className="services-modal-service">
                             <i className="uil uil-check-circle services-modal-icon"></i>
-                            <p className="services-modal-info">Knowledge of different programming languages from different IT fields</p>
+                            <p className="services-modal-info">Collaboration and teamwork</p>
                         </li>
-                    </ul> */}
+                        <li className="services-modal-service">
+                            <i className="uil uil-check-circle services-modal-icon"></i>
+                            <p className="services-modal-info">Innovative and creative thinking</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>)
