@@ -5,7 +5,7 @@ const Frontend = () => {
 
     return (
         <div className="skills-content">
-            <h3 className="skills-title">Front-End <br/> (Intermediate)</h3>
+            <h3 className="skills-title">Front-End <br/> (intermediate)</h3>
 
             <div className="skills-box">
                 <div className="skills-group">

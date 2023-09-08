@@ -49,16 +49,13 @@ const About = () => {
                     viewport={{ once: false, amount: 0.5 }}
                 >
                     <p className="about-description">
-                        {/* Hey! My name is Cosmin Pănescu and I like to build things for the web and I build projects to learn how code works. To be more explicit, I like Web Development, where I focus (at the moment) mainly on Front-End. So, I would like to be part of a dedicated team, with the same passion for tech. */}
-                        Hey! My name is Cosmin Pănescu and I am a student with a passion for learning and development. Eager to leverage education and training in the digital marketing space to support the growth and success of a high-performing organization. I am excited to learn from experienced professionals, collaborate with team members and expand my knowledge.
-
+                        Hey! My name is Cosmin Pănescu and I like to build projects to learn how code works. To be more explicit, I'm a student and self-taught individual with a passion for Data Science and Frontend Development. 
                     </p>
                     <p className="about-description mb">
-                        {/* And while I am not coding, I enjoy reading and creating amazing content about programming. Check out my <a href="https://www.instagram.com/webcosmin/" target="_blank" rel="noreferrer">Instagram page</a>. */}
-                        And when I'm not studying marketing and programming, I enjoy reading and creating amazing content about digital marketing and coding. Check out my <a href="https://www.instagram.com/webcosmin/" target="_blank" rel="noreferrer">Instagram page</a>.
+                        On the Frontend Development side, I'm experienced in HTML, CSS, JavaScript, React, and TailwindCSS at an intermediate level. I'm also enthusiastic about Data Science, proficient in Excel, SQL, Python, and skilled in IT tools like CRM, CMS, and ERP for data analysis and insights.
                     </p>
-                    <a download="Panescu Vasile Cosmin's Resume" href={MarketingCV} className="button button-flex">
-                        Download Resume
+                    <a download="Panescu Vasile Cosmin's Resume" href={""} className="button button-flex">
+                        Resume (Coming Soon...)
                         <svg
                             className="button-icon"
                             xmlns="http://www.w3.org/2000/svg"
