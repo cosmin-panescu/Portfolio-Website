@@ -49,10 +49,11 @@ const About = () => {
                     viewport={{ once: false, amount: 0.5 }}
                 >
                     <p className="about-description">
-                        Hey! My name is Cosmin Pănescu and I like to build projects to learn how code works. To be more explicit, I'm a student and self-taught individual with a passion for Data Science and Frontend Development. 
+                        Hey! My name is Cosmin Pănescu and I like to build projects to learn how code works.
                     </p>
+                    <br/>
                     <p className="about-description mb">
-                        On the Frontend Development side, I'm experienced in HTML, CSS, JavaScript, React, and TailwindCSS at an intermediate level. I'm also enthusiastic about Data Science, proficient in Excel, SQL, Python, and skilled in IT tools like CRM, CMS, and ERP for data analysis and insights.
+                        My passion for technology and the desire to stay up-to-date with innovations have led me to the field of web technologies. At the moment, my focus is on Next.js and back-end development.
                     </p>
                     <a download="Panescu Vasile Cosmin's Resume" href={""} className="button button-flex">
                         Resume (Coming Soon...)
