@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Skills from './components/skills/Skills';
+import Experience from './components/experience/Experience';
 import ScrollTop from './components/scrollTop/ScrollTop'
 import CustomCursor from './components/customCursor/CustomCursor';
 import Projects from './components/projects/Projects';
@@ -42,6 +43,7 @@ function App() {
         <Home />
         <About />
         <Skills />
+        <Experience />
         <Projects />
         <Resources />
         <Contact />
