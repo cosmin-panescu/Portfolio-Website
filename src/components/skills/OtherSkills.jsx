@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const Marketing = () => {
     return (
         <div className="skills-content">
-            <h3 className="skills-title">Back<br/>(beginner)</h3>
+            <h3 className="skills-title">Back-End<br/><span>(beginner)</span></h3>
 
             <div className="skills-box">
                 <div className="skills-group">

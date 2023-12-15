@@ -25,6 +25,12 @@
                     font-size: var(--normal-font);
                     font-weight: var(--font-medium);
                     margin-bottom: 1.5rem;
+
+                    span {
+                        color: var(--text-color);
+                        font-size: var(--small-font);
+                        font-weight: 300;
+                    }
                 }
 
                 .skills-box {

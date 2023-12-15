@@ -31,7 +31,7 @@ const Experience = () => {
 
           <div className="experience-data">
             <motion.div 
-              className='align-right'
+              className='align-right experience-content'
               variants={fadeIn('right')}
               initial='hidden'
               whileInView={'show'}
@@ -41,7 +41,7 @@ const Experience = () => {
               <span className="experience-subtitle">Regina Maria</span>
               <div className="experience-date">
                 <i className="uil uil-calendar-alt"></i>
-                2021 - Present
+                June 2023 - Present
               </div>
             </motion.div>
 
@@ -60,33 +60,34 @@ const Experience = () => {
             </div>
 
             <motion.div
-                    variants={fadeIn('left')}
-                    initial='hidden'
-                    whileInView={'show'}
-                    viewport={{ once: false, amount: 0.5 }}
+              className='experience-content'
+              variants={fadeIn('left')}
+              initial='hidden'
+              whileInView={'show'}
+              viewport={{ once: false, amount: 0.5 }}
             >
-              <h3 className='experience-title'>Digital Marketer</h3>
+              <h3 className='experience-title'>Web Assistant</h3>
               <span className="experience-subtitle">RosPlant</span>
               <div className="experience-date">
                 <i className="uil uil-calendar-alt"></i>
-                2023 - 2023
+                May - July 2023
               </div>
             </motion.div>
           </div>
 
           <div className="experience-data">
             <motion.div 
-              className='align-right'
+              className='align-right experience-content'
               variants={fadeIn('right')}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.5 }}      
             >
-              <h3 className='experience-title'>Student</h3>
+              <h3 className='experience-title'>Cybernetics Student</h3>
               <span className="experience-subtitle">University of Bucharest</span>
               <div className="experience-date">
                 <i className="uil uil-calendar-alt"></i>
-                2021 - Present
+                2022 - Present
               </div>
             </motion.div>
 

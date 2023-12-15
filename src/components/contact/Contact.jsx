@@ -71,7 +71,7 @@ const Contact = () => {
                 whileInView={'show'}
                 viewport={{ once: false, amount: 0.5 }}
             >
-                - Contact Me -
+                - Contact me -
             </motion.span>
 
             <div className="contact-container container grid">
