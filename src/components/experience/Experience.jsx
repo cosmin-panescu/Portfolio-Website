@@ -1,26 +1,26 @@
-import React from 'react';
-import './Experience.scss';
+import React from "react";
+import "./Experience.scss";
 // framer motion
-import { motion } from 'framer-motion';
-import { fadeIn } from '../../utils/variants';
+import { motion } from "framer-motion";
+import { fadeIn } from "../../utils/variants";
 
 const Experience = () => {
   return (
-    <section className="section experience" id='experience'>
-      <motion.h2 
+    <section className="section experience" id="experience">
+      <motion.h2
         className="section-title"
-        variants={fadeIn('right')}
-        initial='hidden'
-        whileInView={'show'}
+        variants={fadeIn("right")}
+        initial="hidden"
+        whileInView={"show"}
         viewport={{ once: false, amount: 0.5 }}
-        >
-          Experience
+      >
+        Experience
       </motion.h2>
-      <motion.span 
+      <motion.span
         className="section-subtitle"
-        variants={fadeIn('left')}
-        initial='hidden'
-        whileInView={'show'}
+        variants={fadeIn("left")}
+        initial="hidden"
+        whileInView={"show"}
         viewport={{ once: false, amount: 0.5 }}
       >
         - My journey -
@@ -28,20 +28,19 @@ const Experience = () => {
 
       <div className="experience-container container">
         <div className="experience-sections">
-
           <div className="experience-data">
-            <motion.div 
-              className='align-right experience-content'
-              variants={fadeIn('right')}
-              initial='hidden'
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.5 }}      
+            <motion.div
+              className="align-right experience-content"
+              variants={fadeIn("right")}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.5 }}
             >
-              <h3 className='experience-title'>Database Analyst</h3>
+              <h3 className="experience-title">Database Analyst</h3>
               <span className="experience-subtitle">Regina Maria</span>
               <div className="experience-date">
                 <i className="uil uil-calendar-alt"></i>
-                June 2023 - Present
+                June 2023 - February 2024
               </div>
             </motion.div>
 
@@ -53,20 +52,20 @@ const Experience = () => {
 
           <div className="experience-data">
             <div></div>
-            
+
             <div>
               <span className="experience-round"></span>
               <span className="experience-line"></span>
             </div>
 
             <motion.div
-              className='experience-content'
-              variants={fadeIn('left')}
-              initial='hidden'
-              whileInView={'show'}
+              className="experience-content"
+              variants={fadeIn("left")}
+              initial="hidden"
+              whileInView={"show"}
               viewport={{ once: false, amount: 0.5 }}
             >
-              <h3 className='experience-title'>Web Assistant</h3>
+              <h3 className="experience-title">Web Assistant</h3>
               <span className="experience-subtitle">RosPlant</span>
               <div className="experience-date">
                 <i className="uil uil-calendar-alt"></i>
@@ -76,15 +75,17 @@ const Experience = () => {
           </div>
 
           <div className="experience-data">
-            <motion.div 
-              className='align-right experience-content'
-              variants={fadeIn('right')}
-              initial='hidden'
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.5 }}      
+            <motion.div
+              className="align-right experience-content"
+              variants={fadeIn("right")}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.5 }}
             >
-              <h3 className='experience-title'>Cybernetics Student</h3>
-              <span className="experience-subtitle">University of Bucharest</span>
+              <h3 className="experience-title">Cybernetics Student</h3>
+              <span className="experience-subtitle">
+                University of Bucharest
+              </span>
               <div className="experience-date">
                 <i className="uil uil-calendar-alt"></i>
                 2022 - Present
@@ -96,11 +97,10 @@ const Experience = () => {
               <span className="experience-line fade"></span>
             </div>
           </div>
-
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;
