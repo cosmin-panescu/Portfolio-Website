@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2481d3ff.css",
-    "main.js": "/static/js/main.6a766129.js",
+    "main.css": "/static/css/main.31158e30.css",
+    "main.js": "/static/js/main.95c00d83.js",
     "static/media/Web-Development-eBook.pdf": "/static/media/Web-Development-eBook.069350351176ce4e3366.pdf",
     "static/media/about-image.webp": "/static/media/about-image.58bc6f6893063a077151.webp",
     "static/media/romanian-festivals.webp": "/static/media/romanian-festivals.47325449f1c4e2bc1132.webp",
@@ -10,6 +10,7 @@
     "static/media/Resume.pdf": "/static/media/Resume.a4ee11cecb11f8f8eba4.pdf",
     "static/media/digital-marketing-agency.webp": "/static/media/digital-marketing-agency.44969425ad3fc0677c46.webp",
     "static/media/resume-generator.webp": "/static/media/resume-generator.2e7d157b5370126f2947.webp",
+    "static/media/ai-interviu.webp": "/static/media/ai-interviu.b39f9cafccd3836c3b66.webp",
     "static/media/ebook1.webp": "/static/media/ebook1.64d10824392c4f103d55.webp",
     "static/media/chrome-extension.webp": "/static/media/chrome-extension.de496970ece1a40c9fc2.webp",
     "static/media/modern-to-do.webp": "/static/media/modern-to-do.e5e373f80efab5f89594.webp",
@@ -18,11 +19,11 @@
     "static/media/encryption-app.webp": "/static/media/encryption-app.54bea5f5074b73c2587f.webp",
     "static/media/notes-app.webp": "/static/media/notes-app.8e46fc9bce8c3026ebd7.webp",
     "index.html": "/index.html",
-    "main.2481d3ff.css.map": "/static/css/main.2481d3ff.css.map",
-    "main.6a766129.js.map": "/static/js/main.6a766129.js.map"
+    "main.31158e30.css.map": "/static/css/main.31158e30.css.map",
+    "main.95c00d83.js.map": "/static/js/main.95c00d83.js.map"
   },
   "entrypoints": [
-    "static/css/main.2481d3ff.css",
-    "static/js/main.6a766129.js"
+    "static/css/main.31158e30.css",
+    "static/js/main.95c00d83.js"
   ]
 }
