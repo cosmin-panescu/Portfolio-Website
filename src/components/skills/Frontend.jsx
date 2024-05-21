@@ -3,7 +3,7 @@ const Frontend = () => {
     <div className="skills-content">
       <h3 className="skills-title">
         Front-End <br />
-        <span>(intermediate)</span>
+        {/* <span>(intermediate)</span> */}
       </h3>
 
       <div className="skills-box">
@@ -33,7 +33,7 @@ const Frontend = () => {
           </div>
           <div className="skills-data">
             <i className="bx bx-badge-check"></i>
-            <h3 className="skills-name">Next.js</h3>
+            <h3 className="skills-name">Vue.js</h3>
           </div>
           <div className="skills-data">
             <i className="bx bx-badge-check"></i>
