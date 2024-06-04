@@ -55,7 +55,7 @@ const About = () => {
           <p className="about-description mb">
             My passion for technology and the desire to stay up-to-date with
             innovations have led me to the field of web technologies. At the
-            moment, my focus is on back-end development (PHP, Node.js).
+            moment, my focus is on back-end development and AI technologies.
           </p>
           <a
             download="Panescu Vasile Cosmin's Resume"

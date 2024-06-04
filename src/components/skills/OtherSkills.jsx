@@ -15,6 +15,10 @@ const Marketing = () => {
           </div>
           <div className="skills-data">
             <i className="bx bx-badge-check"></i>
+            <h3 className="skills-name">Python</h3>
+          </div>
+          <div className="skills-data">
+            <i className="bx bx-badge-check"></i>
             <h3 className="skills-name">PHP</h3>
           </div>
         </div>
@@ -27,6 +31,10 @@ const Marketing = () => {
           <div className="skills-data">
             <i className="bx bx-badge-check"></i>
             <h3 className="skills-name">Express.js</h3>
+          </div>
+          <div className="skills-data">
+            <i className="bx bx-badge-check"></i>
+            <h3 className="skills-name">Postman</h3>
           </div>
         </div>
       </div>
