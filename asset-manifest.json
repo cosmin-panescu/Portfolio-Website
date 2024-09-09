@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.31158e30.css",
-    "main.js": "/static/js/main.9e48d5be.js",
+    "main.js": "/static/js/main.3b14da90.js",
     "static/media/Web-Development-eBook.pdf": "/static/media/Web-Development-eBook.069350351176ce4e3366.pdf",
     "static/media/about-image.webp": "/static/media/about-image.58bc6f6893063a077151.webp",
     "static/media/romanian-festivals.webp": "/static/media/romanian-festivals.47325449f1c4e2bc1132.webp",
     "static/media/tattoo-studio.webp": "/static/media/tattoo-studio.a6a622d5c0aba5d2b4ab.webp",
     "static/media/header-image.webp": "/static/media/header-image.31c3ce9807685db1b682.webp",
-    "static/media/Resume.pdf": "/static/media/Resume.3985ee6bcb63f78bc0d5.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.40486ed1aa9bdf3387cc.pdf",
     "static/media/digital-marketing-agency.webp": "/static/media/digital-marketing-agency.44969425ad3fc0677c46.webp",
     "static/media/resume-generator.webp": "/static/media/resume-generator.2e7d157b5370126f2947.webp",
     "static/media/ai-interviu.webp": "/static/media/ai-interviu.b39f9cafccd3836c3b66.webp",
@@ -20,10 +20,10 @@
     "static/media/notes-app.webp": "/static/media/notes-app.8e46fc9bce8c3026ebd7.webp",
     "index.html": "/index.html",
     "main.31158e30.css.map": "/static/css/main.31158e30.css.map",
-    "main.9e48d5be.js.map": "/static/js/main.9e48d5be.js.map"
+    "main.3b14da90.js.map": "/static/js/main.3b14da90.js.map"
   },
   "entrypoints": [
     "static/css/main.31158e30.css",
-    "static/js/main.9e48d5be.js"
+    "static/js/main.3b14da90.js"
   ]
 }
