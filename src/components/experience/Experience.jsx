@@ -29,6 +29,30 @@ const Experience = () => {
       <div className="experience-container container">
         <div className="experience-sections">
           <div className="experience-data">
+            <div></div>
+
+            <div>
+              <span className="experience-round"></span>
+              <span className="experience-line"></span>
+            </div>
+
+            <motion.div
+              className="experience-content"
+              variants={fadeIn("left")}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.5 }}
+            >
+              <h3 className="experience-title">Web Developer</h3>
+              <span className="experience-subtitle">360 Advertising</span>
+              <div className="experience-date">
+                <i className="uil uil-calendar-alt"></i>
+                June 2024 - Present
+              </div>
+            </motion.div>
+          </div>
+
+          <div className="experience-data">
             <motion.div
               className="align-right experience-content"
               variants={fadeIn("right")}
